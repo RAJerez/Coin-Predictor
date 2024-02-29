@@ -1,8 +1,15 @@
+"""
+This script is working correctly
+"""
 import logging
+#from cfg import LOG_DIR
+import os
+
+path = os.path.join(os.getcwd(), 'registry.log')
 
 
 class Logger:
-    def __init__(self, filename="/scripts/registry.log"):
+    def __init__(self, filename=path):
         self.filename = filename
         self.logger = logging.getLogger(__name__)
         self.logger.setLevel(logging.INFO)

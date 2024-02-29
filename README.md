@@ -46,6 +46,13 @@ POSTGRES_PASSWORD=<your_password>
 POSTGRES_DB=<your_database_name>
 ```
 
+### Setting the settings.ini file
+```
+DB_CONNSTR=postgresql+psycopg2://<POSTGRES_USER>:<POSTGRES_PASSWORD>@localhost:5432/<POSTGRES_DB>
+
+URL=https://api.coingecko.com/api/v3/coins/
+```
+
 
 ## Run Docker Compose
 To initialize the containers, execute the following commands:
