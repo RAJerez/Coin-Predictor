@@ -7,3 +7,91 @@
 2024-02-29 18:01:19,271 - MainThread - MainProcess - ERROR - The file {self.id}_{self.date}.csv already exists. Charge canceled.
 2024-02-29 18:02:11,292 - MainThread - MainProcess - ERROR - The file {self.id}_{self.date}.csv already exists. Charge canceled.
 2024-02-29 18:02:50,410 - MainThread - MainProcess - ERROR - The file bitcoin_2017-12-31.csv already exists. Charge canceled.
+2024-02-29 20:14:09,318 - MainThread - MainProcess - INFO - Creating table coin_data
+2024-02-29 20:14:09,318 - MainThread - MainProcess - INFO - Unexpected error: unsupported operand type(s) for /: 'str' and 'str'
+2024-02-29 20:15:56,202 - MainThread - MainProcess - INFO - Creating table coin_data
+2024-02-29 20:15:56,203 - MainThread - MainProcess - INFO - Query for coin_data: CREATE TABLE IF NOT EXISTS coin_data (
+    coin VARCHAR NOT NULL,
+    date DATE NOT NULL,
+    price FLOAT,
+    json JSON,
+    PRIMARY KEY (coin, date)
+);
+2024-02-29 20:15:56,718 - MainThread - MainProcess - INFO - Creating table coin_month_data
+2024-02-29 20:15:56,719 - MainThread - MainProcess - INFO - Query for coin_month_data: CREATE TABLE IF NOT EXISTS coin_month_data (
+	coin VARCHAR NOT NULL, 
+	year INTEGER NOT NULL, 
+	month INTEGER NOT NULL, 
+	min_price FLOAT, 
+	max_price FLOAT, 
+	PRIMARY KEY (coin, year, month)
+);
+2024-02-29 20:15:56,874 - MainThread - MainProcess - INFO - Tables created successfully.
+2024-02-29 23:11:13,454 - Thread-1 - MainProcess - ERROR - Error inesperado al obtener datos para bitcoin: 'id'
+2024-02-29 23:13:18,280 - Thread-1 - MainProcess - ERROR - Error inesperado al obtener datos para bitcoin: 'id'
+2024-02-29 23:21:12,683 - Thread-1 - MainProcess - ERROR - Error inesperado al obtener datos para bitcoin: could not convert string to float: ''
+2024-02-29 23:27:03,641 - Thread-2 - MainProcess - ERROR - Error inesperado al obtener datos para ethereum: could not convert string to float: ''
+2024-02-29 23:27:03,941 - Thread-3 - MainProcess - ERROR - Error inesperado al obtener datos para cardano: could not convert string to float: ''
+2024-02-29 23:27:03,941 - Thread-1 - MainProcess - ERROR - Error inesperado al obtener datos para bitcoin: could not convert string to float: ''
+2024-02-29 23:27:09,395 - Thread-4 - MainProcess - ERROR - Error inesperado al obtener datos para bitcoin: could not convert string to float: ''
+2024-02-29 23:27:09,570 - Thread-5 - MainProcess - ERROR - Error inesperado al obtener datos para ethereum: could not convert string to float: ''
+2024-02-29 23:27:09,571 - Thread-6 - MainProcess - ERROR - Error inesperado al obtener datos para cardano: could not convert string to float: ''
+2024-02-29 23:27:09,787 - Thread-9 - MainProcess - ERROR - Error inesperado al obtener datos para cardano: could not convert string to float: ''
+2024-02-29 23:27:09,816 - Thread-7 - MainProcess - ERROR - Error inesperado al obtener datos para bitcoin: could not convert string to float: ''
+2024-02-29 23:27:09,818 - Thread-8 - MainProcess - ERROR - Error inesperado al obtener datos para ethereum: could not convert string to float: ''
+2024-02-29 23:29:39,704 - Thread-2 - MainProcess - ERROR - Error inesperado al obtener datos para ethereum: 'id'
+2024-02-29 23:29:39,713 - Thread-1 - MainProcess - ERROR - Error inesperado al obtener datos para bitcoin: 'id'
+2024-02-29 23:29:39,789 - Thread-3 - MainProcess - ERROR - Error inesperado al obtener datos para cardano: 'id'
+2024-02-29 23:29:40,070 - Thread-6 - MainProcess - ERROR - Error inesperado al obtener datos para cardano: 'id'
+2024-02-29 23:29:40,303 - Thread-4 - MainProcess - ERROR - Error inesperado al obtener datos para bitcoin: 'id'
+2024-02-29 23:29:40,303 - Thread-5 - MainProcess - ERROR - Error inesperado al obtener datos para ethereum: 'id'
+2024-02-29 23:29:40,563 - Thread-7 - MainProcess - ERROR - Error inesperado al obtener datos para bitcoin: 'id'
+2024-02-29 23:29:40,573 - Thread-8 - MainProcess - ERROR - Error inesperado al obtener datos para ethereum: 'id'
+2024-02-29 23:29:40,574 - Thread-9 - MainProcess - ERROR - Error inesperado al obtener datos para cardano: 'id'
+2024-02-29 23:47:27,526 - Thread-2 - MainProcess - ERROR - Error inesperado al obtener datos para ethereum: 'id'
+2024-02-29 23:47:27,527 - Thread-3 - MainProcess - ERROR - Error inesperado al obtener datos para cardano: 'id'
+2024-02-29 23:47:27,530 - Thread-1 - MainProcess - ERROR - Error inesperado al obtener datos para bitcoin: 'id'
+2024-02-29 23:47:27,788 - Thread-5 - MainProcess - ERROR - Error inesperado al obtener datos para ethereum: 'id'
+2024-02-29 23:47:28,038 - Thread-4 - MainProcess - ERROR - Error inesperado al obtener datos para bitcoin: 'id'
+2024-02-29 23:47:28,038 - Thread-6 - MainProcess - ERROR - Error inesperado al obtener datos para cardano: 'id'
+2024-02-29 23:47:28,256 - Thread-7 - MainProcess - ERROR - Error inesperado al obtener datos para bitcoin: 'id'
+2024-02-29 23:47:28,283 - Thread-8 - MainProcess - ERROR - Error inesperado al obtener datos para ethereum: 'id'
+2024-02-29 23:47:28,297 - Thread-9 - MainProcess - ERROR - Error inesperado al obtener datos para cardano: 'id'
+2024-02-29 23:48:44,842 - MainThread - MainProcess - ERROR - The file bitcoin_2017-12-31.csv already exists. Charge canceled.
+2024-02-29 23:49:09,428 - MainThread - MainProcess - INFO - The file bitcoin_2017-12-31.csv has been created correctly
+2024-02-29 23:49:40,339 - Thread-1 - MainProcess - ERROR - Error inesperado al obtener datos para bitcoin: 'id'
+2024-02-29 23:49:40,344 - Thread-3 - MainProcess - ERROR - Error inesperado al obtener datos para cardano: 'id'
+2024-02-29 23:49:40,344 - Thread-2 - MainProcess - ERROR - Error inesperado al obtener datos para ethereum: 'id'
+2024-02-29 23:49:40,650 - Thread-4 - MainProcess - ERROR - Error inesperado al obtener datos para bitcoin: 'id'
+2024-02-29 23:49:40,705 - Thread-5 - MainProcess - ERROR - Error inesperado al obtener datos para ethereum: 'id'
+2024-02-29 23:49:40,849 - Thread-6 - MainProcess - ERROR - Error inesperado al obtener datos para cardano: 'id'
+2024-02-29 23:49:41,112 - Thread-7 - MainProcess - ERROR - Error inesperado al obtener datos para bitcoin: 'id'
+2024-02-29 23:49:41,121 - Thread-8 - MainProcess - ERROR - Error inesperado al obtener datos para ethereum: 'id'
+2024-02-29 23:49:41,130 - Thread-9 - MainProcess - ERROR - Error inesperado al obtener datos para cardano: 'id'
+2024-03-01 00:00:24,649 - Thread-3 - MainProcess - ERROR - Error inesperado al obtener datos para cardano: 'id'
+2024-03-01 00:00:24,656 - Thread-1 - MainProcess - ERROR - Error inesperado al obtener datos para bitcoin: 'id'
+2024-03-01 00:00:24,667 - Thread-2 - MainProcess - ERROR - Error inesperado al obtener datos para ethereum: 'id'
+2024-03-01 00:00:24,955 - Thread-6 - MainProcess - ERROR - Error inesperado al obtener datos para cardano: 'id'
+2024-03-01 00:00:25,160 - Thread-5 - MainProcess - ERROR - Error inesperado al obtener datos para ethereum: 'id'
+2024-03-01 00:00:25,162 - Thread-4 - MainProcess - ERROR - Error inesperado al obtener datos para bitcoin: 'id'
+2024-03-01 00:00:25,385 - Thread-9 - MainProcess - ERROR - Error inesperado al obtener datos para cardano: 'id'
+2024-03-01 00:00:25,410 - Thread-7 - MainProcess - ERROR - Error inesperado al obtener datos para bitcoin: 'id'
+2024-03-01 00:00:25,417 - Thread-8 - MainProcess - ERROR - Error inesperado al obtener datos para ethereum: 'id'
+2024-03-01 00:01:53,018 - Thread-3 - MainProcess - ERROR - Error inesperado al obtener datos para cardano: 'market_data'
+2024-03-01 00:01:53,902 - Thread-6 - MainProcess - ERROR - Error inesperado al obtener datos para cardano: 'id'
+2024-03-01 00:01:53,910 - Thread-5 - MainProcess - ERROR - Error inesperado al obtener datos para ethereum: 'id'
+2024-03-01 00:01:54,676 - Thread-9 - MainProcess - ERROR - Error inesperado al obtener datos para cardano: 'id'
+2024-03-01 00:01:54,710 - Thread-8 - MainProcess - ERROR - Error inesperado al obtener datos para ethereum: 'id'
+2024-03-01 00:01:54,711 - Thread-7 - MainProcess - ERROR - Error inesperado al obtener datos para bitcoin: 'id'
+2024-03-01 00:04:49,888 - Thread-3 - MainProcess - ERROR - Error inesperado al obtener datos para cardano: 'market_data'
+2024-03-01 00:04:50,146 - Thread-4 - MainProcess - ERROR - Error inesperado al obtener datos para bitcoin: 'id'
+2024-03-01 00:04:50,153 - Thread-6 - MainProcess - ERROR - Error inesperado al obtener datos para cardano: 'id'
+2024-03-01 00:04:50,576 - Thread-8 - MainProcess - ERROR - Error inesperado al obtener datos para ethereum: 'id'
+2024-03-01 00:04:50,609 - Thread-7 - MainProcess - ERROR - Error inesperado al obtener datos para bitcoin: 'id'
+2024-03-01 00:04:50,610 - Thread-9 - MainProcess - ERROR - Error inesperado al obtener datos para cardano: 'id'
+2024-03-01 00:05:23,025 - Thread-3 - MainProcess - ERROR - Error inesperado al obtener datos para cardano: 'id'
+2024-03-01 00:05:23,056 - Thread-2 - MainProcess - ERROR - Error inesperado al obtener datos para ethereum: 'id'
+2024-03-01 00:05:23,061 - Thread-1 - MainProcess - ERROR - Error inesperado al obtener datos para bitcoin: 'id'
+2024-03-01 00:05:23,342 - Thread-5 - MainProcess - ERROR - Error inesperado al obtener datos para ethereum: 'id'
+2024-03-01 00:05:23,359 - Thread-4 - MainProcess - ERROR - Error inesperado al obtener datos para bitcoin: 'id'
+2024-03-01 00:05:23,373 - Thread-6 - MainProcess - ERROR - Error inesperado al obtener datos para cardano: 'id'

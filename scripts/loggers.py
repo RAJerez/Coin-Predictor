@@ -1,8 +1,4 @@
-"""
-This script is working correctly
-"""
 import logging
-#from cfg import LOG_DIR
 import os
 
 path = os.path.join(os.getcwd(), 'registry.log')

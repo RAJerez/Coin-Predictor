@@ -1,16 +1,9 @@
-"""
-This script is working correctly
-Multithreading features are missing
-     Currencies: Bitcoin, Ethereum, Cardano
-     The data will be grouped by date in different .csv files
-     File Name: Coins_{date}.csv
-"""
-
 import requests
 import pandas as pd
 import os
 from loggers import Logger
 from datetime import datetime
+
 
 log = Logger()
 
@@ -19,7 +12,7 @@ class GetCoins:
         self.url = url
         self.id = id
         self.date = date
-        self.path = path #+ f"/{id}_{date}.csv"
+        self.path = path
 
 
     def extract(self) -> pd.DataFrame:
