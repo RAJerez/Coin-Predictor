@@ -1,7 +1,7 @@
 import logging
 import os
 
-path = os.path.join(os.getcwd(), 'registry.log')
+path = os.path.join(os.getcwd(), "registry.log")
 
 
 class Logger:

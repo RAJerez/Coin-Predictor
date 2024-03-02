@@ -16,5 +16,5 @@ class RawLoader(BaseLoader):
         self.table_name = table_name
 
     def load_table(self, file_path):
-        df_raw = pd.read_csv(file_path, sep=';')
+        df_raw = pd.read_csv(file_path, sep=";")
         return super().load_table(df_raw)

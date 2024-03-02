@@ -769,3 +769,36 @@ LINE 1: INSERT INTO coin_data ("coin,date,price,json") VALUES ('{"id...
 2024-03-01 19:14:56,187 - ThreadPoolExecutor-0_2 - MainProcess - INFO - bitcoin_2017-01-31 - Successfully generated query
 2024-03-01 19:14:56,264 - ThreadPoolExecutor-0_1 - MainProcess - INFO - ethereum_2017-01-31 - Successfully generated query
 2024-03-01 19:14:56,296 - ThreadPoolExecutor-0_0 - MainProcess - INFO - cardano_2017-01-31 - Successfully generated query
+2024-03-01 20:35:33,812 - ThreadPoolExecutor-0_2 - MainProcess - INFO - cardano_2017-01-01 - Successfully generated query
+2024-03-01 20:35:33,812 - ThreadPoolExecutor-0_2 - MainProcess - INFO - cardano_2017-01-01 - Successfully generated query
+2024-03-01 20:35:33,812 - ThreadPoolExecutor-0_2 - MainProcess - INFO - cardano_2017-01-01 - Successfully generated query
+2024-03-01 20:35:33,812 - ThreadPoolExecutor-0_2 - MainProcess - ERROR - cardano_2017-01-01 - Unexpected error written: 'market_data'
+2024-03-01 20:35:33,812 - ThreadPoolExecutor-0_2 - MainProcess - ERROR - cardano_2017-01-01 - Unexpected error written: 'market_data'
+2024-03-01 20:35:33,812 - ThreadPoolExecutor-0_2 - MainProcess - ERROR - cardano_2017-01-01 - Unexpected error written: 'market_data'
+2024-03-01 20:35:33,813 - ThreadPoolExecutor-0_1 - MainProcess - INFO - ethereum_2017-01-01 - Successfully generated query
+2024-03-01 20:35:33,813 - ThreadPoolExecutor-0_1 - MainProcess - INFO - ethereum_2017-01-01 - Successfully generated query
+2024-03-01 20:35:33,813 - ThreadPoolExecutor-0_1 - MainProcess - INFO - ethereum_2017-01-01 - Successfully generated query
+2024-03-01 20:35:33,816 - ThreadPoolExecutor-0_1 - MainProcess - ERROR - ethereum_2017-01-01 - Unexpected error written: [Errno 2] No such file or directory: '../../data/coins_2017-01-01_2017-01-02.csv'
+2024-03-01 20:35:33,816 - ThreadPoolExecutor-0_1 - MainProcess - ERROR - ethereum_2017-01-01 - Unexpected error written: [Errno 2] No such file or directory: '../../data/coins_2017-01-01_2017-01-02.csv'
+2024-03-01 20:35:33,816 - ThreadPoolExecutor-0_1 - MainProcess - ERROR - ethereum_2017-01-01 - Unexpected error written: [Errno 2] No such file or directory: '../../data/coins_2017-01-01_2017-01-02.csv'
+2024-03-01 20:35:34,628 - ThreadPoolExecutor-0_1 - MainProcess - INFO - ethereum_2017-01-02 - Successfully generated query
+2024-03-01 20:35:34,628 - ThreadPoolExecutor-0_1 - MainProcess - INFO - ethereum_2017-01-02 - Successfully generated query
+2024-03-01 20:35:34,628 - ThreadPoolExecutor-0_1 - MainProcess - INFO - ethereum_2017-01-02 - Successfully generated query
+2024-03-01 20:35:34,629 - ThreadPoolExecutor-0_1 - MainProcess - ERROR - ethereum_2017-01-02 - Unexpected error written: [Errno 2] No such file or directory: '../../data/coins_2017-01-01_2017-01-02.csv'
+2024-03-01 20:35:34,629 - ThreadPoolExecutor-0_1 - MainProcess - ERROR - ethereum_2017-01-02 - Unexpected error written: [Errno 2] No such file or directory: '../../data/coins_2017-01-01_2017-01-02.csv'
+2024-03-01 20:35:34,629 - ThreadPoolExecutor-0_1 - MainProcess - ERROR - ethereum_2017-01-02 - Unexpected error written: [Errno 2] No such file or directory: '../../data/coins_2017-01-01_2017-01-02.csv'
+2024-03-01 20:35:34,839 - ThreadPoolExecutor-0_0 - MainProcess - INFO - bitcoin_2017-01-01 - Successfully generated query
+2024-03-01 20:35:34,839 - ThreadPoolExecutor-0_0 - MainProcess - INFO - bitcoin_2017-01-01 - Successfully generated query
+2024-03-01 20:35:34,839 - ThreadPoolExecutor-0_0 - MainProcess - INFO - bitcoin_2017-01-01 - Successfully generated query
+2024-03-01 20:35:34,840 - ThreadPoolExecutor-0_0 - MainProcess - ERROR - bitcoin_2017-01-01 - Unexpected error written: [Errno 2] No such file or directory: '../../data/coins_2017-01-01_2017-01-02.csv'
+2024-03-01 20:35:34,840 - ThreadPoolExecutor-0_0 - MainProcess - ERROR - bitcoin_2017-01-01 - Unexpected error written: [Errno 2] No such file or directory: '../../data/coins_2017-01-01_2017-01-02.csv'
+2024-03-01 20:35:34,840 - ThreadPoolExecutor-0_0 - MainProcess - ERROR - bitcoin_2017-01-01 - Unexpected error written: [Errno 2] No such file or directory: '../../data/coins_2017-01-01_2017-01-02.csv'
+2024-03-01 20:35:34,926 - ThreadPoolExecutor-0_1 - MainProcess - INFO - cardano_2017-01-02 - Successfully generated query
+2024-03-01 20:35:34,926 - ThreadPoolExecutor-0_1 - MainProcess - INFO - cardano_2017-01-02 - Successfully generated query
+2024-03-01 20:35:34,926 - ThreadPoolExecutor-0_1 - MainProcess - INFO - cardano_2017-01-02 - Successfully generated query
+2024-03-01 20:35:35,039 - ThreadPoolExecutor-0_2 - MainProcess - INFO - bitcoin_2017-01-02 - Successfully generated query
+2024-03-01 20:35:35,039 - ThreadPoolExecutor-0_2 - MainProcess - INFO - bitcoin_2017-01-02 - Successfully generated query
+2024-03-01 20:35:35,039 - ThreadPoolExecutor-0_2 - MainProcess - INFO - bitcoin_2017-01-02 - Successfully generated query
+2024-03-01 20:35:35,039 - ThreadPoolExecutor-0_2 - MainProcess - ERROR - bitcoin_2017-01-02 - Unexpected error written: [Errno 2] No such file or directory: '../../data/coins_2017-01-01_2017-01-02.csv'
+2024-03-01 20:35:35,039 - ThreadPoolExecutor-0_2 - MainProcess - ERROR - bitcoin_2017-01-02 - Unexpected error written: [Errno 2] No such file or directory: '../../data/coins_2017-01-01_2017-01-02.csv'
+2024-03-01 20:35:35,039 - ThreadPoolExecutor-0_2 - MainProcess - ERROR - bitcoin_2017-01-02 - Unexpected error written: [Errno 2] No such file or directory: '../../data/coins_2017-01-01_2017-01-02.csv'

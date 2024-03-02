@@ -53,6 +53,17 @@ DB_CONNSTR=postgresql+psycopg2://<POSTGRES_USER>:<POSTGRES_PASSWORD>@localhost:5
 URL=https://api.coingecko.com/api/v3/coins/
 ```
 
+### Alembic
+
+In the root directory of the project run this command and the alembic configuration files will be created
+```bash
+alembic init alembic
+```
+Create a migration script
+```bash
+alembic revision --autogenerate -m "first"
+```
+
 
 ## Run Docker Compose
 To initialize the containers, execute the following commands:
@@ -60,3 +71,9 @@ To initialize the containers, execute the following commands:
 docker compose up airflow-init
 docker compose up
 ```
+
+To access the database run this command:
+```bash
+docker exec -it postgres-db psql -U <POSTGRES_USER> -W <POSTGRES_DB>
+```
+

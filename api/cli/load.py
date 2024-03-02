@@ -1,12 +1,11 @@
 from sqlalchemy import exc
-import pandas as pd
-from loaders import RawLoader
 from loggers import Logger
+from loaders import RawLoader
 
 log = Logger()
 
 file_path = "../data/coins_2017-01-01_2017-01-02.csv"
-table_name= "coin_data"
+table_name = "coin_data"
 
 
 def run_load():
