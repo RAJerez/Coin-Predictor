@@ -69,736 +69,319 @@
 2024-03-01 11:35:34,669 - ThreadPoolExecutor-0_1 - MainProcess - INFO - cardano_2017-01-12 - Successfully generated query
 2024-03-01 11:35:34,788 - ThreadPoolExecutor-0_0 - MainProcess - INFO - bitcoin_2017-01-13 - Successfully generated query
 2024-03-01 11:35:34,794 - ThreadPoolExecutor-0_2 - MainProcess - INFO - ethereum_2017-01-13 - Successfully generated query
-2024-03-01 11:35:34,855 - ThreadPoolExecutor-0_1 - MainProcess - INFO - cardano_2017-01-13 - Successfully generated query
-2024-03-01 11:35:34,988 - ThreadPoolExecutor-0_0 - MainProcess - INFO - bitcoin_2017-01-14 - Successfully generated query
-2024-03-01 11:35:35,009 - ThreadPoolExecutor-0_2 - MainProcess - INFO - ethereum_2017-01-14 - Successfully generated query
-2024-03-01 11:35:35,066 - ThreadPoolExecutor-0_1 - MainProcess - INFO - cardano_2017-01-14 - Successfully generated query
-2024-03-01 11:35:35,183 - ThreadPoolExecutor-0_0 - MainProcess - INFO - bitcoin_2017-01-15 - Successfully generated query
-2024-03-01 11:35:35,244 - ThreadPoolExecutor-0_2 - MainProcess - INFO - ethereum_2017-01-15 - Successfully generated query
-2024-03-01 11:35:35,272 - ThreadPoolExecutor-0_1 - MainProcess - INFO - cardano_2017-01-15 - Successfully generated query
-2024-03-01 11:35:35,368 - ThreadPoolExecutor-0_0 - MainProcess - INFO - bitcoin_2017-01-16 - Successfully generated query
-2024-03-01 11:35:35,446 - ThreadPoolExecutor-0_2 - MainProcess - INFO - ethereum_2017-01-16 - Successfully generated query
-2024-03-01 11:35:35,463 - ThreadPoolExecutor-0_1 - MainProcess - INFO - cardano_2017-01-16 - Successfully generated query
-2024-03-01 11:35:35,547 - ThreadPoolExecutor-0_0 - MainProcess - INFO - bitcoin_2017-01-17 - Successfully generated query
-2024-03-01 11:35:35,653 - ThreadPoolExecutor-0_2 - MainProcess - INFO - ethereum_2017-01-17 - Successfully generated query
-2024-03-01 11:35:35,677 - ThreadPoolExecutor-0_1 - MainProcess - INFO - cardano_2017-01-17 - Successfully generated query
-2024-03-01 11:35:35,732 - ThreadPoolExecutor-0_0 - MainProcess - INFO - bitcoin_2017-01-18 - Successfully generated query
-2024-03-01 11:35:35,889 - ThreadPoolExecutor-0_1 - MainProcess - INFO - cardano_2017-01-18 - Successfully generated query
-2024-03-01 11:35:35,891 - ThreadPoolExecutor-0_2 - MainProcess - INFO - ethereum_2017-01-18 - Successfully generated query
-2024-03-01 11:35:35,984 - ThreadPoolExecutor-0_0 - MainProcess - INFO - bitcoin_2017-01-19 - Successfully generated query
-2024-03-01 11:35:36,127 - ThreadPoolExecutor-0_2 - MainProcess - INFO - cardano_2017-01-19 - Successfully generated query
-2024-03-01 11:35:36,136 - ThreadPoolExecutor-0_1 - MainProcess - INFO - ethereum_2017-01-19 - Successfully generated query
-2024-03-01 11:35:36,184 - ThreadPoolExecutor-0_0 - MainProcess - INFO - bitcoin_2017-01-20 - Successfully generated query
-2024-03-01 11:35:36,335 - ThreadPoolExecutor-0_1 - MainProcess - INFO - cardano_2017-01-20 - Successfully generated query
-2024-03-01 11:35:36,338 - ThreadPoolExecutor-0_2 - MainProcess - INFO - ethereum_2017-01-20 - Successfully generated query
-2024-03-01 11:35:36,394 - ThreadPoolExecutor-0_0 - MainProcess - INFO - bitcoin_2017-01-21 - Successfully generated query
-2024-03-01 11:35:36,537 - ThreadPoolExecutor-0_1 - MainProcess - INFO - ethereum_2017-01-21 - Successfully generated query
-2024-03-01 11:35:36,585 - ThreadPoolExecutor-0_2 - MainProcess - INFO - cardano_2017-01-21 - Successfully generated query
-2024-03-01 11:35:36,598 - ThreadPoolExecutor-0_0 - MainProcess - INFO - bitcoin_2017-01-22 - Successfully generated query
-2024-03-01 11:35:36,727 - ThreadPoolExecutor-0_1 - MainProcess - INFO - ethereum_2017-01-22 - Successfully generated query
-2024-03-01 11:35:36,812 - ThreadPoolExecutor-0_2 - MainProcess - INFO - cardano_2017-01-22 - Successfully generated query
-2024-03-01 11:35:36,816 - ThreadPoolExecutor-0_0 - MainProcess - INFO - bitcoin_2017-01-23 - Successfully generated query
-2024-03-01 11:35:36,896 - ThreadPoolExecutor-0_1 - MainProcess - INFO - ethereum_2017-01-23 - Successfully generated query
-2024-03-01 11:35:37,064 - ThreadPoolExecutor-0_2 - MainProcess - INFO - cardano_2017-01-23 - Successfully generated query
-2024-03-01 11:35:37,083 - ThreadPoolExecutor-0_1 - MainProcess - INFO - ethereum_2017-01-24 - Successfully generated query
-2024-03-01 11:35:37,095 - ThreadPoolExecutor-0_0 - MainProcess - INFO - bitcoin_2017-01-24 - Successfully generated query
-2024-03-01 11:35:37,345 - ThreadPoolExecutor-0_2 - MainProcess - INFO - cardano_2017-01-24 - Successfully generated query
-2024-03-01 11:35:37,346 - ThreadPoolExecutor-0_1 - MainProcess - INFO - bitcoin_2017-01-25 - Successfully generated query
-2024-03-01 11:35:37,353 - ThreadPoolExecutor-0_0 - MainProcess - INFO - ethereum_2017-01-25 - Successfully generated query
-2024-03-01 11:35:37,581 - ThreadPoolExecutor-0_0 - MainProcess - INFO - ethereum_2017-01-26 - Successfully generated query
-2024-03-01 11:35:37,597 - ThreadPoolExecutor-0_2 - MainProcess - INFO - cardano_2017-01-25 - Successfully generated query
-2024-03-01 11:35:37,602 - ThreadPoolExecutor-0_1 - MainProcess - INFO - bitcoin_2017-01-26 - Successfully generated query
-2024-03-01 11:35:37,771 - ThreadPoolExecutor-0_0 - MainProcess - INFO - cardano_2017-01-26 - Successfully generated query
-2024-03-01 11:35:37,828 - ThreadPoolExecutor-0_2 - MainProcess - INFO - bitcoin_2017-01-27 - Successfully generated query
-2024-03-01 11:35:37,840 - ThreadPoolExecutor-0_1 - MainProcess - INFO - ethereum_2017-01-27 - Successfully generated query
-2024-03-01 11:35:37,943 - ThreadPoolExecutor-0_0 - MainProcess - INFO - cardano_2017-01-27 - Successfully generated query
-2024-03-01 11:35:38,034 - ThreadPoolExecutor-0_2 - MainProcess - INFO - bitcoin_2017-01-28 - Successfully generated query
-2024-03-01 11:35:38,039 - ThreadPoolExecutor-0_1 - MainProcess - INFO - ethereum_2017-01-28 - Successfully generated query
-2024-03-01 11:35:38,144 - ThreadPoolExecutor-0_0 - MainProcess - INFO - cardano_2017-01-28 - Successfully generated query
-2024-03-01 11:35:38,233 - ThreadPoolExecutor-0_1 - MainProcess - INFO - ethereum_2017-01-29 - Successfully generated query
-2024-03-01 11:35:38,237 - ThreadPoolExecutor-0_2 - MainProcess - INFO - bitcoin_2017-01-29 - Successfully generated query
-2024-03-01 11:35:38,332 - ThreadPoolExecutor-0_0 - MainProcess - INFO - cardano_2017-01-29 - Successfully generated query
-2024-03-01 11:35:38,437 - ThreadPoolExecutor-0_2 - MainProcess - INFO - ethereum_2017-01-30 - Successfully generated query
-2024-03-01 11:35:38,443 - ThreadPoolExecutor-0_1 - MainProcess - INFO - bitcoin_2017-01-30 - Successfully generated query
-2024-03-01 11:35:38,528 - ThreadPoolExecutor-0_0 - MainProcess - INFO - cardano_2017-01-30 - Successfully generated query
-2024-03-01 11:35:38,631 - ThreadPoolExecutor-0_1 - MainProcess - INFO - ethereum_2017-01-31 - Successfully generated query
-2024-03-01 11:35:38,647 - ThreadPoolExecutor-0_2 - MainProcess - INFO - bitcoin_2017-01-31 - Successfully generated query
-2024-03-01 11:35:38,729 - ThreadPoolExecutor-0_0 - MainProcess - INFO - cardano_2017-01-31 - Successfully generated query
-2024-03-01 12:19:38,968 - ThreadPoolExecutor-0_2 - MainProcess - INFO - cardano_2017-01-01 - Successfully generated query
-2024-03-01 12:19:38,968 - ThreadPoolExecutor-0_2 - MainProcess - INFO - cardano_2017-01-01 - Successfully generated query
-2024-03-01 12:19:38,969 - ThreadPoolExecutor-0_2 - MainProcess - ERROR - cardano_2017-01-01 - Unexpected error written: 'market_data'
-2024-03-01 12:19:38,969 - ThreadPoolExecutor-0_2 - MainProcess - ERROR - cardano_2017-01-01 - Unexpected error written: 'market_data'
-2024-03-01 12:19:38,969 - ThreadPoolExecutor-0_0 - MainProcess - INFO - bitcoin_2017-01-01 - Successfully generated query
-2024-03-01 12:19:38,969 - ThreadPoolExecutor-0_0 - MainProcess - INFO - bitcoin_2017-01-01 - Successfully generated query
-2024-03-01 12:19:38,972 - ThreadPoolExecutor-0_0 - MainProcess - INFO - bitcoin_2017-01-01 - Data written correctly
-2024-03-01 12:19:38,972 - ThreadPoolExecutor-0_0 - MainProcess - INFO - bitcoin_2017-01-01 - Data written correctly
-2024-03-01 12:19:38,979 - ThreadPoolExecutor-0_1 - MainProcess - INFO - ethereum_2017-01-01 - Successfully generated query
-2024-03-01 12:19:38,979 - ThreadPoolExecutor-0_1 - MainProcess - INFO - ethereum_2017-01-01 - Successfully generated query
-2024-03-01 12:19:38,979 - ThreadPoolExecutor-0_1 - MainProcess - INFO - ethereum_2017-01-01 - Data written correctly
-2024-03-01 12:19:38,979 - ThreadPoolExecutor-0_1 - MainProcess - INFO - ethereum_2017-01-01 - Data written correctly
-2024-03-01 12:19:39,229 - ThreadPoolExecutor-0_2 - MainProcess - INFO - bitcoin_2017-01-02 - Successfully generated query
-2024-03-01 12:19:39,229 - ThreadPoolExecutor-0_2 - MainProcess - INFO - bitcoin_2017-01-02 - Successfully generated query
-2024-03-01 12:19:39,479 - ThreadPoolExecutor-0_0 - MainProcess - INFO - ethereum_2017-01-02 - Successfully generated query
-2024-03-01 12:19:39,479 - ThreadPoolExecutor-0_0 - MainProcess - INFO - ethereum_2017-01-02 - Successfully generated query
-2024-03-01 12:19:39,480 - ThreadPoolExecutor-0_0 - MainProcess - INFO - ethereum_2017-01-02 - Data written correctly
-2024-03-01 12:19:39,480 - ThreadPoolExecutor-0_0 - MainProcess - INFO - ethereum_2017-01-02 - Data written correctly
-2024-03-01 12:19:39,483 - ThreadPoolExecutor-0_1 - MainProcess - INFO - cardano_2017-01-02 - Successfully generated query
-2024-03-01 12:19:39,483 - ThreadPoolExecutor-0_1 - MainProcess - INFO - cardano_2017-01-02 - Successfully generated query
-2024-03-01 12:19:39,483 - ThreadPoolExecutor-0_1 - MainProcess - ERROR - cardano_2017-01-02 - Unexpected error written: 'market_data'
-2024-03-01 12:19:39,483 - ThreadPoolExecutor-0_1 - MainProcess - ERROR - cardano_2017-01-02 - Unexpected error written: 'market_data'
-2024-03-01 12:19:57,028 - ThreadPoolExecutor-0_2 - MainProcess - INFO - cardano_2017-01-01 - Successfully generated query
-2024-03-01 12:19:57,028 - ThreadPoolExecutor-0_2 - MainProcess - INFO - cardano_2017-01-01 - Successfully generated query
-2024-03-01 12:19:57,043 - ThreadPoolExecutor-0_0 - MainProcess - INFO - bitcoin_2017-01-01 - Successfully generated query
-2024-03-01 12:19:57,043 - ThreadPoolExecutor-0_0 - MainProcess - INFO - bitcoin_2017-01-01 - Successfully generated query
-2024-03-01 12:19:57,048 - ThreadPoolExecutor-0_1 - MainProcess - INFO - ethereum_2017-01-01 - Successfully generated query
-2024-03-01 12:19:57,048 - ThreadPoolExecutor-0_1 - MainProcess - INFO - ethereum_2017-01-01 - Successfully generated query
-2024-03-01 12:19:57,310 - ThreadPoolExecutor-0_2 - MainProcess - INFO - bitcoin_2017-01-02 - Successfully generated query
-2024-03-01 12:19:57,310 - ThreadPoolExecutor-0_2 - MainProcess - INFO - bitcoin_2017-01-02 - Successfully generated query
-2024-03-01 12:19:57,345 - ThreadPoolExecutor-0_0 - MainProcess - INFO - ethereum_2017-01-02 - Successfully generated query
-2024-03-01 12:19:57,345 - ThreadPoolExecutor-0_0 - MainProcess - INFO - ethereum_2017-01-02 - Successfully generated query
-2024-03-01 12:19:57,359 - ThreadPoolExecutor-0_1 - MainProcess - INFO - cardano_2017-01-02 - Successfully generated query
-2024-03-01 12:19:57,359 - ThreadPoolExecutor-0_1 - MainProcess - INFO - cardano_2017-01-02 - Successfully generated query
-2024-03-01 12:21:38,981 - ThreadPoolExecutor-0_1 - MainProcess - INFO - ethereum_2017-01-01 - Successfully generated query
-2024-03-01 12:21:38,981 - ThreadPoolExecutor-0_1 - MainProcess - INFO - ethereum_2017-01-01 - Successfully generated query
-2024-03-01 12:21:38,982 - ThreadPoolExecutor-0_1 - MainProcess - INFO - ethereum_2017-01-01 - Data written correctly
-2024-03-01 12:21:38,982 - ThreadPoolExecutor-0_1 - MainProcess - INFO - ethereum_2017-01-01 - Data written correctly
-2024-03-01 12:21:38,989 - ThreadPoolExecutor-0_0 - MainProcess - INFO - bitcoin_2017-01-01 - Successfully generated query
-2024-03-01 12:21:38,989 - ThreadPoolExecutor-0_0 - MainProcess - INFO - bitcoin_2017-01-01 - Successfully generated query
-2024-03-01 12:21:38,989 - ThreadPoolExecutor-0_0 - MainProcess - INFO - bitcoin_2017-01-01 - Data written correctly
-2024-03-01 12:21:38,989 - ThreadPoolExecutor-0_0 - MainProcess - INFO - bitcoin_2017-01-01 - Data written correctly
-2024-03-01 12:21:38,990 - ThreadPoolExecutor-0_2 - MainProcess - INFO - cardano_2017-01-01 - Successfully generated query
-2024-03-01 12:21:38,990 - ThreadPoolExecutor-0_2 - MainProcess - INFO - cardano_2017-01-01 - Successfully generated query
-2024-03-01 12:21:38,990 - ThreadPoolExecutor-0_2 - MainProcess - ERROR - cardano_2017-01-01 - Unexpected error written: 'market_data'
-2024-03-01 12:21:38,990 - ThreadPoolExecutor-0_2 - MainProcess - ERROR - cardano_2017-01-01 - Unexpected error written: 'market_data'
-2024-03-01 12:21:39,274 - ThreadPoolExecutor-0_0 - MainProcess - INFO - ethereum_2017-01-02 - Successfully generated query
-2024-03-01 12:21:39,274 - ThreadPoolExecutor-0_0 - MainProcess - INFO - ethereum_2017-01-02 - Successfully generated query
-2024-03-01 12:21:39,279 - ThreadPoolExecutor-0_2 - MainProcess - INFO - cardano_2017-01-02 - Successfully generated query
-2024-03-01 12:21:39,279 - ThreadPoolExecutor-0_2 - MainProcess - INFO - cardano_2017-01-02 - Successfully generated query
-2024-03-01 12:21:39,279 - ThreadPoolExecutor-0_2 - MainProcess - ERROR - cardano_2017-01-02 - Unexpected error written: 'market_data'
-2024-03-01 12:21:39,279 - ThreadPoolExecutor-0_2 - MainProcess - ERROR - cardano_2017-01-02 - Unexpected error written: 'market_data'
-2024-03-01 12:21:39,482 - ThreadPoolExecutor-0_1 - MainProcess - INFO - bitcoin_2017-01-02 - Successfully generated query
-2024-03-01 12:21:39,482 - ThreadPoolExecutor-0_1 - MainProcess - INFO - bitcoin_2017-01-02 - Successfully generated query
-2024-03-01 12:21:39,482 - ThreadPoolExecutor-0_1 - MainProcess - INFO - bitcoin_2017-01-02 - Data written correctly
-2024-03-01 12:21:39,482 - ThreadPoolExecutor-0_1 - MainProcess - INFO - bitcoin_2017-01-02 - Data written correctly
-2024-03-01 12:21:39,510 - ThreadPoolExecutor-0_2 - MainProcess - INFO - ethereum_2017-01-03 - Successfully generated query
-2024-03-01 12:21:39,510 - ThreadPoolExecutor-0_2 - MainProcess - INFO - ethereum_2017-01-03 - Successfully generated query
-2024-03-01 12:21:39,513 - ThreadPoolExecutor-0_0 - MainProcess - INFO - bitcoin_2017-01-03 - Successfully generated query
-2024-03-01 12:21:39,513 - ThreadPoolExecutor-0_0 - MainProcess - INFO - bitcoin_2017-01-03 - Successfully generated query
-2024-03-01 12:21:39,810 - ThreadPoolExecutor-0_1 - MainProcess - INFO - cardano_2017-01-03 - Successfully generated query
-2024-03-01 12:21:39,810 - ThreadPoolExecutor-0_1 - MainProcess - INFO - cardano_2017-01-03 - Successfully generated query
-2024-03-01 12:29:07,608 - ThreadPoolExecutor-0_0 - MainProcess - INFO - bitcoin_2017-01-01 - Successfully generated query
-2024-03-01 12:29:07,608 - ThreadPoolExecutor-0_0 - MainProcess - INFO - bitcoin_2017-01-01 - Successfully generated query
-2024-03-01 12:29:07,609 - ThreadPoolExecutor-0_2 - MainProcess - INFO - cardano_2017-01-01 - Successfully generated query
-2024-03-01 12:29:07,609 - ThreadPoolExecutor-0_2 - MainProcess - INFO - cardano_2017-01-01 - Successfully generated query
-2024-03-01 12:29:07,609 - ThreadPoolExecutor-0_2 - MainProcess - ERROR - cardano_2017-01-01 - Unexpected error written: 'market_data'
-2024-03-01 12:29:07,609 - ThreadPoolExecutor-0_2 - MainProcess - ERROR - cardano_2017-01-01 - Unexpected error written: 'market_data'
-2024-03-01 12:29:07,609 - ThreadPoolExecutor-0_0 - MainProcess - INFO - bitcoin_2017-01-01 - Data written correctly
-2024-03-01 12:29:07,609 - ThreadPoolExecutor-0_0 - MainProcess - INFO - bitcoin_2017-01-01 - Data written correctly
-2024-03-01 12:29:07,618 - ThreadPoolExecutor-0_1 - MainProcess - INFO - ethereum_2017-01-01 - Successfully generated query
-2024-03-01 12:29:07,618 - ThreadPoolExecutor-0_1 - MainProcess - INFO - ethereum_2017-01-01 - Successfully generated query
-2024-03-01 12:29:07,619 - ThreadPoolExecutor-0_1 - MainProcess - INFO - ethereum_2017-01-01 - Data written correctly
-2024-03-01 12:29:07,619 - ThreadPoolExecutor-0_1 - MainProcess - INFO - ethereum_2017-01-01 - Data written correctly
-2024-03-01 12:29:07,839 - ThreadPoolExecutor-0_1 - MainProcess - INFO - cardano_2017-01-02 - Successfully generated query
-2024-03-01 12:29:07,839 - ThreadPoolExecutor-0_1 - MainProcess - INFO - cardano_2017-01-02 - Successfully generated query
-2024-03-01 12:29:07,839 - ThreadPoolExecutor-0_1 - MainProcess - ERROR - cardano_2017-01-02 - Unexpected error written: 'market_data'
-2024-03-01 12:29:07,839 - ThreadPoolExecutor-0_1 - MainProcess - ERROR - cardano_2017-01-02 - Unexpected error written: 'market_data'
-2024-03-01 12:29:07,871 - ThreadPoolExecutor-0_2 - MainProcess - INFO - bitcoin_2017-01-02 - Successfully generated query
-2024-03-01 12:29:07,871 - ThreadPoolExecutor-0_2 - MainProcess - INFO - bitcoin_2017-01-02 - Successfully generated query
-2024-03-01 12:29:07,871 - ThreadPoolExecutor-0_2 - MainProcess - INFO - bitcoin_2017-01-02 - Data written correctly
-2024-03-01 12:29:07,871 - ThreadPoolExecutor-0_2 - MainProcess - INFO - bitcoin_2017-01-02 - Data written correctly
-2024-03-01 12:29:07,878 - ThreadPoolExecutor-0_0 - MainProcess - INFO - ethereum_2017-01-02 - Successfully generated query
-2024-03-01 12:29:07,878 - ThreadPoolExecutor-0_0 - MainProcess - INFO - ethereum_2017-01-02 - Successfully generated query
-2024-03-01 12:29:07,878 - ThreadPoolExecutor-0_0 - MainProcess - INFO - ethereum_2017-01-02 - Data written correctly
-2024-03-01 12:29:07,878 - ThreadPoolExecutor-0_0 - MainProcess - INFO - ethereum_2017-01-02 - Data written correctly
-2024-03-01 12:29:08,089 - ThreadPoolExecutor-0_1 - MainProcess - INFO - bitcoin_2017-01-03 - Successfully generated query
-2024-03-01 12:29:08,089 - ThreadPoolExecutor-0_1 - MainProcess - INFO - bitcoin_2017-01-03 - Successfully generated query
-2024-03-01 12:29:08,103 - ThreadPoolExecutor-0_2 - MainProcess - INFO - ethereum_2017-01-03 - Successfully generated query
-2024-03-01 12:29:08,103 - ThreadPoolExecutor-0_2 - MainProcess - INFO - ethereum_2017-01-03 - Successfully generated query
-2024-03-01 12:29:08,115 - ThreadPoolExecutor-0_0 - MainProcess - INFO - cardano_2017-01-03 - Successfully generated query
-2024-03-01 12:29:08,115 - ThreadPoolExecutor-0_0 - MainProcess - INFO - cardano_2017-01-03 - Successfully generated query
-2024-03-01 12:31:19,375 - ThreadPoolExecutor-0_2 - MainProcess - INFO - cardano_2017-01-01 - Successfully generated query
-2024-03-01 12:31:19,375 - ThreadPoolExecutor-0_2 - MainProcess - INFO - cardano_2017-01-01 - Successfully generated query
-2024-03-01 12:31:19,375 - ThreadPoolExecutor-0_2 - MainProcess - ERROR - cardano_2017-01-01 - Unexpected error written: 'market_data'
-2024-03-01 12:31:19,375 - ThreadPoolExecutor-0_2 - MainProcess - ERROR - cardano_2017-01-01 - Unexpected error written: 'market_data'
-2024-03-01 12:31:19,388 - ThreadPoolExecutor-0_0 - MainProcess - INFO - bitcoin_2017-01-01 - Successfully generated query
-2024-03-01 12:31:19,388 - ThreadPoolExecutor-0_0 - MainProcess - INFO - bitcoin_2017-01-01 - Successfully generated query
-2024-03-01 12:31:19,389 - ThreadPoolExecutor-0_0 - MainProcess - INFO - bitcoin_2017-01-01 - Data written correctly
-2024-03-01 12:31:19,389 - ThreadPoolExecutor-0_0 - MainProcess - INFO - bitcoin_2017-01-01 - Data written correctly
-2024-03-01 12:31:19,396 - ThreadPoolExecutor-0_1 - MainProcess - INFO - ethereum_2017-01-01 - Successfully generated query
-2024-03-01 12:31:19,396 - ThreadPoolExecutor-0_1 - MainProcess - INFO - ethereum_2017-01-01 - Successfully generated query
-2024-03-01 12:31:19,397 - ThreadPoolExecutor-0_1 - MainProcess - INFO - ethereum_2017-01-01 - Data written correctly
-2024-03-01 12:31:19,397 - ThreadPoolExecutor-0_1 - MainProcess - INFO - ethereum_2017-01-01 - Data written correctly
-2024-03-01 12:31:19,622 - ThreadPoolExecutor-0_2 - MainProcess - INFO - bitcoin_2017-01-02 - Successfully generated query
-2024-03-01 12:31:19,622 - ThreadPoolExecutor-0_2 - MainProcess - INFO - bitcoin_2017-01-02 - Successfully generated query
-2024-03-01 12:31:19,623 - ThreadPoolExecutor-0_2 - MainProcess - INFO - bitcoin_2017-01-02 - Data written correctly
-2024-03-01 12:31:19,623 - ThreadPoolExecutor-0_2 - MainProcess - INFO - bitcoin_2017-01-02 - Data written correctly
-2024-03-01 12:31:19,649 - ThreadPoolExecutor-0_1 - MainProcess - INFO - cardano_2017-01-02 - Successfully generated query
-2024-03-01 12:31:19,649 - ThreadPoolExecutor-0_1 - MainProcess - INFO - cardano_2017-01-02 - Successfully generated query
-2024-03-01 12:31:19,650 - ThreadPoolExecutor-0_0 - MainProcess - INFO - ethereum_2017-01-02 - Successfully generated query
-2024-03-01 12:31:19,650 - ThreadPoolExecutor-0_0 - MainProcess - INFO - ethereum_2017-01-02 - Successfully generated query
-2024-03-01 12:31:19,650 - ThreadPoolExecutor-0_1 - MainProcess - ERROR - cardano_2017-01-02 - Unexpected error written: 'market_data'
-2024-03-01 12:31:19,650 - ThreadPoolExecutor-0_1 - MainProcess - ERROR - cardano_2017-01-02 - Unexpected error written: 'market_data'
-2024-03-01 12:31:19,651 - ThreadPoolExecutor-0_0 - MainProcess - INFO - ethereum_2017-01-02 - Data written correctly
-2024-03-01 12:31:19,651 - ThreadPoolExecutor-0_0 - MainProcess - INFO - ethereum_2017-01-02 - Data written correctly
-2024-03-01 12:31:19,896 - ThreadPoolExecutor-0_2 - MainProcess - INFO - bitcoin_2017-01-03 - Successfully generated query
-2024-03-01 12:31:19,896 - ThreadPoolExecutor-0_2 - MainProcess - INFO - bitcoin_2017-01-03 - Successfully generated query
-2024-03-01 12:31:19,913 - ThreadPoolExecutor-0_1 - MainProcess - INFO - ethereum_2017-01-03 - Successfully generated query
-2024-03-01 12:31:19,913 - ThreadPoolExecutor-0_1 - MainProcess - INFO - ethereum_2017-01-03 - Successfully generated query
-2024-03-01 12:31:19,919 - ThreadPoolExecutor-0_0 - MainProcess - INFO - cardano_2017-01-03 - Successfully generated query
-2024-03-01 12:31:19,919 - ThreadPoolExecutor-0_0 - MainProcess - INFO - cardano_2017-01-03 - Successfully generated query
-2024-03-01 12:31:20,125 - ThreadPoolExecutor-0_2 - MainProcess - INFO - bitcoin_2017-01-04 - Successfully generated query
-2024-03-01 12:31:20,125 - ThreadPoolExecutor-0_2 - MainProcess - INFO - bitcoin_2017-01-04 - Successfully generated query
-2024-03-01 12:31:20,129 - ThreadPoolExecutor-0_1 - MainProcess - INFO - ethereum_2017-01-04 - Successfully generated query
-2024-03-01 12:31:20,129 - ThreadPoolExecutor-0_1 - MainProcess - INFO - ethereum_2017-01-04 - Successfully generated query
-2024-03-01 12:31:20,152 - ThreadPoolExecutor-0_0 - MainProcess - INFO - cardano_2017-01-04 - Successfully generated query
-2024-03-01 12:31:20,152 - ThreadPoolExecutor-0_0 - MainProcess - INFO - cardano_2017-01-04 - Successfully generated query
-2024-03-01 12:31:20,351 - ThreadPoolExecutor-0_1 - MainProcess - INFO - ethereum_2017-01-05 - Successfully generated query
-2024-03-01 12:31:20,351 - ThreadPoolExecutor-0_1 - MainProcess - INFO - ethereum_2017-01-05 - Successfully generated query
-2024-03-01 12:31:20,366 - ThreadPoolExecutor-0_2 - MainProcess - INFO - bitcoin_2017-01-05 - Successfully generated query
-2024-03-01 12:31:20,366 - ThreadPoolExecutor-0_2 - MainProcess - INFO - bitcoin_2017-01-05 - Successfully generated query
-2024-03-01 12:31:20,406 - ThreadPoolExecutor-0_0 - MainProcess - INFO - cardano_2017-01-05 - Successfully generated query
-2024-03-01 12:31:20,406 - ThreadPoolExecutor-0_0 - MainProcess - INFO - cardano_2017-01-05 - Successfully generated query
-2024-03-01 12:31:20,597 - ThreadPoolExecutor-0_1 - MainProcess - INFO - bitcoin_2017-01-06 - Successfully generated query
-2024-03-01 12:31:20,597 - ThreadPoolExecutor-0_1 - MainProcess - INFO - bitcoin_2017-01-06 - Successfully generated query
-2024-03-01 12:31:20,608 - ThreadPoolExecutor-0_2 - MainProcess - INFO - ethereum_2017-01-06 - Successfully generated query
-2024-03-01 12:31:20,608 - ThreadPoolExecutor-0_2 - MainProcess - INFO - ethereum_2017-01-06 - Successfully generated query
-2024-03-01 12:31:20,653 - ThreadPoolExecutor-0_0 - MainProcess - INFO - cardano_2017-01-06 - Successfully generated query
-2024-03-01 12:31:20,653 - ThreadPoolExecutor-0_0 - MainProcess - INFO - cardano_2017-01-06 - Successfully generated query
-2024-03-01 12:31:20,844 - ThreadPoolExecutor-0_1 - MainProcess - INFO - bitcoin_2017-01-07 - Successfully generated query
-2024-03-01 12:31:20,844 - ThreadPoolExecutor-0_1 - MainProcess - INFO - bitcoin_2017-01-07 - Successfully generated query
-2024-03-01 12:31:20,850 - ThreadPoolExecutor-0_2 - MainProcess - INFO - ethereum_2017-01-07 - Successfully generated query
-2024-03-01 12:31:20,850 - ThreadPoolExecutor-0_2 - MainProcess - INFO - ethereum_2017-01-07 - Successfully generated query
-2024-03-01 12:31:20,886 - ThreadPoolExecutor-0_0 - MainProcess - INFO - cardano_2017-01-07 - Successfully generated query
-2024-03-01 12:31:20,886 - ThreadPoolExecutor-0_0 - MainProcess - INFO - cardano_2017-01-07 - Successfully generated query
-2024-03-01 12:31:21,171 - ThreadPoolExecutor-0_2 - MainProcess - INFO - ethereum_2017-01-08 - Successfully generated query
-2024-03-01 12:31:21,171 - ThreadPoolExecutor-0_2 - MainProcess - INFO - ethereum_2017-01-08 - Successfully generated query
-2024-03-01 12:31:21,180 - ThreadPoolExecutor-0_1 - MainProcess - INFO - bitcoin_2017-01-08 - Successfully generated query
-2024-03-01 12:31:21,180 - ThreadPoolExecutor-0_1 - MainProcess - INFO - bitcoin_2017-01-08 - Successfully generated query
-2024-03-01 12:31:21,193 - ThreadPoolExecutor-0_0 - MainProcess - INFO - cardano_2017-01-08 - Successfully generated query
-2024-03-01 12:31:21,193 - ThreadPoolExecutor-0_0 - MainProcess - INFO - cardano_2017-01-08 - Successfully generated query
-2024-03-01 12:31:21,443 - ThreadPoolExecutor-0_1 - MainProcess - INFO - ethereum_2017-01-09 - Successfully generated query
-2024-03-01 12:31:21,443 - ThreadPoolExecutor-0_1 - MainProcess - INFO - ethereum_2017-01-09 - Successfully generated query
-2024-03-01 12:31:21,463 - ThreadPoolExecutor-0_2 - MainProcess - INFO - bitcoin_2017-01-09 - Successfully generated query
-2024-03-01 12:31:21,463 - ThreadPoolExecutor-0_2 - MainProcess - INFO - bitcoin_2017-01-09 - Successfully generated query
-2024-03-01 12:31:21,488 - ThreadPoolExecutor-0_0 - MainProcess - INFO - cardano_2017-01-09 - Successfully generated query
-2024-03-01 12:31:21,488 - ThreadPoolExecutor-0_0 - MainProcess - INFO - cardano_2017-01-09 - Successfully generated query
-2024-03-01 12:31:21,925 - ThreadPoolExecutor-0_1 - MainProcess - INFO - bitcoin_2017-01-10 - Successfully generated query
-2024-03-01 12:31:21,925 - ThreadPoolExecutor-0_1 - MainProcess - INFO - bitcoin_2017-01-10 - Successfully generated query
-2024-03-01 12:31:21,994 - ThreadPoolExecutor-0_0 - MainProcess - INFO - cardano_2017-01-10 - Successfully generated query
-2024-03-01 12:31:21,994 - ThreadPoolExecutor-0_0 - MainProcess - INFO - cardano_2017-01-10 - Successfully generated query
-2024-03-01 12:31:22,007 - ThreadPoolExecutor-0_2 - MainProcess - INFO - ethereum_2017-01-10 - Successfully generated query
-2024-03-01 12:31:22,007 - ThreadPoolExecutor-0_2 - MainProcess - INFO - ethereum_2017-01-10 - Successfully generated query
-2024-03-01 12:31:22,159 - ThreadPoolExecutor-0_1 - MainProcess - INFO - bitcoin_2017-01-11 - Successfully generated query
-2024-03-01 12:31:22,159 - ThreadPoolExecutor-0_1 - MainProcess - INFO - bitcoin_2017-01-11 - Successfully generated query
-2024-03-01 12:31:22,227 - ThreadPoolExecutor-0_2 - MainProcess - INFO - cardano_2017-01-11 - Successfully generated query
-2024-03-01 12:31:22,227 - ThreadPoolExecutor-0_2 - MainProcess - INFO - cardano_2017-01-11 - Successfully generated query
-2024-03-01 12:31:22,247 - ThreadPoolExecutor-0_0 - MainProcess - INFO - ethereum_2017-01-11 - Successfully generated query
-2024-03-01 12:31:22,247 - ThreadPoolExecutor-0_0 - MainProcess - INFO - ethereum_2017-01-11 - Successfully generated query
-2024-03-01 12:31:22,340 - ThreadPoolExecutor-0_1 - MainProcess - INFO - bitcoin_2017-01-12 - Successfully generated query
-2024-03-01 12:31:22,340 - ThreadPoolExecutor-0_1 - MainProcess - INFO - bitcoin_2017-01-12 - Successfully generated query
-2024-03-01 12:31:22,466 - ThreadPoolExecutor-0_2 - MainProcess - INFO - ethereum_2017-01-12 - Successfully generated query
-2024-03-01 12:31:22,466 - ThreadPoolExecutor-0_2 - MainProcess - INFO - ethereum_2017-01-12 - Successfully generated query
-2024-03-01 12:31:22,472 - ThreadPoolExecutor-0_0 - MainProcess - INFO - cardano_2017-01-12 - Successfully generated query
-2024-03-01 12:31:22,472 - ThreadPoolExecutor-0_0 - MainProcess - INFO - cardano_2017-01-12 - Successfully generated query
-2024-03-01 12:31:22,540 - ThreadPoolExecutor-0_1 - MainProcess - INFO - bitcoin_2017-01-13 - Successfully generated query
-2024-03-01 12:31:22,540 - ThreadPoolExecutor-0_1 - MainProcess - INFO - bitcoin_2017-01-13 - Successfully generated query
-2024-03-01 12:31:22,702 - ThreadPoolExecutor-0_0 - MainProcess - INFO - cardano_2017-01-13 - Successfully generated query
-2024-03-01 12:31:22,702 - ThreadPoolExecutor-0_0 - MainProcess - INFO - cardano_2017-01-13 - Successfully generated query
-2024-03-01 12:31:22,719 - ThreadPoolExecutor-0_2 - MainProcess - INFO - ethereum_2017-01-13 - Successfully generated query
-2024-03-01 12:31:22,719 - ThreadPoolExecutor-0_2 - MainProcess - INFO - ethereum_2017-01-13 - Successfully generated query
-2024-03-01 12:31:22,775 - ThreadPoolExecutor-0_1 - MainProcess - INFO - bitcoin_2017-01-14 - Successfully generated query
-2024-03-01 12:31:22,775 - ThreadPoolExecutor-0_1 - MainProcess - INFO - bitcoin_2017-01-14 - Successfully generated query
-2024-03-01 12:31:22,917 - ThreadPoolExecutor-0_0 - MainProcess - INFO - ethereum_2017-01-14 - Successfully generated query
-2024-03-01 12:31:22,917 - ThreadPoolExecutor-0_0 - MainProcess - INFO - ethereum_2017-01-14 - Successfully generated query
-2024-03-01 12:31:22,929 - ThreadPoolExecutor-0_2 - MainProcess - INFO - cardano_2017-01-14 - Successfully generated query
-2024-03-01 12:31:22,929 - ThreadPoolExecutor-0_2 - MainProcess - INFO - cardano_2017-01-14 - Successfully generated query
-2024-03-01 12:31:22,991 - ThreadPoolExecutor-0_1 - MainProcess - INFO - bitcoin_2017-01-15 - Successfully generated query
-2024-03-01 12:31:22,991 - ThreadPoolExecutor-0_1 - MainProcess - INFO - bitcoin_2017-01-15 - Successfully generated query
-2024-03-01 12:31:23,110 - ThreadPoolExecutor-0_0 - MainProcess - INFO - ethereum_2017-01-15 - Successfully generated query
-2024-03-01 12:31:23,110 - ThreadPoolExecutor-0_0 - MainProcess - INFO - ethereum_2017-01-15 - Successfully generated query
-2024-03-01 12:31:23,145 - ThreadPoolExecutor-0_2 - MainProcess - INFO - cardano_2017-01-15 - Successfully generated query
-2024-03-01 12:31:23,145 - ThreadPoolExecutor-0_2 - MainProcess - INFO - cardano_2017-01-15 - Successfully generated query
-2024-03-01 12:31:23,206 - ThreadPoolExecutor-0_1 - MainProcess - INFO - bitcoin_2017-01-16 - Successfully generated query
-2024-03-01 12:31:23,206 - ThreadPoolExecutor-0_1 - MainProcess - INFO - bitcoin_2017-01-16 - Successfully generated query
-2024-03-01 12:31:23,308 - ThreadPoolExecutor-0_0 - MainProcess - INFO - ethereum_2017-01-16 - Successfully generated query
-2024-03-01 12:31:23,308 - ThreadPoolExecutor-0_0 - MainProcess - INFO - ethereum_2017-01-16 - Successfully generated query
-2024-03-01 12:31:23,354 - ThreadPoolExecutor-0_2 - MainProcess - INFO - cardano_2017-01-16 - Successfully generated query
-2024-03-01 12:31:23,354 - ThreadPoolExecutor-0_2 - MainProcess - INFO - cardano_2017-01-16 - Successfully generated query
-2024-03-01 12:31:23,411 - ThreadPoolExecutor-0_1 - MainProcess - INFO - bitcoin_2017-01-17 - Successfully generated query
-2024-03-01 12:31:23,411 - ThreadPoolExecutor-0_1 - MainProcess - INFO - bitcoin_2017-01-17 - Successfully generated query
-2024-03-01 12:31:23,498 - ThreadPoolExecutor-0_0 - MainProcess - INFO - ethereum_2017-01-17 - Successfully generated query
-2024-03-01 12:31:23,498 - ThreadPoolExecutor-0_0 - MainProcess - INFO - ethereum_2017-01-17 - Successfully generated query
-2024-03-01 12:31:23,536 - ThreadPoolExecutor-0_2 - MainProcess - INFO - cardano_2017-01-17 - Successfully generated query
-2024-03-01 12:31:23,536 - ThreadPoolExecutor-0_2 - MainProcess - INFO - cardano_2017-01-17 - Successfully generated query
-2024-03-01 12:31:23,602 - ThreadPoolExecutor-0_1 - MainProcess - INFO - bitcoin_2017-01-18 - Successfully generated query
-2024-03-01 12:31:23,602 - ThreadPoolExecutor-0_1 - MainProcess - INFO - bitcoin_2017-01-18 - Successfully generated query
-2024-03-01 12:31:23,711 - ThreadPoolExecutor-0_0 - MainProcess - INFO - ethereum_2017-01-18 - Successfully generated query
-2024-03-01 12:31:23,711 - ThreadPoolExecutor-0_0 - MainProcess - INFO - ethereum_2017-01-18 - Successfully generated query
-2024-03-01 12:31:23,759 - ThreadPoolExecutor-0_2 - MainProcess - INFO - cardano_2017-01-18 - Successfully generated query
-2024-03-01 12:31:23,759 - ThreadPoolExecutor-0_2 - MainProcess - INFO - cardano_2017-01-18 - Successfully generated query
-2024-03-01 12:31:23,817 - ThreadPoolExecutor-0_1 - MainProcess - INFO - bitcoin_2017-01-19 - Successfully generated query
-2024-03-01 12:31:23,817 - ThreadPoolExecutor-0_1 - MainProcess - INFO - bitcoin_2017-01-19 - Successfully generated query
-2024-03-01 12:31:23,897 - ThreadPoolExecutor-0_0 - MainProcess - INFO - ethereum_2017-01-19 - Successfully generated query
-2024-03-01 12:31:23,897 - ThreadPoolExecutor-0_0 - MainProcess - INFO - ethereum_2017-01-19 - Successfully generated query
-2024-03-01 12:31:23,973 - ThreadPoolExecutor-0_2 - MainProcess - INFO - cardano_2017-01-19 - Successfully generated query
-2024-03-01 12:31:23,973 - ThreadPoolExecutor-0_2 - MainProcess - INFO - cardano_2017-01-19 - Successfully generated query
-2024-03-01 12:31:24,025 - ThreadPoolExecutor-0_1 - MainProcess - INFO - bitcoin_2017-01-20 - Successfully generated query
-2024-03-01 12:31:24,025 - ThreadPoolExecutor-0_1 - MainProcess - INFO - bitcoin_2017-01-20 - Successfully generated query
-2024-03-01 12:31:24,077 - ThreadPoolExecutor-0_0 - MainProcess - INFO - ethereum_2017-01-20 - Successfully generated query
-2024-03-01 12:31:24,077 - ThreadPoolExecutor-0_0 - MainProcess - INFO - ethereum_2017-01-20 - Successfully generated query
-2024-03-01 12:31:24,156 - ThreadPoolExecutor-0_2 - MainProcess - INFO - cardano_2017-01-20 - Successfully generated query
-2024-03-01 12:31:24,156 - ThreadPoolExecutor-0_2 - MainProcess - INFO - cardano_2017-01-20 - Successfully generated query
-2024-03-01 12:34:17,322 - ThreadPoolExecutor-0_1 - MainProcess - INFO - ethereum_2017-01-01 - Successfully generated query
-2024-03-01 12:34:17,322 - ThreadPoolExecutor-0_1 - MainProcess - INFO - ethereum_2017-01-01 - Successfully generated query
-2024-03-01 12:34:17,322 - ThreadPoolExecutor-0_1 - MainProcess - INFO - ethereum_2017-01-01 - Data written correctly
-2024-03-01 12:34:17,322 - ThreadPoolExecutor-0_1 - MainProcess - INFO - ethereum_2017-01-01 - Data written correctly
-2024-03-01 12:34:17,344 - ThreadPoolExecutor-0_0 - MainProcess - INFO - bitcoin_2017-01-01 - Successfully generated query
-2024-03-01 12:34:17,344 - ThreadPoolExecutor-0_0 - MainProcess - INFO - bitcoin_2017-01-01 - Successfully generated query
-2024-03-01 12:34:17,346 - ThreadPoolExecutor-0_0 - MainProcess - INFO - bitcoin_2017-01-01 - Data written correctly
-2024-03-01 12:34:17,346 - ThreadPoolExecutor-0_0 - MainProcess - INFO - bitcoin_2017-01-01 - Data written correctly
-2024-03-01 12:34:17,346 - ThreadPoolExecutor-0_2 - MainProcess - INFO - cardano_2017-01-01 - Successfully generated query
-2024-03-01 12:34:17,346 - ThreadPoolExecutor-0_2 - MainProcess - INFO - cardano_2017-01-01 - Successfully generated query
-2024-03-01 12:34:17,347 - ThreadPoolExecutor-0_2 - MainProcess - ERROR - cardano_2017-01-01 - Unexpected error written: 'market_data'
-2024-03-01 12:34:17,347 - ThreadPoolExecutor-0_2 - MainProcess - ERROR - cardano_2017-01-01 - Unexpected error written: 'market_data'
-2024-03-01 12:34:17,358 - ThreadPoolExecutor-0_3 - MainProcess - INFO - bitcoin_2017-01-02 - Successfully generated query
-2024-03-01 12:34:17,358 - ThreadPoolExecutor-0_3 - MainProcess - INFO - bitcoin_2017-01-02 - Successfully generated query
-2024-03-01 12:34:17,359 - ThreadPoolExecutor-0_3 - MainProcess - INFO - bitcoin_2017-01-02 - Data written correctly
-2024-03-01 12:34:17,359 - ThreadPoolExecutor-0_3 - MainProcess - INFO - bitcoin_2017-01-02 - Data written correctly
-2024-03-01 12:34:17,586 - ThreadPoolExecutor-0_1 - MainProcess - INFO - ethereum_2017-01-02 - Successfully generated query
-2024-03-01 12:34:17,586 - ThreadPoolExecutor-0_1 - MainProcess - INFO - ethereum_2017-01-02 - Successfully generated query
-2024-03-01 12:34:17,587 - ThreadPoolExecutor-0_1 - MainProcess - INFO - ethereum_2017-01-02 - Data written correctly
-2024-03-01 12:34:17,587 - ThreadPoolExecutor-0_1 - MainProcess - INFO - ethereum_2017-01-02 - Data written correctly
-2024-03-01 12:34:17,599 - ThreadPoolExecutor-0_2 - MainProcess - INFO - cardano_2017-01-02 - Successfully generated query
-2024-03-01 12:34:17,599 - ThreadPoolExecutor-0_2 - MainProcess - INFO - cardano_2017-01-02 - Successfully generated query
-2024-03-01 12:34:17,608 - ThreadPoolExecutor-0_0 - MainProcess - INFO - bitcoin_2017-01-03 - Successfully generated query
-2024-03-01 12:34:17,608 - ThreadPoolExecutor-0_0 - MainProcess - INFO - bitcoin_2017-01-03 - Successfully generated query
-2024-03-01 12:34:17,649 - ThreadPoolExecutor-0_3 - MainProcess - INFO - ethereum_2017-01-03 - Successfully generated query
-2024-03-01 12:34:17,649 - ThreadPoolExecutor-0_3 - MainProcess - INFO - ethereum_2017-01-03 - Successfully generated query
-2024-03-01 12:34:17,823 - ThreadPoolExecutor-0_1 - MainProcess - INFO - cardano_2017-01-03 - Successfully generated query
-2024-03-01 12:34:17,823 - ThreadPoolExecutor-0_1 - MainProcess - INFO - cardano_2017-01-03 - Successfully generated query
-2024-03-01 12:34:17,857 - ThreadPoolExecutor-0_0 - MainProcess - INFO - ethereum_2017-01-04 - Successfully generated query
-2024-03-01 12:34:17,857 - ThreadPoolExecutor-0_0 - MainProcess - INFO - ethereum_2017-01-04 - Successfully generated query
-2024-03-01 12:34:17,859 - ThreadPoolExecutor-0_2 - MainProcess - INFO - bitcoin_2017-01-04 - Successfully generated query
-2024-03-01 12:34:17,859 - ThreadPoolExecutor-0_2 - MainProcess - INFO - bitcoin_2017-01-04 - Successfully generated query
-2024-03-01 12:34:17,902 - ThreadPoolExecutor-0_3 - MainProcess - INFO - cardano_2017-01-04 - Successfully generated query
-2024-03-01 12:34:17,902 - ThreadPoolExecutor-0_3 - MainProcess - INFO - cardano_2017-01-04 - Successfully generated query
-2024-03-01 12:34:18,064 - ThreadPoolExecutor-0_1 - MainProcess - INFO - bitcoin_2017-01-05 - Successfully generated query
-2024-03-01 12:34:18,064 - ThreadPoolExecutor-0_1 - MainProcess - INFO - bitcoin_2017-01-05 - Successfully generated query
-2024-03-01 12:34:18,217 - ThreadPoolExecutor-0_0 - MainProcess - INFO - cardano_2017-01-05 - Successfully generated query
-2024-03-01 12:34:18,217 - ThreadPoolExecutor-0_0 - MainProcess - INFO - cardano_2017-01-05 - Successfully generated query
-2024-03-01 12:34:18,259 - ThreadPoolExecutor-0_3 - MainProcess - INFO - bitcoin_2017-01-06 - Successfully generated query
-2024-03-01 12:34:18,259 - ThreadPoolExecutor-0_3 - MainProcess - INFO - bitcoin_2017-01-06 - Successfully generated query
-2024-03-01 12:34:18,323 - ThreadPoolExecutor-0_2 - MainProcess - INFO - ethereum_2017-01-05 - Successfully generated query
-2024-03-01 12:34:18,323 - ThreadPoolExecutor-0_2 - MainProcess - INFO - ethereum_2017-01-05 - Successfully generated query
-2024-03-01 12:34:18,374 - ThreadPoolExecutor-0_1 - MainProcess - INFO - ethereum_2017-01-06 - Successfully generated query
-2024-03-01 12:34:18,374 - ThreadPoolExecutor-0_1 - MainProcess - INFO - ethereum_2017-01-06 - Successfully generated query
-2024-03-01 12:34:18,433 - ThreadPoolExecutor-0_0 - MainProcess - INFO - cardano_2017-01-06 - Successfully generated query
-2024-03-01 12:34:18,433 - ThreadPoolExecutor-0_0 - MainProcess - INFO - cardano_2017-01-06 - Successfully generated query
-2024-03-01 12:34:18,479 - ThreadPoolExecutor-0_3 - MainProcess - INFO - bitcoin_2017-01-07 - Successfully generated query
-2024-03-01 12:34:18,479 - ThreadPoolExecutor-0_3 - MainProcess - INFO - bitcoin_2017-01-07 - Successfully generated query
-2024-03-01 12:34:18,553 - ThreadPoolExecutor-0_2 - MainProcess - INFO - ethereum_2017-01-07 - Successfully generated query
-2024-03-01 12:34:18,553 - ThreadPoolExecutor-0_2 - MainProcess - INFO - ethereum_2017-01-07 - Successfully generated query
-2024-03-01 12:34:18,593 - ThreadPoolExecutor-0_1 - MainProcess - INFO - cardano_2017-01-07 - Successfully generated query
-2024-03-01 12:34:18,593 - ThreadPoolExecutor-0_1 - MainProcess - INFO - cardano_2017-01-07 - Successfully generated query
-2024-03-01 12:34:18,647 - ThreadPoolExecutor-0_0 - MainProcess - INFO - bitcoin_2017-01-08 - Successfully generated query
-2024-03-01 12:34:18,647 - ThreadPoolExecutor-0_0 - MainProcess - INFO - bitcoin_2017-01-08 - Successfully generated query
-2024-03-01 12:34:18,713 - ThreadPoolExecutor-0_3 - MainProcess - INFO - ethereum_2017-01-08 - Successfully generated query
-2024-03-01 12:34:18,713 - ThreadPoolExecutor-0_3 - MainProcess - INFO - ethereum_2017-01-08 - Successfully generated query
-2024-03-01 12:34:18,783 - ThreadPoolExecutor-0_2 - MainProcess - INFO - cardano_2017-01-08 - Successfully generated query
-2024-03-01 12:34:18,783 - ThreadPoolExecutor-0_2 - MainProcess - INFO - cardano_2017-01-08 - Successfully generated query
-2024-03-01 12:34:18,820 - ThreadPoolExecutor-0_1 - MainProcess - INFO - bitcoin_2017-01-09 - Successfully generated query
-2024-03-01 12:34:18,820 - ThreadPoolExecutor-0_1 - MainProcess - INFO - bitcoin_2017-01-09 - Successfully generated query
-2024-03-01 12:34:18,916 - ThreadPoolExecutor-0_0 - MainProcess - INFO - ethereum_2017-01-09 - Successfully generated query
-2024-03-01 12:34:18,916 - ThreadPoolExecutor-0_0 - MainProcess - INFO - ethereum_2017-01-09 - Successfully generated query
-2024-03-01 12:34:19,057 - ThreadPoolExecutor-0_3 - MainProcess - INFO - cardano_2017-01-09 - Successfully generated query
-2024-03-01 12:34:19,057 - ThreadPoolExecutor-0_3 - MainProcess - INFO - cardano_2017-01-09 - Successfully generated query
-2024-03-01 12:34:19,080 - ThreadPoolExecutor-0_2 - MainProcess - INFO - bitcoin_2017-01-10 - Successfully generated query
-2024-03-01 12:34:19,080 - ThreadPoolExecutor-0_2 - MainProcess - INFO - bitcoin_2017-01-10 - Successfully generated query
-2024-03-01 12:34:19,145 - ThreadPoolExecutor-0_1 - MainProcess - INFO - ethereum_2017-01-10 - Successfully generated query
-2024-03-01 12:34:19,145 - ThreadPoolExecutor-0_1 - MainProcess - INFO - ethereum_2017-01-10 - Successfully generated query
-2024-03-01 12:34:19,152 - ThreadPoolExecutor-0_0 - MainProcess - INFO - cardano_2017-01-10 - Successfully generated query
-2024-03-01 12:34:19,152 - ThreadPoolExecutor-0_0 - MainProcess - INFO - cardano_2017-01-10 - Successfully generated query
-2024-03-01 12:34:19,263 - ThreadPoolExecutor-0_3 - MainProcess - INFO - bitcoin_2017-01-11 - Successfully generated query
-2024-03-01 12:34:19,263 - ThreadPoolExecutor-0_3 - MainProcess - INFO - bitcoin_2017-01-11 - Successfully generated query
-2024-03-01 12:34:19,320 - ThreadPoolExecutor-0_2 - MainProcess - INFO - ethereum_2017-01-11 - Successfully generated query
-2024-03-01 12:34:19,320 - ThreadPoolExecutor-0_2 - MainProcess - INFO - ethereum_2017-01-11 - Successfully generated query
-2024-03-01 12:34:19,381 - ThreadPoolExecutor-0_1 - MainProcess - INFO - cardano_2017-01-11 - Successfully generated query
-2024-03-01 12:34:19,381 - ThreadPoolExecutor-0_1 - MainProcess - INFO - cardano_2017-01-11 - Successfully generated query
-2024-03-01 12:34:19,391 - ThreadPoolExecutor-0_0 - MainProcess - INFO - bitcoin_2017-01-12 - Successfully generated query
-2024-03-01 12:34:19,391 - ThreadPoolExecutor-0_0 - MainProcess - INFO - bitcoin_2017-01-12 - Successfully generated query
-2024-03-01 12:34:19,488 - ThreadPoolExecutor-0_3 - MainProcess - INFO - ethereum_2017-01-12 - Successfully generated query
-2024-03-01 12:34:19,488 - ThreadPoolExecutor-0_3 - MainProcess - INFO - ethereum_2017-01-12 - Successfully generated query
-2024-03-01 12:34:19,573 - ThreadPoolExecutor-0_2 - MainProcess - INFO - cardano_2017-01-12 - Successfully generated query
-2024-03-01 12:34:19,573 - ThreadPoolExecutor-0_2 - MainProcess - INFO - cardano_2017-01-12 - Successfully generated query
-2024-03-01 12:34:19,618 - ThreadPoolExecutor-0_1 - MainProcess - INFO - bitcoin_2017-01-13 - Successfully generated query
-2024-03-01 12:34:19,618 - ThreadPoolExecutor-0_1 - MainProcess - INFO - bitcoin_2017-01-13 - Successfully generated query
-2024-03-01 12:34:19,626 - ThreadPoolExecutor-0_0 - MainProcess - INFO - ethereum_2017-01-13 - Successfully generated query
-2024-03-01 12:34:19,626 - ThreadPoolExecutor-0_0 - MainProcess - INFO - ethereum_2017-01-13 - Successfully generated query
-2024-03-01 12:34:19,717 - ThreadPoolExecutor-0_3 - MainProcess - INFO - cardano_2017-01-13 - Successfully generated query
-2024-03-01 12:34:19,717 - ThreadPoolExecutor-0_3 - MainProcess - INFO - cardano_2017-01-13 - Successfully generated query
-2024-03-01 12:34:19,802 - ThreadPoolExecutor-0_2 - MainProcess - INFO - bitcoin_2017-01-14 - Successfully generated query
-2024-03-01 12:34:19,802 - ThreadPoolExecutor-0_2 - MainProcess - INFO - bitcoin_2017-01-14 - Successfully generated query
-2024-03-01 12:34:19,863 - ThreadPoolExecutor-0_1 - MainProcess - INFO - ethereum_2017-01-14 - Successfully generated query
-2024-03-01 12:34:19,863 - ThreadPoolExecutor-0_1 - MainProcess - INFO - ethereum_2017-01-14 - Successfully generated query
-2024-03-01 12:34:19,868 - ThreadPoolExecutor-0_0 - MainProcess - INFO - cardano_2017-01-14 - Successfully generated query
-2024-03-01 12:34:19,868 - ThreadPoolExecutor-0_0 - MainProcess - INFO - cardano_2017-01-14 - Successfully generated query
-2024-03-01 12:34:19,944 - ThreadPoolExecutor-0_3 - MainProcess - INFO - bitcoin_2017-01-15 - Successfully generated query
-2024-03-01 12:34:19,944 - ThreadPoolExecutor-0_3 - MainProcess - INFO - bitcoin_2017-01-15 - Successfully generated query
-2024-03-01 12:34:20,019 - ThreadPoolExecutor-0_2 - MainProcess - INFO - ethereum_2017-01-15 - Successfully generated query
-2024-03-01 12:34:20,019 - ThreadPoolExecutor-0_2 - MainProcess - INFO - ethereum_2017-01-15 - Successfully generated query
-2024-03-01 12:34:20,101 - ThreadPoolExecutor-0_1 - MainProcess - INFO - cardano_2017-01-15 - Successfully generated query
-2024-03-01 12:34:20,101 - ThreadPoolExecutor-0_1 - MainProcess - INFO - cardano_2017-01-15 - Successfully generated query
-2024-03-01 12:34:20,108 - ThreadPoolExecutor-0_0 - MainProcess - INFO - bitcoin_2017-01-16 - Successfully generated query
-2024-03-01 12:34:20,108 - ThreadPoolExecutor-0_0 - MainProcess - INFO - bitcoin_2017-01-16 - Successfully generated query
-2024-03-01 12:34:20,178 - ThreadPoolExecutor-0_3 - MainProcess - INFO - ethereum_2017-01-16 - Successfully generated query
-2024-03-01 12:34:20,178 - ThreadPoolExecutor-0_3 - MainProcess - INFO - ethereum_2017-01-16 - Successfully generated query
-2024-03-01 12:34:20,212 - ThreadPoolExecutor-0_2 - MainProcess - INFO - cardano_2017-01-16 - Successfully generated query
-2024-03-01 12:34:20,212 - ThreadPoolExecutor-0_2 - MainProcess - INFO - cardano_2017-01-16 - Successfully generated query
-2024-03-01 12:34:20,327 - ThreadPoolExecutor-0_0 - MainProcess - INFO - ethereum_2017-01-17 - Successfully generated query
-2024-03-01 12:34:20,327 - ThreadPoolExecutor-0_0 - MainProcess - INFO - ethereum_2017-01-17 - Successfully generated query
-2024-03-01 12:34:20,328 - ThreadPoolExecutor-0_1 - MainProcess - INFO - bitcoin_2017-01-17 - Successfully generated query
-2024-03-01 12:34:20,328 - ThreadPoolExecutor-0_1 - MainProcess - INFO - bitcoin_2017-01-17 - Successfully generated query
-2024-03-01 12:34:20,403 - ThreadPoolExecutor-0_3 - MainProcess - INFO - cardano_2017-01-17 - Successfully generated query
-2024-03-01 12:34:20,403 - ThreadPoolExecutor-0_3 - MainProcess - INFO - cardano_2017-01-17 - Successfully generated query
-2024-03-01 12:34:20,423 - ThreadPoolExecutor-0_2 - MainProcess - INFO - bitcoin_2017-01-18 - Successfully generated query
-2024-03-01 12:34:20,423 - ThreadPoolExecutor-0_2 - MainProcess - INFO - bitcoin_2017-01-18 - Successfully generated query
-2024-03-01 12:34:20,541 - ThreadPoolExecutor-0_0 - MainProcess - INFO - ethereum_2017-01-18 - Successfully generated query
-2024-03-01 12:34:20,541 - ThreadPoolExecutor-0_0 - MainProcess - INFO - ethereum_2017-01-18 - Successfully generated query
-2024-03-01 12:34:20,616 - ThreadPoolExecutor-0_1 - MainProcess - INFO - cardano_2017-01-18 - Successfully generated query
-2024-03-01 12:34:20,616 - ThreadPoolExecutor-0_1 - MainProcess - INFO - cardano_2017-01-18 - Successfully generated query
-2024-03-01 12:34:20,629 - ThreadPoolExecutor-0_3 - MainProcess - INFO - bitcoin_2017-01-19 - Successfully generated query
-2024-03-01 12:34:20,629 - ThreadPoolExecutor-0_3 - MainProcess - INFO - bitcoin_2017-01-19 - Successfully generated query
-2024-03-01 12:34:20,645 - ThreadPoolExecutor-0_2 - MainProcess - INFO - ethereum_2017-01-19 - Successfully generated query
-2024-03-01 12:34:20,645 - ThreadPoolExecutor-0_2 - MainProcess - INFO - ethereum_2017-01-19 - Successfully generated query
-2024-03-01 12:34:20,716 - ThreadPoolExecutor-0_0 - MainProcess - INFO - cardano_2017-01-19 - Successfully generated query
-2024-03-01 12:34:20,716 - ThreadPoolExecutor-0_0 - MainProcess - INFO - cardano_2017-01-19 - Successfully generated query
-2024-03-01 12:34:20,847 - ThreadPoolExecutor-0_3 - MainProcess - INFO - ethereum_2017-01-20 - Successfully generated query
-2024-03-01 12:34:20,847 - ThreadPoolExecutor-0_3 - MainProcess - INFO - ethereum_2017-01-20 - Successfully generated query
-2024-03-01 12:34:20,863 - ThreadPoolExecutor-0_1 - MainProcess - INFO - bitcoin_2017-01-20 - Successfully generated query
-2024-03-01 12:34:20,863 - ThreadPoolExecutor-0_1 - MainProcess - INFO - bitcoin_2017-01-20 - Successfully generated query
-2024-03-01 12:34:20,877 - ThreadPoolExecutor-0_2 - MainProcess - INFO - cardano_2017-01-20 - Successfully generated query
-2024-03-01 12:34:20,877 - ThreadPoolExecutor-0_2 - MainProcess - INFO - cardano_2017-01-20 - Successfully generated query
-2024-03-01 17:08:40,625 - MainThread - MainProcess - INFO - Creating table coin_data
-2024-03-01 17:08:40,625 - MainThread - MainProcess - INFO - Query for coin_data: CREATE TABLE IF NOT EXISTS coin_data (
-    coin VARCHAR NOT NULL,
-    date DATE NOT NULL,
-    price FLOAT,
-    json JSON,
-    PRIMARY KEY (coin, date)
-);
-2024-03-01 17:08:40,760 - MainThread - MainProcess - INFO - Creating table coin_month_data
-2024-03-01 17:08:40,761 - MainThread - MainProcess - INFO - Query for coin_month_data: CREATE TABLE IF NOT EXISTS coin_month_data (
-	coin VARCHAR NOT NULL, 
-	year INTEGER NOT NULL, 
-	month INTEGER NOT NULL, 
-	min_price FLOAT, 
-	max_price FLOAT, 
-	PRIMARY KEY (coin, year, month)
-);
-2024-03-01 17:08:40,938 - MainThread - MainProcess - INFO - Tables created successfully.
-2024-03-01 17:10:38,610 - MainThread - MainProcess - ERROR - Error loading data coin_data: (psycopg2.errors.InvalidDatetimeFormat) invalid input syntax for type date: " 'commit_count_4_weeks': 184}"
-LINE 1: ...te, price, json) VALUES (' ''deletions'': None}', ' ''commit...
-                                                             ^
 
-[SQL: INSERT INTO coin_data (coin, date, price, json) VALUES (%(coin__0)s, %(date__0)s, %(price__0)s, %(json__0)s), (%(coin__1)s, %(date__1)s, %(price__1)s, %(json__1)s), (%(coin__2)s, %(date__2)s, %(price__2)s, %(json__2)s), (%(coin__3)s, %(date__3)s, %(price__3)s, %(json__3)s)]
-[parameters: {'coin__0': " 'deletions': None}", 'date__0': " 'commit_count_4_weeks': 184}", 'price__0': " 'public_interest_stats': {'alexa_rank': None", 'json__0': " 'bing_matches': None}}", 'coin__1': " 'deletions': None}", 'date__1': " 'commit_count_4_weeks': 83}", 'price__1': " 'public_interest_stats': {'alexa_rank': None", 'json__1': " 'bing_matches': None}}", 'coin__2': " 'deletions': None}", 'date__2': " 'commit_count_4_weeks': 175}", 'price__2': " 'public_interest_stats': {'alexa_rank': None", 'json__2': " 'bing_matches': None}}", 'coin__3': " 'deletions': None}", 'date__3': " 'commit_count_4_weeks': 81}", 'price__3': " 'public_interest_stats': {'alexa_rank': None", 'json__3': " 'bing_matches': None}}"}]
-(Background on this error at: https://sqlalche.me/e/20/9h9h)
-2024-03-01 17:21:35,072 - MainThread - MainProcess - ERROR - Error loading data coin_data: (psycopg2.errors.UndefinedColumn) column "coin,date,price,json" of relation "coin_data" does not exist
-LINE 1: INSERT INTO coin_data ("coin,date,price,json") VALUES ('bitc...
-                               ^
-
-[SQL: INSERT INTO coin_data ("coin,date,price,json") VALUES (%(coin,date,price,json__0)s), (%(coin,date,price,json__1)s), (%(coin,date,price,json__2)s), (%(coin,date,price,json__3)s)]
-[parameters: {'coin,date,price,json__0': "bitcoin,2017-01-01,998.05,{'id': 'bitcoin', 'symbol': 'btc', 'name': 'Bitcoin', 'localization': {'en': 'Bitcoin', 'de': 'Bitcoin', 'es': 'Bitcoin', ' ... (5298 characters truncated) ... _4_weeks': {'additions': None, 'deletions': None}, 'commit_count_4_weeks': 184}, 'public_interest_stats': {'alexa_rank': None, 'bing_matches': None}}", 'coin,date,price,json__1': "ethereum,2017-01-01,8.064789989459687,{'id': 'ethereum', 'symbol': 'eth', 'name': 'Ethereum', 'localization': {'en': 'Ethereum', 'de': 'Ethereum', 'e ... (5476 characters truncated) ... s_4_weeks': {'additions': None, 'deletions': None}, 'commit_count_4_weeks': 83}, 'public_interest_stats': {'alexa_rank': None, 'bing_matches': None}}", 'coin,date,price,json__2': "bitcoin,2017-01-02,1019.1988000000001,{'id': 'bitcoin', 'symbol': 'btc', 'name': 'Bitcoin', 'localization': {'en': 'Bitcoin', 'de': 'Bitcoin', 'es':  ... (5422 characters truncated) ... _4_weeks': {'additions': None, 'deletions': None}, 'commit_count_4_weeks': 175}, 'public_interest_stats': {'alexa_rank': None, 'bing_matches': None}}", 'coin,date,price,json__3': "ethereum,2017-01-02,8.361286160728705,{'id': 'ethereum', 'symbol': 'eth', 'name': 'Ethereum', 'localization': {'en': 'Ethereum', 'de': 'Ethereum', 'e ... (5481 characters truncated) ... s_4_weeks': {'additions': None, 'deletions': None}, 'commit_count_4_weeks': 81}, 'public_interest_stats': {'alexa_rank': None, 'bing_matches': None}}"}]
-(Background on this error at: https://sqlalche.me/e/20/f405)
-2024-03-01 17:24:51,963 - MainThread - MainProcess - ERROR - Error loading data coin_data: (psycopg2.errors.InvalidTextRepresentation) invalid input syntax for type json
-LINE 1: ...e, json) VALUES ('bitcoin', '2017-01-01', 998.05, '{''id'': ...
-                                                             ^
-DETAIL:  Token "'" is invalid.
-CONTEXT:  JSON data, line 1: {'...
-
-[SQL: INSERT INTO coin_data (coin, date, price, json) VALUES (%(coin__0)s, %(date__0)s, %(price__0)s, %(json__0)s), (%(coin__1)s, %(date__1)s, %(price__1)s, %(json__1)s), (%(coin__2)s, %(date__2)s, %(price__2)s, %(json__2)s), (%(coin__3)s, %(date__3)s, %(price__3)s, %(json__3)s)]
-[parameters: {'price__0': 998.05, 'date__0': '2017-01-01', 'json__0': "{'id': 'bitcoin', 'symbol': 'btc', 'name': 'Bitcoin', 'localization': {'en': 'Bitcoin', 'de': 'Bitcoin', 'es': 'Bitcoin', 'fr': 'Bitcoin', 'it': 'Bit ... (5272 characters truncated) ... _4_weeks': {'additions': None, 'deletions': None}, 'commit_count_4_weeks': 184}, 'public_interest_stats': {'alexa_rank': None, 'bing_matches': None}}", 'coin__0': 'bitcoin', 'price__1': 8.064789989459687, 'date__1': '2017-01-01', 'json__1': "{'id': 'ethereum', 'symbol': 'eth', 'name': 'Ethereum', 'localization': {'en': 'Ethereum', 'de': 'Ethereum', 'es': 'Ethereum', 'fr': 'Ethereum', 'it' ... (5438 characters truncated) ... s_4_weeks': {'additions': None, 'deletions': None}, 'commit_count_4_weeks': 83}, 'public_interest_stats': {'alexa_rank': None, 'bing_matches': None}}", 'coin__1': 'ethereum', 'price__2': 1019.1988, 'date__2': '2017-01-02', 'json__2': "{'id': 'bitcoin', 'symbol': 'btc', 'name': 'Bitcoin', 'localization': {'en': 'Bitcoin', 'de': 'Bitcoin', 'es': 'Bitcoin', 'fr': 'Bitcoin', 'it': 'Bit ... (5384 characters truncated) ... _4_weeks': {'additions': None, 'deletions': None}, 'commit_count_4_weeks': 175}, 'public_interest_stats': {'alexa_rank': None, 'bing_matches': None}}", 'coin__2': 'bitcoin', 'price__3': 8.361286160728705, 'date__3': '2017-01-02', 'json__3': "{'id': 'ethereum', 'symbol': 'eth', 'name': 'Ethereum', 'localization': {'en': 'Ethereum', 'de': 'Ethereum', 'es': 'Ethereum', 'fr': 'Ethereum', 'it' ... (5443 characters truncated) ... s_4_weeks': {'additions': None, 'deletions': None}, 'commit_count_4_weeks': 81}, 'public_interest_stats': {'alexa_rank': None, 'bing_matches': None}}", 'coin__3': 'ethereum'}]
-(Background on this error at: https://sqlalche.me/e/20/9h9h)
-2024-03-01 17:30:05,912 - MainThread - MainProcess - ERROR - Error loading data coin_data: (psycopg2.errors.InvalidTextRepresentation) invalid input syntax for type json
-LINE 1: ...e, json) VALUES ('bitcoin', '2017-01-01', 998.05, '{''id'': ...
-                                                             ^
-DETAIL:  Token "'" is invalid.
-CONTEXT:  JSON data, line 1: {'...
-
-[SQL: INSERT INTO coin_data (coin, date, price, json) VALUES (%(coin__0)s, %(date__0)s, %(price__0)s, %(json__0)s), (%(coin__1)s, %(date__1)s, %(price__1)s, %(json__1)s), (%(coin__2)s, %(date__2)s, %(price__2)s, %(json__2)s), (%(coin__3)s, %(date__3)s, %(price__3)s, %(json__3)s)]
-[parameters: {'json__0': "{'id': 'bitcoin', 'symbol': 'btc', 'name': 'Bitcoin', 'localization': {'en': 'Bitcoin', 'de': 'Bitcoin', 'es': 'Bitcoin', 'fr': 'Bitcoin', 'it': 'Bit ... (5272 characters truncated) ... _4_weeks': {'additions': None, 'deletions': None}, 'commit_count_4_weeks': 184}, 'public_interest_stats': {'alexa_rank': None, 'bing_matches': None}}", 'price__0': 998.05, 'coin__0': 'bitcoin', 'date__0': '2017-01-01', 'json__1': "{'id': 'ethereum', 'symbol': 'eth', 'name': 'Ethereum', 'localization': {'en': 'Ethereum', 'de': 'Ethereum', 'es': 'Ethereum', 'fr': 'Ethereum', 'it' ... (5438 characters truncated) ... s_4_weeks': {'additions': None, 'deletions': None}, 'commit_count_4_weeks': 83}, 'public_interest_stats': {'alexa_rank': None, 'bing_matches': None}}", 'price__1': 8.064789989459687, 'coin__1': 'ethereum', 'date__1': '2017-01-01', 'json__2': "{'id': 'bitcoin', 'symbol': 'btc', 'name': 'Bitcoin', 'localization': {'en': 'Bitcoin', 'de': 'Bitcoin', 'es': 'Bitcoin', 'fr': 'Bitcoin', 'it': 'Bit ... (5384 characters truncated) ... _4_weeks': {'additions': None, 'deletions': None}, 'commit_count_4_weeks': 175}, 'public_interest_stats': {'alexa_rank': None, 'bing_matches': None}}", 'price__2': 1019.1988, 'coin__2': 'bitcoin', 'date__2': '2017-01-02', 'json__3': "{'id': 'ethereum', 'symbol': 'eth', 'name': 'Ethereum', 'localization': {'en': 'Ethereum', 'de': 'Ethereum', 'es': 'Ethereum', 'fr': 'Ethereum', 'it' ... (5443 characters truncated) ... s_4_weeks': {'additions': None, 'deletions': None}, 'commit_count_4_weeks': 81}, 'public_interest_stats': {'alexa_rank': None, 'bing_matches': None}}", 'price__3': 8.361286160728705, 'coin__3': 'ethereum', 'date__3': '2017-01-02'}]
-(Background on this error at: https://sqlalche.me/e/20/9h9h)
-2024-03-01 17:49:26,759 - MainThread - MainProcess - INFO - The file bitcoin_2017-12-31.csv has been created correctly
-2024-03-01 17:49:26,759 - MainThread - MainProcess - INFO - The file bitcoin_2017-12-31.csv has been created correctly
-2024-03-01 17:50:26,376 - MainThread - MainProcess - ERROR - Error loading data coin_data: (psycopg2.errors.InvalidTextRepresentation) invalid input syntax for type json
-LINE 1: ...ALUES ('bitcoin', '2017-12-31', 14839.5907854184, '{''id'': ...
-                                                             ^
-DETAIL:  Token "'" is invalid.
-CONTEXT:  JSON data, line 1: {'...
-
-[SQL: INSERT INTO coin_data (coin, date, price, json) VALUES (%(coin)s, %(date)s, %(price)s, %(json)s)]
-[parameters: {'coin': 'bitcoin', 'date': '2017-12-31', 'price': 14839.5907854184, 'json': "{'id': 'bitcoin', 'symbol': 'btc', 'name': 'Bitcoin', 'localization': {'en': 'Bitcoin', 'de': 'Bitcoin', 'es': 'Bitcoin', 'fr': 'Bitcoin', 'it': 'Bit ... (5397 characters truncated) ... _4_weeks': {'additions': None, 'deletions': None}, 'commit_count_4_weeks': 150}, 'public_interest_stats': {'alexa_rank': None, 'bing_matches': None}}"}]
-(Background on this error at: https://sqlalche.me/e/20/9h9h)
-2024-03-01 17:59:45,345 - MainThread - MainProcess - INFO - The file bitcoin_2017-12-31.csv has been created correctly
-2024-03-01 17:59:45,345 - MainThread - MainProcess - INFO - The file bitcoin_2017-12-31.csv has been created correctly
-2024-03-01 18:02:40,047 - MainThread - MainProcess - INFO - The file bitcoin_2017-12-31.csv has been created correctly
-2024-03-01 18:02:40,047 - MainThread - MainProcess - INFO - The file bitcoin_2017-12-31.csv has been created correctly
-2024-03-01 18:11:07,627 - ThreadPoolExecutor-0_2 - MainProcess - INFO - cardano_2017-01-01 - Successfully generated query
-2024-03-01 18:11:07,627 - ThreadPoolExecutor-0_2 - MainProcess - INFO - cardano_2017-01-01 - Successfully generated query
-2024-03-01 18:11:07,627 - ThreadPoolExecutor-0_2 - MainProcess - ERROR - cardano_2017-01-01 - Unexpected error written: 'market_data'
-2024-03-01 18:11:07,627 - ThreadPoolExecutor-0_2 - MainProcess - ERROR - cardano_2017-01-01 - Unexpected error written: 'market_data'
-2024-03-01 18:11:07,628 - ThreadPoolExecutor-0_1 - MainProcess - INFO - ethereum_2017-01-01 - Successfully generated query
-2024-03-01 18:11:07,628 - ThreadPoolExecutor-0_1 - MainProcess - INFO - ethereum_2017-01-01 - Successfully generated query
-2024-03-01 18:11:07,631 - ThreadPoolExecutor-0_1 - MainProcess - INFO - ethereum_2017-01-01 - Data written correctly
-2024-03-01 18:11:07,631 - ThreadPoolExecutor-0_1 - MainProcess - INFO - ethereum_2017-01-01 - Data written correctly
-2024-03-01 18:11:08,139 - ThreadPoolExecutor-0_1 - MainProcess - INFO - ethereum_2017-01-02 - Successfully generated query
-2024-03-01 18:11:08,139 - ThreadPoolExecutor-0_1 - MainProcess - INFO - ethereum_2017-01-02 - Successfully generated query
-2024-03-01 18:11:08,139 - ThreadPoolExecutor-0_1 - MainProcess - INFO - ethereum_2017-01-02 - Data written correctly
-2024-03-01 18:11:08,139 - ThreadPoolExecutor-0_1 - MainProcess - INFO - ethereum_2017-01-02 - Data written correctly
-2024-03-01 18:11:08,140 - ThreadPoolExecutor-0_0 - MainProcess - INFO - bitcoin_2017-01-01 - Successfully generated query
-2024-03-01 18:11:08,140 - ThreadPoolExecutor-0_0 - MainProcess - INFO - bitcoin_2017-01-01 - Successfully generated query
-2024-03-01 18:11:08,143 - ThreadPoolExecutor-0_0 - MainProcess - INFO - bitcoin_2017-01-01 - Data written correctly
-2024-03-01 18:11:08,143 - ThreadPoolExecutor-0_0 - MainProcess - INFO - bitcoin_2017-01-01 - Data written correctly
-2024-03-01 18:11:08,353 - ThreadPoolExecutor-0_2 - MainProcess - INFO - bitcoin_2017-01-02 - Successfully generated query
-2024-03-01 18:11:08,353 - ThreadPoolExecutor-0_2 - MainProcess - INFO - bitcoin_2017-01-02 - Successfully generated query
-2024-03-01 18:11:08,353 - ThreadPoolExecutor-0_2 - MainProcess - INFO - bitcoin_2017-01-02 - Data written correctly
-2024-03-01 18:11:08,353 - ThreadPoolExecutor-0_2 - MainProcess - INFO - bitcoin_2017-01-02 - Data written correctly
-2024-03-01 18:11:08,383 - ThreadPoolExecutor-0_1 - MainProcess - INFO - cardano_2017-01-02 - Successfully generated query
-2024-03-01 18:11:08,383 - ThreadPoolExecutor-0_1 - MainProcess - INFO - cardano_2017-01-02 - Successfully generated query
-2024-03-01 18:19:24,206 - MainThread - MainProcess - INFO - The file bitcoin_2017-12-31.csv has been created correctly
-2024-03-01 18:19:24,206 - MainThread - MainProcess - INFO - The file bitcoin_2017-12-31.csv has been created correctly
-2024-03-01 18:24:59,640 - ThreadPoolExecutor-0_0 - MainProcess - INFO - bitcoin_2017-01-01 - Successfully generated query
-2024-03-01 18:24:59,640 - ThreadPoolExecutor-0_0 - MainProcess - INFO - bitcoin_2017-01-01 - Successfully generated query
-2024-03-01 18:24:59,641 - ThreadPoolExecutor-0_0 - MainProcess - INFO - bitcoin_2017-01-01 - Data written correctly
-2024-03-01 18:24:59,641 - ThreadPoolExecutor-0_0 - MainProcess - INFO - bitcoin_2017-01-01 - Data written correctly
-2024-03-01 18:24:59,648 - ThreadPoolExecutor-0_2 - MainProcess - INFO - cardano_2017-01-01 - Successfully generated query
-2024-03-01 18:24:59,648 - ThreadPoolExecutor-0_2 - MainProcess - INFO - cardano_2017-01-01 - Successfully generated query
-2024-03-01 18:24:59,649 - ThreadPoolExecutor-0_2 - MainProcess - ERROR - cardano_2017-01-01 - Unexpected error written: 'market_data'
-2024-03-01 18:24:59,649 - ThreadPoolExecutor-0_2 - MainProcess - ERROR - cardano_2017-01-01 - Unexpected error written: 'market_data'
-2024-03-01 18:24:59,673 - ThreadPoolExecutor-0_1 - MainProcess - INFO - ethereum_2017-01-01 - Successfully generated query
-2024-03-01 18:24:59,673 - ThreadPoolExecutor-0_1 - MainProcess - INFO - ethereum_2017-01-01 - Successfully generated query
-2024-03-01 18:24:59,674 - ThreadPoolExecutor-0_1 - MainProcess - INFO - ethereum_2017-01-01 - Data written correctly
-2024-03-01 18:24:59,674 - ThreadPoolExecutor-0_1 - MainProcess - INFO - ethereum_2017-01-01 - Data written correctly
-2024-03-01 18:24:59,924 - ThreadPoolExecutor-0_1 - MainProcess - INFO - cardano_2017-01-02 - Successfully generated query
-2024-03-01 18:24:59,924 - ThreadPoolExecutor-0_1 - MainProcess - INFO - cardano_2017-01-02 - Successfully generated query
-2024-03-01 18:24:59,925 - ThreadPoolExecutor-0_2 - MainProcess - INFO - ethereum_2017-01-02 - Successfully generated query
-2024-03-01 18:24:59,925 - ThreadPoolExecutor-0_2 - MainProcess - INFO - ethereum_2017-01-02 - Successfully generated query
-2024-03-01 18:24:59,926 - ThreadPoolExecutor-0_0 - MainProcess - INFO - bitcoin_2017-01-02 - Successfully generated query
-2024-03-01 18:24:59,926 - ThreadPoolExecutor-0_2 - MainProcess - INFO - ethereum_2017-01-02 - Data written correctly
-2024-03-01 18:24:59,926 - ThreadPoolExecutor-0_0 - MainProcess - INFO - bitcoin_2017-01-02 - Successfully generated query
-2024-03-01 18:24:59,927 - ThreadPoolExecutor-0_0 - MainProcess - INFO - bitcoin_2017-01-02 - Data written correctly
-2024-03-01 18:24:59,926 - ThreadPoolExecutor-0_2 - MainProcess - INFO - ethereum_2017-01-02 - Data written correctly
-2024-03-01 18:24:59,927 - ThreadPoolExecutor-0_0 - MainProcess - INFO - bitcoin_2017-01-02 - Data written correctly
-2024-03-01 18:28:13,668 - MainThread - MainProcess - INFO - The file bitcoin_2017-12-31.csv has been created correctly
-2024-03-01 18:28:13,668 - MainThread - MainProcess - INFO - The file bitcoin_2017-12-31.csv has been created correctly
-2024-03-01 18:30:38,765 - MainThread - MainProcess - ERROR - Error: list indices must be integers or slices, not str
-2024-03-01 18:30:38,765 - MainThread - MainProcess - ERROR - Error: list indices must be integers or slices, not str
-2024-03-01 18:30:38,766 - MainThread - MainProcess - ERROR - The file bitcoin_2017-12-31.csv already exists. Charge canceled.
-2024-03-01 18:30:38,766 - MainThread - MainProcess - ERROR - The file bitcoin_2017-12-31.csv already exists. Charge canceled.
-2024-03-01 18:32:30,122 - MainThread - MainProcess - ERROR - Error: list indices must be integers or slices, not str
-2024-03-01 18:32:30,122 - MainThread - MainProcess - ERROR - Error: list indices must be integers or slices, not str
-2024-03-01 18:32:30,123 - MainThread - MainProcess - ERROR - The file bitcoin_2017-12-31.csv already exists. Charge canceled.
-2024-03-01 18:32:30,123 - MainThread - MainProcess - ERROR - The file bitcoin_2017-12-31.csv already exists. Charge canceled.
-2024-03-01 18:33:01,752 - MainThread - MainProcess - ERROR - Error: list indices must be integers or slices, not str
-2024-03-01 18:33:01,752 - MainThread - MainProcess - ERROR - Error: list indices must be integers or slices, not str
-2024-03-01 18:33:01,754 - MainThread - MainProcess - ERROR - The file bitcoin_2017-12-31.csv already exists. Charge canceled.
-2024-03-01 18:33:01,754 - MainThread - MainProcess - ERROR - The file bitcoin_2017-12-31.csv already exists. Charge canceled.
-2024-03-01 18:33:19,840 - MainThread - MainProcess - ERROR - Error: list indices must be integers or slices, not str
-2024-03-01 18:33:19,840 - MainThread - MainProcess - ERROR - Error: list indices must be integers or slices, not str
-2024-03-01 19:02:13,695 - MainThread - MainProcess - INFO - The file bitcoin_2017-12-31.csv has been created correctly
-2024-03-01 19:02:13,695 - MainThread - MainProcess - INFO - The file bitcoin_2017-12-31.csv has been created correctly
-2024-03-01 19:03:40,389 - ThreadPoolExecutor-0_0 - MainProcess - INFO - bitcoin_2017-01-01 - Successfully generated query
-2024-03-01 19:03:40,389 - ThreadPoolExecutor-0_0 - MainProcess - INFO - bitcoin_2017-01-01 - Successfully generated query
-2024-03-01 19:03:40,389 - ThreadPoolExecutor-0_0 - MainProcess - INFO - bitcoin_2017-01-01 - Data written correctly
-2024-03-01 19:03:40,389 - ThreadPoolExecutor-0_0 - MainProcess - INFO - bitcoin_2017-01-01 - Data written correctly
-2024-03-01 19:03:40,757 - ThreadPoolExecutor-0_2 - MainProcess - INFO - cardano_2017-01-01 - Successfully generated query
-2024-03-01 19:03:40,757 - ThreadPoolExecutor-0_2 - MainProcess - INFO - cardano_2017-01-01 - Successfully generated query
-2024-03-01 19:03:40,757 - ThreadPoolExecutor-0_2 - MainProcess - ERROR - cardano_2017-01-01 - Unexpected error written: 'market_data'
-2024-03-01 19:03:40,757 - ThreadPoolExecutor-0_2 - MainProcess - ERROR - cardano_2017-01-01 - Unexpected error written: 'market_data'
-2024-03-01 19:03:40,778 - ThreadPoolExecutor-0_1 - MainProcess - INFO - ethereum_2017-01-01 - Successfully generated query
-2024-03-01 19:03:40,778 - ThreadPoolExecutor-0_1 - MainProcess - INFO - ethereum_2017-01-01 - Successfully generated query
-2024-03-01 19:03:40,779 - ThreadPoolExecutor-0_1 - MainProcess - INFO - ethereum_2017-01-01 - Data written correctly
-2024-03-01 19:03:40,779 - ThreadPoolExecutor-0_1 - MainProcess - INFO - ethereum_2017-01-01 - Data written correctly
-2024-03-01 19:03:41,037 - ThreadPoolExecutor-0_1 - MainProcess - INFO - cardano_2017-01-02 - Successfully generated query
-2024-03-01 19:03:41,037 - ThreadPoolExecutor-0_1 - MainProcess - INFO - cardano_2017-01-02 - Successfully generated query
-2024-03-01 19:03:41,045 - ThreadPoolExecutor-0_0 - MainProcess - INFO - bitcoin_2017-01-02 - Successfully generated query
-2024-03-01 19:03:41,045 - ThreadPoolExecutor-0_0 - MainProcess - INFO - bitcoin_2017-01-02 - Successfully generated query
-2024-03-01 19:03:41,045 - ThreadPoolExecutor-0_0 - MainProcess - INFO - bitcoin_2017-01-02 - Data written correctly
-2024-03-01 19:03:41,045 - ThreadPoolExecutor-0_0 - MainProcess - INFO - bitcoin_2017-01-02 - Data written correctly
-2024-03-01 19:03:41,260 - ThreadPoolExecutor-0_2 - MainProcess - INFO - ethereum_2017-01-02 - Successfully generated query
-2024-03-01 19:03:41,260 - ThreadPoolExecutor-0_2 - MainProcess - INFO - ethereum_2017-01-02 - Successfully generated query
-2024-03-01 19:03:41,260 - ThreadPoolExecutor-0_2 - MainProcess - INFO - ethereum_2017-01-02 - Data written correctly
-2024-03-01 19:03:41,260 - ThreadPoolExecutor-0_2 - MainProcess - INFO - ethereum_2017-01-02 - Data written correctly
-2024-03-01 19:04:40,364 - MainThread - MainProcess - ERROR - Error loading data coin_data: (psycopg2.errors.UndefinedColumn) column "coin,date,price,json" of relation "coin_data" does not exist
-LINE 1: INSERT INTO coin_data ("coin,date,price,json") VALUES ('{"id...
-                               ^
-
-[SQL: INSERT INTO coin_data ("coin,date,price,json") VALUES (%(coin,date,price,json__0)s), (%(coin,date,price,json__1)s), (%(coin,date,price,json__2)s), (%(coin,date,price,json__3)s)]
-[parameters: {'coin,date,price,json__0': '{"id":"bitcoin","symbol":"btc","name":"Bitcoin","localization":{"en":"Bitcoin","de":"Bitcoin","es":"Bitcoin","fr":"Bitcoin","it":"Bitcoin","pl":"Bitc ... (4825 characters truncated) ... s_deletions_4_weeks":{"additions":null,"deletions":null},"commit_count_4_weeks":184},"public_interest_stats":{"alexa_rank":null,"bing_matches":null}}', 'coin,date,price,json__1': '{"id":"ethereum","symbol":"eth","name":"Ethereum","localization":{"en":"Ethereum","de":"Ethereum","es":"Ethereum","fr":"Ethereum","it":"Ethereum","pl ... (4991 characters truncated) ... ns_deletions_4_weeks":{"additions":null,"deletions":null},"commit_count_4_weeks":83},"public_interest_stats":{"alexa_rank":null,"bing_matches":null}}', 'coin,date,price,json__2': '{"id":"bitcoin","symbol":"btc","name":"Bitcoin","localization":{"en":"Bitcoin","de":"Bitcoin","es":"Bitcoin","fr":"Bitcoin","it":"Bitcoin","pl":"Bitc ... (4937 characters truncated) ... s_deletions_4_weeks":{"additions":null,"deletions":null},"commit_count_4_weeks":175},"public_interest_stats":{"alexa_rank":null,"bing_matches":null}}', 'coin,date,price,json__3': '{"id":"ethereum","symbol":"eth","name":"Ethereum","localization":{"en":"Ethereum","de":"Ethereum","es":"Ethereum","fr":"Ethereum","it":"Ethereum","pl ... (4996 characters truncated) ... ns_deletions_4_weeks":{"additions":null,"deletions":null},"commit_count_4_weeks":81},"public_interest_stats":{"alexa_rank":null,"bing_matches":null}}'}]
-(Background on this error at: https://sqlalche.me/e/20/f405)
-2024-03-01 19:07:19,186 - MainThread - MainProcess - INFO - Data coin_data loaded correctly
-2024-03-01 19:09:14,025 - ThreadPoolExecutor-0_0 - MainProcess - INFO - bitcoin_2017-01-01 - Successfully generated query
-2024-03-01 19:09:14,025 - ThreadPoolExecutor-0_0 - MainProcess - INFO - bitcoin_2017-01-01 - Successfully generated query
-2024-03-01 19:09:14,026 - ThreadPoolExecutor-0_2 - MainProcess - INFO - cardano_2017-01-01 - Successfully generated query
-2024-03-01 19:09:14,026 - ThreadPoolExecutor-0_2 - MainProcess - INFO - cardano_2017-01-01 - Successfully generated query
-2024-03-01 19:09:14,026 - ThreadPoolExecutor-0_2 - MainProcess - ERROR - cardano_2017-01-01 - Unexpected error written: 'market_data'
-2024-03-01 19:09:14,026 - ThreadPoolExecutor-0_2 - MainProcess - ERROR - cardano_2017-01-01 - Unexpected error written: 'market_data'
-2024-03-01 19:09:14,029 - ThreadPoolExecutor-0_0 - MainProcess - INFO - bitcoin_2017-01-01 - Data written correctly
-2024-03-01 19:09:14,029 - ThreadPoolExecutor-0_0 - MainProcess - INFO - bitcoin_2017-01-01 - Data written correctly
-2024-03-01 19:09:14,034 - ThreadPoolExecutor-0_1 - MainProcess - INFO - ethereum_2017-01-01 - Successfully generated query
-2024-03-01 19:09:14,034 - ThreadPoolExecutor-0_1 - MainProcess - INFO - ethereum_2017-01-01 - Successfully generated query
-2024-03-01 19:09:14,034 - ThreadPoolExecutor-0_1 - MainProcess - INFO - ethereum_2017-01-01 - Data written correctly
-2024-03-01 19:09:14,034 - ThreadPoolExecutor-0_1 - MainProcess - INFO - ethereum_2017-01-01 - Data written correctly
-2024-03-01 19:09:14,332 - ThreadPoolExecutor-0_2 - MainProcess - INFO - bitcoin_2017-01-02 - Successfully generated query
-2024-03-01 19:09:14,332 - ThreadPoolExecutor-0_2 - MainProcess - INFO - bitcoin_2017-01-02 - Successfully generated query
-2024-03-01 19:09:14,335 - ThreadPoolExecutor-0_0 - MainProcess - INFO - ethereum_2017-01-02 - Successfully generated query
-2024-03-01 19:09:14,335 - ThreadPoolExecutor-0_0 - MainProcess - INFO - ethereum_2017-01-02 - Successfully generated query
-2024-03-01 19:09:14,335 - ThreadPoolExecutor-0_0 - MainProcess - INFO - ethereum_2017-01-02 - Data written correctly
-2024-03-01 19:09:14,335 - ThreadPoolExecutor-0_0 - MainProcess - INFO - ethereum_2017-01-02 - Data written correctly
-2024-03-01 19:09:14,575 - ThreadPoolExecutor-0_1 - MainProcess - INFO - cardano_2017-01-02 - Successfully generated query
-2024-03-01 19:09:14,575 - ThreadPoolExecutor-0_1 - MainProcess - INFO - cardano_2017-01-02 - Successfully generated query
-2024-03-01 19:09:14,575 - ThreadPoolExecutor-0_1 - MainProcess - ERROR - cardano_2017-01-02 - Unexpected error written: 'market_data'
-2024-03-01 19:09:14,575 - ThreadPoolExecutor-0_1 - MainProcess - ERROR - cardano_2017-01-02 - Unexpected error written: 'market_data'
-2024-03-01 19:10:02,808 - ThreadPoolExecutor-0_2 - MainProcess - INFO - cardano_2017-01-01 - Successfully generated query
-2024-03-01 19:10:02,808 - ThreadPoolExecutor-0_2 - MainProcess - INFO - cardano_2017-01-01 - Successfully generated query
-2024-03-01 19:10:03,010 - ThreadPoolExecutor-0_0 - MainProcess - INFO - bitcoin_2017-01-01 - Successfully generated query
-2024-03-01 19:10:03,010 - ThreadPoolExecutor-0_0 - MainProcess - INFO - bitcoin_2017-01-01 - Successfully generated query
-2024-03-01 19:10:03,011 - ThreadPoolExecutor-0_1 - MainProcess - INFO - ethereum_2017-01-01 - Successfully generated query
-2024-03-01 19:10:03,011 - ThreadPoolExecutor-0_1 - MainProcess - INFO - ethereum_2017-01-01 - Successfully generated query
-2024-03-01 19:10:03,239 - ThreadPoolExecutor-0_2 - MainProcess - INFO - bitcoin_2017-01-02 - Successfully generated query
-2024-03-01 19:10:03,239 - ThreadPoolExecutor-0_2 - MainProcess - INFO - bitcoin_2017-01-02 - Successfully generated query
-2024-03-01 19:10:03,419 - ThreadPoolExecutor-0_0 - MainProcess - INFO - ethereum_2017-01-02 - Successfully generated query
-2024-03-01 19:10:03,419 - ThreadPoolExecutor-0_0 - MainProcess - INFO - ethereum_2017-01-02 - Successfully generated query
-2024-03-01 19:10:03,420 - ThreadPoolExecutor-0_1 - MainProcess - INFO - cardano_2017-01-02 - Successfully generated query
-2024-03-01 19:10:03,420 - ThreadPoolExecutor-0_1 - MainProcess - INFO - cardano_2017-01-02 - Successfully generated query
-2024-03-01 19:14:48,715 - ThreadPoolExecutor-0_0 - MainProcess - INFO - bitcoin_2017-01-01 - Successfully generated query
-2024-03-01 19:14:48,716 - ThreadPoolExecutor-0_0 - MainProcess - INFO - bitcoin_2017-01-01 - Data written correctly
-2024-03-01 19:14:48,736 - ThreadPoolExecutor-0_1 - MainProcess - INFO - ethereum_2017-01-01 - Successfully generated query
-2024-03-01 19:14:48,736 - ThreadPoolExecutor-0_2 - MainProcess - INFO - cardano_2017-01-01 - Successfully generated query
-2024-03-01 19:14:48,737 - ThreadPoolExecutor-0_2 - MainProcess - ERROR - cardano_2017-01-01 - Unexpected error written: 'market_data'
-2024-03-01 19:14:48,737 - ThreadPoolExecutor-0_1 - MainProcess - INFO - ethereum_2017-01-01 - Data written correctly
-2024-03-01 19:14:48,984 - ThreadPoolExecutor-0_0 - MainProcess - INFO - bitcoin_2017-01-02 - Successfully generated query
-2024-03-01 19:14:48,984 - ThreadPoolExecutor-0_0 - MainProcess - INFO - bitcoin_2017-01-02 - Data written correctly
-2024-03-01 19:14:49,012 - ThreadPoolExecutor-0_2 - MainProcess - INFO - ethereum_2017-01-02 - Successfully generated query
-2024-03-01 19:14:49,012 - ThreadPoolExecutor-0_2 - MainProcess - INFO - ethereum_2017-01-02 - Data written correctly
-2024-03-01 19:14:49,307 - ThreadPoolExecutor-0_1 - MainProcess - INFO - cardano_2017-01-02 - Successfully generated query
-2024-03-01 19:14:49,338 - ThreadPoolExecutor-0_0 - MainProcess - INFO - bitcoin_2017-01-03 - Successfully generated query
-2024-03-01 19:14:49,451 - ThreadPoolExecutor-0_2 - MainProcess - INFO - ethereum_2017-01-03 - Successfully generated query
-2024-03-01 19:14:49,752 - ThreadPoolExecutor-0_0 - MainProcess - INFO - bitcoin_2017-01-04 - Successfully generated query
-2024-03-01 19:14:49,756 - ThreadPoolExecutor-0_1 - MainProcess - INFO - cardano_2017-01-03 - Successfully generated query
-2024-03-01 19:14:49,920 - ThreadPoolExecutor-0_2 - MainProcess - INFO - ethereum_2017-01-04 - Successfully generated query
-2024-03-01 19:14:50,005 - ThreadPoolExecutor-0_1 - MainProcess - INFO - bitcoin_2017-01-05 - Successfully generated query
-2024-03-01 19:14:50,019 - ThreadPoolExecutor-0_0 - MainProcess - INFO - cardano_2017-01-04 - Successfully generated query
-2024-03-01 19:14:50,119 - ThreadPoolExecutor-0_2 - MainProcess - INFO - ethereum_2017-01-05 - Successfully generated query
-2024-03-01 19:14:50,235 - ThreadPoolExecutor-0_0 - MainProcess - INFO - bitcoin_2017-01-06 - Successfully generated query
-2024-03-01 19:14:50,239 - ThreadPoolExecutor-0_1 - MainProcess - INFO - cardano_2017-01-05 - Successfully generated query
-2024-03-01 19:14:50,327 - ThreadPoolExecutor-0_2 - MainProcess - INFO - ethereum_2017-01-06 - Successfully generated query
-2024-03-01 19:14:50,466 - ThreadPoolExecutor-0_1 - MainProcess - INFO - bitcoin_2017-01-07 - Successfully generated query
-2024-03-01 19:14:50,471 - ThreadPoolExecutor-0_0 - MainProcess - INFO - cardano_2017-01-06 - Successfully generated query
-2024-03-01 19:14:50,520 - ThreadPoolExecutor-0_2 - MainProcess - INFO - ethereum_2017-01-07 - Successfully generated query
-2024-03-01 19:14:50,699 - ThreadPoolExecutor-0_0 - MainProcess - INFO - bitcoin_2017-01-08 - Successfully generated query
-2024-03-01 19:14:50,707 - ThreadPoolExecutor-0_1 - MainProcess - INFO - cardano_2017-01-07 - Successfully generated query
-2024-03-01 19:14:50,741 - ThreadPoolExecutor-0_2 - MainProcess - INFO - ethereum_2017-01-08 - Successfully generated query
-2024-03-01 19:14:50,929 - ThreadPoolExecutor-0_0 - MainProcess - INFO - cardano_2017-01-08 - Successfully generated query
-2024-03-01 19:14:50,948 - ThreadPoolExecutor-0_1 - MainProcess - INFO - bitcoin_2017-01-09 - Successfully generated query
-2024-03-01 19:14:50,983 - ThreadPoolExecutor-0_2 - MainProcess - INFO - ethereum_2017-01-09 - Successfully generated query
-2024-03-01 19:14:51,207 - ThreadPoolExecutor-0_1 - MainProcess - INFO - bitcoin_2017-01-10 - Successfully generated query
-2024-03-01 19:14:51,213 - ThreadPoolExecutor-0_0 - MainProcess - INFO - cardano_2017-01-09 - Successfully generated query
-2024-03-01 19:14:51,214 - ThreadPoolExecutor-0_2 - MainProcess - INFO - ethereum_2017-01-10 - Successfully generated query
-2024-03-01 19:14:51,430 - ThreadPoolExecutor-0_0 - MainProcess - INFO - bitcoin_2017-01-11 - Successfully generated query
-2024-03-01 19:14:51,460 - ThreadPoolExecutor-0_1 - MainProcess - INFO - cardano_2017-01-10 - Successfully generated query
-2024-03-01 19:14:51,480 - ThreadPoolExecutor-0_2 - MainProcess - INFO - ethereum_2017-01-11 - Successfully generated query
-2024-03-01 19:14:51,633 - ThreadPoolExecutor-0_0 - MainProcess - INFO - cardano_2017-01-11 - Successfully generated query
-2024-03-01 19:14:51,665 - ThreadPoolExecutor-0_1 - MainProcess - INFO - bitcoin_2017-01-12 - Successfully generated query
-2024-03-01 19:14:51,692 - ThreadPoolExecutor-0_2 - MainProcess - INFO - ethereum_2017-01-12 - Successfully generated query
-2024-03-01 19:14:51,863 - ThreadPoolExecutor-0_0 - MainProcess - INFO - cardano_2017-01-12 - Successfully generated query
-2024-03-01 19:14:51,920 - ThreadPoolExecutor-0_1 - MainProcess - INFO - bitcoin_2017-01-13 - Successfully generated query
-2024-03-01 19:14:51,966 - ThreadPoolExecutor-0_2 - MainProcess - INFO - ethereum_2017-01-13 - Successfully generated query
-2024-03-01 19:14:52,111 - ThreadPoolExecutor-0_0 - MainProcess - INFO - cardano_2017-01-13 - Successfully generated query
-2024-03-01 19:14:52,162 - ThreadPoolExecutor-0_1 - MainProcess - INFO - bitcoin_2017-01-14 - Successfully generated query
-2024-03-01 19:14:52,216 - ThreadPoolExecutor-0_2 - MainProcess - INFO - ethereum_2017-01-14 - Successfully generated query
-2024-03-01 19:14:52,459 - ThreadPoolExecutor-0_0 - MainProcess - INFO - cardano_2017-01-14 - Successfully generated query
-2024-03-01 19:14:52,519 - ThreadPoolExecutor-0_1 - MainProcess - INFO - bitcoin_2017-01-15 - Successfully generated query
-2024-03-01 19:14:52,553 - ThreadPoolExecutor-0_2 - MainProcess - INFO - ethereum_2017-01-15 - Successfully generated query
-2024-03-01 19:14:52,760 - ThreadPoolExecutor-0_0 - MainProcess - INFO - cardano_2017-01-15 - Successfully generated query
-2024-03-01 19:14:52,767 - ThreadPoolExecutor-0_1 - MainProcess - INFO - bitcoin_2017-01-16 - Successfully generated query
-2024-03-01 19:14:52,798 - ThreadPoolExecutor-0_2 - MainProcess - INFO - ethereum_2017-01-16 - Successfully generated query
-2024-03-01 19:14:52,996 - ThreadPoolExecutor-0_0 - MainProcess - INFO - cardano_2017-01-16 - Successfully generated query
-2024-03-01 19:14:53,028 - ThreadPoolExecutor-0_1 - MainProcess - INFO - bitcoin_2017-01-17 - Successfully generated query
-2024-03-01 19:14:53,041 - ThreadPoolExecutor-0_2 - MainProcess - INFO - ethereum_2017-01-17 - Successfully generated query
-2024-03-01 19:14:53,246 - ThreadPoolExecutor-0_0 - MainProcess - INFO - cardano_2017-01-17 - Successfully generated query
-2024-03-01 19:14:53,265 - ThreadPoolExecutor-0_2 - MainProcess - INFO - ethereum_2017-01-18 - Successfully generated query
-2024-03-01 19:14:53,272 - ThreadPoolExecutor-0_1 - MainProcess - INFO - bitcoin_2017-01-18 - Successfully generated query
-2024-03-01 19:14:53,475 - ThreadPoolExecutor-0_2 - MainProcess - INFO - bitcoin_2017-01-19 - Successfully generated query
-2024-03-01 19:14:53,479 - ThreadPoolExecutor-0_0 - MainProcess - INFO - cardano_2017-01-18 - Successfully generated query
-2024-03-01 19:14:53,488 - ThreadPoolExecutor-0_1 - MainProcess - INFO - ethereum_2017-01-19 - Successfully generated query
-2024-03-01 19:14:53,707 - ThreadPoolExecutor-0_2 - MainProcess - INFO - cardano_2017-01-19 - Successfully generated query
-2024-03-01 19:14:53,708 - ThreadPoolExecutor-0_0 - MainProcess - INFO - bitcoin_2017-01-20 - Successfully generated query
-2024-03-01 19:14:53,721 - ThreadPoolExecutor-0_1 - MainProcess - INFO - ethereum_2017-01-20 - Successfully generated query
-2024-03-01 19:14:53,949 - ThreadPoolExecutor-0_0 - MainProcess - INFO - bitcoin_2017-01-21 - Successfully generated query
-2024-03-01 19:14:53,977 - ThreadPoolExecutor-0_1 - MainProcess - INFO - ethereum_2017-01-21 - Successfully generated query
-2024-03-01 19:14:53,989 - ThreadPoolExecutor-0_2 - MainProcess - INFO - cardano_2017-01-20 - Successfully generated query
-2024-03-01 19:14:54,183 - ThreadPoolExecutor-0_0 - MainProcess - INFO - cardano_2017-01-21 - Successfully generated query
-2024-03-01 19:14:54,194 - ThreadPoolExecutor-0_1 - MainProcess - INFO - bitcoin_2017-01-22 - Successfully generated query
-2024-03-01 19:14:54,209 - ThreadPoolExecutor-0_2 - MainProcess - INFO - ethereum_2017-01-22 - Successfully generated query
-2024-03-01 19:14:54,391 - ThreadPoolExecutor-0_0 - MainProcess - INFO - cardano_2017-01-22 - Successfully generated query
-2024-03-01 19:14:54,431 - ThreadPoolExecutor-0_1 - MainProcess - INFO - bitcoin_2017-01-23 - Successfully generated query
-2024-03-01 19:14:54,438 - ThreadPoolExecutor-0_2 - MainProcess - INFO - ethereum_2017-01-23 - Successfully generated query
-2024-03-01 19:14:54,592 - ThreadPoolExecutor-0_0 - MainProcess - INFO - cardano_2017-01-23 - Successfully generated query
-2024-03-01 19:14:54,679 - ThreadPoolExecutor-0_1 - MainProcess - INFO - bitcoin_2017-01-24 - Successfully generated query
-2024-03-01 19:14:54,686 - ThreadPoolExecutor-0_2 - MainProcess - INFO - ethereum_2017-01-24 - Successfully generated query
-2024-03-01 19:14:54,783 - ThreadPoolExecutor-0_0 - MainProcess - INFO - cardano_2017-01-24 - Successfully generated query
-2024-03-01 19:14:54,936 - ThreadPoolExecutor-0_1 - MainProcess - INFO - bitcoin_2017-01-25 - Successfully generated query
-2024-03-01 19:14:54,943 - ThreadPoolExecutor-0_2 - MainProcess - INFO - ethereum_2017-01-25 - Successfully generated query
-2024-03-01 19:14:54,997 - ThreadPoolExecutor-0_0 - MainProcess - INFO - cardano_2017-01-25 - Successfully generated query
-2024-03-01 19:14:55,197 - ThreadPoolExecutor-0_2 - MainProcess - INFO - ethereum_2017-01-26 - Successfully generated query
-2024-03-01 19:14:55,198 - ThreadPoolExecutor-0_1 - MainProcess - INFO - bitcoin_2017-01-26 - Successfully generated query
-2024-03-01 19:14:55,243 - ThreadPoolExecutor-0_0 - MainProcess - INFO - cardano_2017-01-26 - Successfully generated query
-2024-03-01 19:14:55,407 - ThreadPoolExecutor-0_2 - MainProcess - INFO - bitcoin_2017-01-27 - Successfully generated query
-2024-03-01 19:14:55,419 - ThreadPoolExecutor-0_1 - MainProcess - INFO - ethereum_2017-01-27 - Successfully generated query
-2024-03-01 19:14:55,460 - ThreadPoolExecutor-0_0 - MainProcess - INFO - cardano_2017-01-27 - Successfully generated query
-2024-03-01 19:14:55,608 - ThreadPoolExecutor-0_2 - MainProcess - INFO - bitcoin_2017-01-28 - Successfully generated query
-2024-03-01 19:14:55,638 - ThreadPoolExecutor-0_1 - MainProcess - INFO - ethereum_2017-01-28 - Successfully generated query
-2024-03-01 19:14:55,677 - ThreadPoolExecutor-0_0 - MainProcess - INFO - cardano_2017-01-28 - Successfully generated query
-2024-03-01 19:14:55,799 - ThreadPoolExecutor-0_2 - MainProcess - INFO - bitcoin_2017-01-29 - Successfully generated query
-2024-03-01 19:14:55,846 - ThreadPoolExecutor-0_1 - MainProcess - INFO - ethereum_2017-01-29 - Successfully generated query
-2024-03-01 19:14:55,881 - ThreadPoolExecutor-0_0 - MainProcess - INFO - cardano_2017-01-29 - Successfully generated query
-2024-03-01 19:14:55,999 - ThreadPoolExecutor-0_2 - MainProcess - INFO - bitcoin_2017-01-30 - Successfully generated query
-2024-03-01 19:14:56,083 - ThreadPoolExecutor-0_1 - MainProcess - INFO - ethereum_2017-01-30 - Successfully generated query
-2024-03-01 19:14:56,101 - ThreadPoolExecutor-0_0 - MainProcess - INFO - cardano_2017-01-30 - Successfully generated query
-2024-03-01 19:14:56,187 - ThreadPoolExecutor-0_2 - MainProcess - INFO - bitcoin_2017-01-31 - Successfully generated query
-2024-03-01 19:14:56,264 - ThreadPoolExecutor-0_1 - MainProcess - INFO - ethereum_2017-01-31 - Successfully generated query
-2024-03-01 19:14:56,296 - ThreadPoolExecutor-0_0 - MainProcess - INFO - cardano_2017-01-31 - Successfully generated query
-2024-03-01 20:35:33,812 - ThreadPoolExecutor-0_2 - MainProcess - INFO - cardano_2017-01-01 - Successfully generated query
-2024-03-01 20:35:33,812 - ThreadPoolExecutor-0_2 - MainProcess - INFO - cardano_2017-01-01 - Successfully generated query
-2024-03-01 20:35:33,812 - ThreadPoolExecutor-0_2 - MainProcess - INFO - cardano_2017-01-01 - Successfully generated query
-2024-03-01 20:35:33,812 - ThreadPoolExecutor-0_2 - MainProcess - ERROR - cardano_2017-01-01 - Unexpected error written: 'market_data'
-2024-03-01 20:35:33,812 - ThreadPoolExecutor-0_2 - MainProcess - ERROR - cardano_2017-01-01 - Unexpected error written: 'market_data'
-2024-03-01 20:35:33,812 - ThreadPoolExecutor-0_2 - MainProcess - ERROR - cardano_2017-01-01 - Unexpected error written: 'market_data'
-2024-03-01 20:35:33,813 - ThreadPoolExecutor-0_1 - MainProcess - INFO - ethereum_2017-01-01 - Successfully generated query
-2024-03-01 20:35:33,813 - ThreadPoolExecutor-0_1 - MainProcess - INFO - ethereum_2017-01-01 - Successfully generated query
-2024-03-01 20:35:33,813 - ThreadPoolExecutor-0_1 - MainProcess - INFO - ethereum_2017-01-01 - Successfully generated query
-2024-03-01 20:35:33,816 - ThreadPoolExecutor-0_1 - MainProcess - ERROR - ethereum_2017-01-01 - Unexpected error written: [Errno 2] No such file or directory: '../../data/coins_2017-01-01_2017-01-02.csv'
-2024-03-01 20:35:33,816 - ThreadPoolExecutor-0_1 - MainProcess - ERROR - ethereum_2017-01-01 - Unexpected error written: [Errno 2] No such file or directory: '../../data/coins_2017-01-01_2017-01-02.csv'
-2024-03-01 20:35:33,816 - ThreadPoolExecutor-0_1 - MainProcess - ERROR - ethereum_2017-01-01 - Unexpected error written: [Errno 2] No such file or directory: '../../data/coins_2017-01-01_2017-01-02.csv'
-2024-03-01 20:35:34,628 - ThreadPoolExecutor-0_1 - MainProcess - INFO - ethereum_2017-01-02 - Successfully generated query
-2024-03-01 20:35:34,628 - ThreadPoolExecutor-0_1 - MainProcess - INFO - ethereum_2017-01-02 - Successfully generated query
-2024-03-01 20:35:34,628 - ThreadPoolExecutor-0_1 - MainProcess - INFO - ethereum_2017-01-02 - Successfully generated query
-2024-03-01 20:35:34,629 - ThreadPoolExecutor-0_1 - MainProcess - ERROR - ethereum_2017-01-02 - Unexpected error written: [Errno 2] No such file or directory: '../../data/coins_2017-01-01_2017-01-02.csv'
-2024-03-01 20:35:34,629 - ThreadPoolExecutor-0_1 - MainProcess - ERROR - ethereum_2017-01-02 - Unexpected error written: [Errno 2] No such file or directory: '../../data/coins_2017-01-01_2017-01-02.csv'
-2024-03-01 20:35:34,629 - ThreadPoolExecutor-0_1 - MainProcess - ERROR - ethereum_2017-01-02 - Unexpected error written: [Errno 2] No such file or directory: '../../data/coins_2017-01-01_2017-01-02.csv'
-2024-03-01 20:35:34,839 - ThreadPoolExecutor-0_0 - MainProcess - INFO - bitcoin_2017-01-01 - Successfully generated query
-2024-03-01 20:35:34,839 - ThreadPoolExecutor-0_0 - MainProcess - INFO - bitcoin_2017-01-01 - Successfully generated query
-2024-03-01 20:35:34,839 - ThreadPoolExecutor-0_0 - MainProcess - INFO - bitcoin_2017-01-01 - Successfully generated query
-2024-03-01 20:35:34,840 - ThreadPoolExecutor-0_0 - MainProcess - ERROR - bitcoin_2017-01-01 - Unexpected error written: [Errno 2] No such file or directory: '../../data/coins_2017-01-01_2017-01-02.csv'
-2024-03-01 20:35:34,840 - ThreadPoolExecutor-0_0 - MainProcess - ERROR - bitcoin_2017-01-01 - Unexpected error written: [Errno 2] No such file or directory: '../../data/coins_2017-01-01_2017-01-02.csv'
-2024-03-01 20:35:34,840 - ThreadPoolExecutor-0_0 - MainProcess - ERROR - bitcoin_2017-01-01 - Unexpected error written: [Errno 2] No such file or directory: '../../data/coins_2017-01-01_2017-01-02.csv'
-2024-03-01 20:35:34,926 - ThreadPoolExecutor-0_1 - MainProcess - INFO - cardano_2017-01-02 - Successfully generated query
-2024-03-01 20:35:34,926 - ThreadPoolExecutor-0_1 - MainProcess - INFO - cardano_2017-01-02 - Successfully generated query
-2024-03-01 20:35:34,926 - ThreadPoolExecutor-0_1 - MainProcess - INFO - cardano_2017-01-02 - Successfully generated query
-2024-03-01 20:35:35,039 - ThreadPoolExecutor-0_2 - MainProcess - INFO - bitcoin_2017-01-02 - Successfully generated query
-2024-03-01 20:35:35,039 - ThreadPoolExecutor-0_2 - MainProcess - INFO - bitcoin_2017-01-02 - Successfully generated query
-2024-03-01 20:35:35,039 - ThreadPoolExecutor-0_2 - MainProcess - INFO - bitcoin_2017-01-02 - Successfully generated query
-2024-03-01 20:35:35,039 - ThreadPoolExecutor-0_2 - MainProcess - ERROR - bitcoin_2017-01-02 - Unexpected error written: [Errno 2] No such file or directory: '../../data/coins_2017-01-01_2017-01-02.csv'
-2024-03-01 20:35:35,039 - ThreadPoolExecutor-0_2 - MainProcess - ERROR - bitcoin_2017-01-02 - Unexpected error written: [Errno 2] No such file or directory: '../../data/coins_2017-01-01_2017-01-02.csv'
-2024-03-01 20:35:35,039 - ThreadPoolExecutor-0_2 - MainProcess - ERROR - bitcoin_2017-01-02 - Unexpected error written: [Errno 2] No such file or directory: '../../data/coins_2017-01-01_2017-01-02.csv'
+2024-03-02 04:00:24,340 - ThreadPoolExecutor-0_1 - MainProcess - INFO - ethereum_2017-01-01 - Successfully generated query
+2024-03-02 04:00:24,340 - ThreadPoolExecutor-0_1 - MainProcess - INFO - ethereum_2017-01-01 - Successfully generated query
+2024-03-02 04:00:24,340 - ThreadPoolExecutor-0_1 - MainProcess - INFO - ethereum_2017-01-01 - Successfully generated query
+2024-03-02 04:00:24,341 - ThreadPoolExecutor-0_1 - MainProcess - INFO - ethereum_2017-01-01 - Data written correctly
+2024-03-02 04:00:24,341 - ThreadPoolExecutor-0_1 - MainProcess - INFO - ethereum_2017-01-01 - Data written correctly
+2024-03-02 04:00:24,341 - ThreadPoolExecutor-0_1 - MainProcess - INFO - ethereum_2017-01-01 - Data written correctly
+2024-03-02 04:00:24,359 - ThreadPoolExecutor-0_2 - MainProcess - INFO - cardano_2017-01-01 - Successfully generated query
+2024-03-02 04:00:24,359 - ThreadPoolExecutor-0_2 - MainProcess - INFO - cardano_2017-01-01 - Successfully generated query
+2024-03-02 04:00:24,359 - ThreadPoolExecutor-0_2 - MainProcess - INFO - cardano_2017-01-01 - Successfully generated query
+2024-03-02 04:00:24,359 - ThreadPoolExecutor-0_2 - MainProcess - ERROR - cardano_2017-01-01 - Unexpected error written: 'market_data'
+2024-03-02 04:00:24,359 - ThreadPoolExecutor-0_2 - MainProcess - ERROR - cardano_2017-01-01 - Unexpected error written: 'market_data'
+2024-03-02 04:00:24,359 - ThreadPoolExecutor-0_2 - MainProcess - ERROR - cardano_2017-01-01 - Unexpected error written: 'market_data'
+2024-03-02 04:00:24,360 - ThreadPoolExecutor-0_0 - MainProcess - INFO - bitcoin_2017-01-01 - Successfully generated query
+2024-03-02 04:00:24,360 - ThreadPoolExecutor-0_0 - MainProcess - INFO - bitcoin_2017-01-01 - Successfully generated query
+2024-03-02 04:00:24,360 - ThreadPoolExecutor-0_0 - MainProcess - INFO - bitcoin_2017-01-01 - Successfully generated query
+2024-03-02 04:00:24,363 - ThreadPoolExecutor-0_0 - MainProcess - INFO - bitcoin_2017-01-01 - Data written correctly
+2024-03-02 04:00:24,363 - ThreadPoolExecutor-0_0 - MainProcess - INFO - bitcoin_2017-01-01 - Data written correctly
+2024-03-02 04:00:24,363 - ThreadPoolExecutor-0_0 - MainProcess - INFO - bitcoin_2017-01-01 - Data written correctly
+2024-03-02 04:00:24,583 - ThreadPoolExecutor-0_1 - MainProcess - INFO - bitcoin_2017-01-02 - Successfully generated query
+2024-03-02 04:00:24,583 - ThreadPoolExecutor-0_1 - MainProcess - INFO - bitcoin_2017-01-02 - Successfully generated query
+2024-03-02 04:00:24,583 - ThreadPoolExecutor-0_1 - MainProcess - INFO - bitcoin_2017-01-02 - Successfully generated query
+2024-03-02 04:00:24,583 - ThreadPoolExecutor-0_1 - MainProcess - INFO - bitcoin_2017-01-02 - Data written correctly
+2024-03-02 04:00:24,583 - ThreadPoolExecutor-0_1 - MainProcess - INFO - bitcoin_2017-01-02 - Data written correctly
+2024-03-02 04:00:24,583 - ThreadPoolExecutor-0_1 - MainProcess - INFO - bitcoin_2017-01-02 - Data written correctly
+2024-03-02 04:00:24,605 - ThreadPoolExecutor-0_2 - MainProcess - INFO - ethereum_2017-01-02 - Successfully generated query
+2024-03-02 04:00:24,605 - ThreadPoolExecutor-0_2 - MainProcess - INFO - ethereum_2017-01-02 - Successfully generated query
+2024-03-02 04:00:24,605 - ThreadPoolExecutor-0_2 - MainProcess - INFO - ethereum_2017-01-02 - Successfully generated query
+2024-03-02 04:00:24,847 - ThreadPoolExecutor-0_0 - MainProcess - INFO - cardano_2017-01-02 - Successfully generated query
+2024-03-02 04:00:24,847 - ThreadPoolExecutor-0_0 - MainProcess - INFO - cardano_2017-01-02 - Successfully generated query
+2024-03-02 04:00:24,847 - ThreadPoolExecutor-0_0 - MainProcess - INFO - cardano_2017-01-02 - Successfully generated query
+2024-03-02 04:00:24,847 - ThreadPoolExecutor-0_0 - MainProcess - ERROR - cardano_2017-01-02 - Unexpected error written: 'market_data'
+2024-03-02 04:00:24,847 - ThreadPoolExecutor-0_0 - MainProcess - ERROR - cardano_2017-01-02 - Unexpected error written: 'market_data'
+2024-03-02 04:00:24,847 - ThreadPoolExecutor-0_0 - MainProcess - ERROR - cardano_2017-01-02 - Unexpected error written: 'market_data'
+2024-03-02 04:00:56,079 - ThreadPoolExecutor-0_2 - MainProcess - INFO - cardano_2017-01-01 - Successfully generated query
+2024-03-02 04:00:56,079 - ThreadPoolExecutor-0_2 - MainProcess - INFO - cardano_2017-01-01 - Successfully generated query
+2024-03-02 04:00:56,079 - ThreadPoolExecutor-0_2 - MainProcess - INFO - cardano_2017-01-01 - Successfully generated query
+2024-03-02 04:00:56,103 - ThreadPoolExecutor-0_0 - MainProcess - INFO - bitcoin_2017-01-01 - Successfully generated query
+2024-03-02 04:00:56,103 - ThreadPoolExecutor-0_0 - MainProcess - INFO - bitcoin_2017-01-01 - Successfully generated query
+2024-03-02 04:00:56,104 - ThreadPoolExecutor-0_1 - MainProcess - INFO - ethereum_2017-01-01 - Successfully generated query
+2024-03-02 04:00:56,103 - ThreadPoolExecutor-0_0 - MainProcess - INFO - bitcoin_2017-01-01 - Successfully generated query
+2024-03-02 04:00:56,104 - ThreadPoolExecutor-0_1 - MainProcess - INFO - ethereum_2017-01-01 - Successfully generated query
+2024-03-02 04:00:56,104 - ThreadPoolExecutor-0_1 - MainProcess - INFO - ethereum_2017-01-01 - Successfully generated query
+2024-03-02 04:00:56,317 - ThreadPoolExecutor-0_2 - MainProcess - INFO - bitcoin_2017-01-02 - Successfully generated query
+2024-03-02 04:00:56,317 - ThreadPoolExecutor-0_2 - MainProcess - INFO - bitcoin_2017-01-02 - Successfully generated query
+2024-03-02 04:00:56,317 - ThreadPoolExecutor-0_2 - MainProcess - INFO - bitcoin_2017-01-02 - Successfully generated query
+2024-03-02 04:00:56,347 - ThreadPoolExecutor-0_0 - MainProcess - INFO - ethereum_2017-01-02 - Successfully generated query
+2024-03-02 04:00:56,347 - ThreadPoolExecutor-0_0 - MainProcess - INFO - ethereum_2017-01-02 - Successfully generated query
+2024-03-02 04:00:56,347 - ThreadPoolExecutor-0_0 - MainProcess - INFO - ethereum_2017-01-02 - Successfully generated query
+2024-03-02 04:00:56,359 - ThreadPoolExecutor-0_1 - MainProcess - INFO - cardano_2017-01-02 - Successfully generated query
+2024-03-02 04:00:56,359 - ThreadPoolExecutor-0_1 - MainProcess - INFO - cardano_2017-01-02 - Successfully generated query
+2024-03-02 04:00:56,359 - ThreadPoolExecutor-0_1 - MainProcess - INFO - cardano_2017-01-02 - Successfully generated query
+2024-03-02 04:00:56,555 - ThreadPoolExecutor-0_2 - MainProcess - INFO - bitcoin_2017-01-03 - Successfully generated query
+2024-03-02 04:00:56,555 - ThreadPoolExecutor-0_2 - MainProcess - INFO - bitcoin_2017-01-03 - Successfully generated query
+2024-03-02 04:00:56,555 - ThreadPoolExecutor-0_2 - MainProcess - INFO - bitcoin_2017-01-03 - Successfully generated query
+2024-03-02 04:00:56,590 - ThreadPoolExecutor-0_0 - MainProcess - INFO - ethereum_2017-01-03 - Successfully generated query
+2024-03-02 04:00:56,590 - ThreadPoolExecutor-0_0 - MainProcess - INFO - ethereum_2017-01-03 - Successfully generated query
+2024-03-02 04:00:56,590 - ThreadPoolExecutor-0_0 - MainProcess - INFO - ethereum_2017-01-03 - Successfully generated query
+2024-03-02 04:00:56,596 - ThreadPoolExecutor-0_1 - MainProcess - INFO - cardano_2017-01-03 - Successfully generated query
+2024-03-02 04:00:56,596 - ThreadPoolExecutor-0_1 - MainProcess - INFO - cardano_2017-01-03 - Successfully generated query
+2024-03-02 04:00:56,596 - ThreadPoolExecutor-0_1 - MainProcess - INFO - cardano_2017-01-03 - Successfully generated query
+2024-03-02 04:00:56,795 - ThreadPoolExecutor-0_2 - MainProcess - INFO - bitcoin_2017-01-04 - Successfully generated query
+2024-03-02 04:00:56,795 - ThreadPoolExecutor-0_2 - MainProcess - INFO - bitcoin_2017-01-04 - Successfully generated query
+2024-03-02 04:00:56,795 - ThreadPoolExecutor-0_2 - MainProcess - INFO - bitcoin_2017-01-04 - Successfully generated query
+2024-03-02 04:00:56,810 - ThreadPoolExecutor-0_1 - MainProcess - INFO - cardano_2017-01-04 - Successfully generated query
+2024-03-02 04:00:56,810 - ThreadPoolExecutor-0_1 - MainProcess - INFO - cardano_2017-01-04 - Successfully generated query
+2024-03-02 04:00:56,810 - ThreadPoolExecutor-0_1 - MainProcess - INFO - cardano_2017-01-04 - Successfully generated query
+2024-03-02 04:00:56,835 - ThreadPoolExecutor-0_0 - MainProcess - INFO - ethereum_2017-01-04 - Successfully generated query
+2024-03-02 04:00:56,835 - ThreadPoolExecutor-0_0 - MainProcess - INFO - ethereum_2017-01-04 - Successfully generated query
+2024-03-02 04:00:56,835 - ThreadPoolExecutor-0_0 - MainProcess - INFO - ethereum_2017-01-04 - Successfully generated query
+2024-03-02 04:00:57,015 - ThreadPoolExecutor-0_2 - MainProcess - INFO - bitcoin_2017-01-05 - Successfully generated query
+2024-03-02 04:00:57,015 - ThreadPoolExecutor-0_2 - MainProcess - INFO - bitcoin_2017-01-05 - Successfully generated query
+2024-03-02 04:00:57,015 - ThreadPoolExecutor-0_2 - MainProcess - INFO - bitcoin_2017-01-05 - Successfully generated query
+2024-03-02 04:00:57,041 - ThreadPoolExecutor-0_1 - MainProcess - INFO - ethereum_2017-01-05 - Successfully generated query
+2024-03-02 04:00:57,041 - ThreadPoolExecutor-0_1 - MainProcess - INFO - ethereum_2017-01-05 - Successfully generated query
+2024-03-02 04:00:57,041 - ThreadPoolExecutor-0_1 - MainProcess - INFO - ethereum_2017-01-05 - Successfully generated query
+2024-03-02 04:00:57,206 - ThreadPoolExecutor-0_0 - MainProcess - INFO - cardano_2017-01-05 - Successfully generated query
+2024-03-02 04:00:57,206 - ThreadPoolExecutor-0_0 - MainProcess - INFO - cardano_2017-01-05 - Successfully generated query
+2024-03-02 04:00:57,206 - ThreadPoolExecutor-0_0 - MainProcess - INFO - cardano_2017-01-05 - Successfully generated query
+2024-03-02 04:01:37,972 - ThreadPoolExecutor-0_2 - MainProcess - INFO - cardano_2017-01-01 - Successfully generated query
+2024-03-02 04:01:37,972 - ThreadPoolExecutor-0_2 - MainProcess - INFO - cardano_2017-01-01 - Successfully generated query
+2024-03-02 04:01:37,972 - ThreadPoolExecutor-0_2 - MainProcess - INFO - cardano_2017-01-01 - Successfully generated query
+2024-03-02 04:01:37,973 - ThreadPoolExecutor-0_2 - MainProcess - ERROR - cardano_2017-01-01 - Unexpected error written: 'market_data'
+2024-03-02 04:01:37,973 - ThreadPoolExecutor-0_2 - MainProcess - ERROR - cardano_2017-01-01 - Unexpected error written: 'market_data'
+2024-03-02 04:01:37,973 - ThreadPoolExecutor-0_2 - MainProcess - ERROR - cardano_2017-01-01 - Unexpected error written: 'market_data'
+2024-03-02 04:01:37,978 - ThreadPoolExecutor-0_0 - MainProcess - INFO - bitcoin_2017-01-01 - Successfully generated query
+2024-03-02 04:01:37,978 - ThreadPoolExecutor-0_0 - MainProcess - INFO - bitcoin_2017-01-01 - Successfully generated query
+2024-03-02 04:01:37,978 - ThreadPoolExecutor-0_0 - MainProcess - INFO - bitcoin_2017-01-01 - Successfully generated query
+2024-03-02 04:01:37,979 - ThreadPoolExecutor-0_0 - MainProcess - INFO - bitcoin_2017-01-01 - Data written correctly
+2024-03-02 04:01:37,979 - ThreadPoolExecutor-0_0 - MainProcess - INFO - bitcoin_2017-01-01 - Data written correctly
+2024-03-02 04:01:37,979 - ThreadPoolExecutor-0_0 - MainProcess - INFO - bitcoin_2017-01-01 - Data written correctly
+2024-03-02 04:01:37,988 - ThreadPoolExecutor-0_1 - MainProcess - INFO - ethereum_2017-01-01 - Successfully generated query
+2024-03-02 04:01:37,988 - ThreadPoolExecutor-0_1 - MainProcess - INFO - ethereum_2017-01-01 - Successfully generated query
+2024-03-02 04:01:37,988 - ThreadPoolExecutor-0_1 - MainProcess - INFO - ethereum_2017-01-01 - Successfully generated query
+2024-03-02 04:01:37,988 - ThreadPoolExecutor-0_1 - MainProcess - INFO - ethereum_2017-01-01 - Data written correctly
+2024-03-02 04:01:37,988 - ThreadPoolExecutor-0_1 - MainProcess - INFO - ethereum_2017-01-01 - Data written correctly
+2024-03-02 04:01:37,988 - ThreadPoolExecutor-0_1 - MainProcess - INFO - ethereum_2017-01-01 - Data written correctly
+2024-03-02 04:01:38,220 - ThreadPoolExecutor-0_2 - MainProcess - INFO - bitcoin_2017-01-02 - Successfully generated query
+2024-03-02 04:01:38,220 - ThreadPoolExecutor-0_2 - MainProcess - INFO - bitcoin_2017-01-02 - Successfully generated query
+2024-03-02 04:01:38,220 - ThreadPoolExecutor-0_2 - MainProcess - INFO - bitcoin_2017-01-02 - Successfully generated query
+2024-03-02 04:01:38,220 - ThreadPoolExecutor-0_2 - MainProcess - INFO - bitcoin_2017-01-02 - Data written correctly
+2024-03-02 04:01:38,220 - ThreadPoolExecutor-0_2 - MainProcess - INFO - bitcoin_2017-01-02 - Data written correctly
+2024-03-02 04:01:38,220 - ThreadPoolExecutor-0_2 - MainProcess - INFO - bitcoin_2017-01-02 - Data written correctly
+2024-03-02 04:01:38,224 - ThreadPoolExecutor-0_0 - MainProcess - INFO - ethereum_2017-01-02 - Successfully generated query
+2024-03-02 04:01:38,224 - ThreadPoolExecutor-0_0 - MainProcess - INFO - ethereum_2017-01-02 - Successfully generated query
+2024-03-02 04:01:38,224 - ThreadPoolExecutor-0_0 - MainProcess - INFO - ethereum_2017-01-02 - Successfully generated query
+2024-03-02 04:01:38,235 - ThreadPoolExecutor-0_1 - MainProcess - INFO - cardano_2017-01-02 - Successfully generated query
+2024-03-02 04:01:38,235 - ThreadPoolExecutor-0_1 - MainProcess - INFO - cardano_2017-01-02 - Successfully generated query
+2024-03-02 04:01:38,235 - ThreadPoolExecutor-0_1 - MainProcess - INFO - cardano_2017-01-02 - Successfully generated query
+2024-03-02 04:01:38,466 - ThreadPoolExecutor-0_0 - MainProcess - INFO - ethereum_2017-01-03 - Successfully generated query
+2024-03-02 04:01:38,466 - ThreadPoolExecutor-0_0 - MainProcess - INFO - ethereum_2017-01-03 - Successfully generated query
+2024-03-02 04:01:38,466 - ThreadPoolExecutor-0_0 - MainProcess - INFO - ethereum_2017-01-03 - Successfully generated query
+2024-03-02 04:01:38,473 - ThreadPoolExecutor-0_2 - MainProcess - INFO - bitcoin_2017-01-03 - Successfully generated query
+2024-03-02 04:01:38,473 - ThreadPoolExecutor-0_2 - MainProcess - INFO - bitcoin_2017-01-03 - Successfully generated query
+2024-03-02 04:01:38,473 - ThreadPoolExecutor-0_2 - MainProcess - INFO - bitcoin_2017-01-03 - Successfully generated query
+2024-03-02 04:01:38,489 - ThreadPoolExecutor-0_1 - MainProcess - INFO - cardano_2017-01-03 - Successfully generated query
+2024-03-02 04:01:38,489 - ThreadPoolExecutor-0_1 - MainProcess - INFO - cardano_2017-01-03 - Successfully generated query
+2024-03-02 04:01:38,489 - ThreadPoolExecutor-0_1 - MainProcess - INFO - cardano_2017-01-03 - Successfully generated query
+2024-03-02 04:01:38,774 - ThreadPoolExecutor-0_1 - MainProcess - INFO - cardano_2017-01-04 - Successfully generated query
+2024-03-02 04:01:38,774 - ThreadPoolExecutor-0_1 - MainProcess - INFO - cardano_2017-01-04 - Successfully generated query
+2024-03-02 04:01:38,774 - ThreadPoolExecutor-0_1 - MainProcess - INFO - cardano_2017-01-04 - Successfully generated query
+2024-03-02 04:01:38,802 - ThreadPoolExecutor-0_2 - MainProcess - INFO - ethereum_2017-01-04 - Successfully generated query
+2024-03-02 04:01:38,802 - ThreadPoolExecutor-0_2 - MainProcess - INFO - ethereum_2017-01-04 - Successfully generated query
+2024-03-02 04:01:38,802 - ThreadPoolExecutor-0_2 - MainProcess - INFO - ethereum_2017-01-04 - Successfully generated query
+2024-03-02 04:01:38,819 - ThreadPoolExecutor-0_0 - MainProcess - INFO - bitcoin_2017-01-04 - Successfully generated query
+2024-03-02 04:01:38,819 - ThreadPoolExecutor-0_0 - MainProcess - INFO - bitcoin_2017-01-04 - Successfully generated query
+2024-03-02 04:01:38,819 - ThreadPoolExecutor-0_0 - MainProcess - INFO - bitcoin_2017-01-04 - Successfully generated query
+2024-03-02 04:01:39,053 - ThreadPoolExecutor-0_2 - MainProcess - INFO - ethereum_2017-01-05 - Successfully generated query
+2024-03-02 04:01:39,053 - ThreadPoolExecutor-0_2 - MainProcess - INFO - ethereum_2017-01-05 - Successfully generated query
+2024-03-02 04:01:39,053 - ThreadPoolExecutor-0_2 - MainProcess - INFO - ethereum_2017-01-05 - Successfully generated query
+2024-03-02 04:01:39,056 - ThreadPoolExecutor-0_1 - MainProcess - INFO - bitcoin_2017-01-05 - Successfully generated query
+2024-03-02 04:01:39,056 - ThreadPoolExecutor-0_1 - MainProcess - INFO - bitcoin_2017-01-05 - Successfully generated query
+2024-03-02 04:01:39,056 - ThreadPoolExecutor-0_1 - MainProcess - INFO - bitcoin_2017-01-05 - Successfully generated query
+2024-03-02 04:01:39,073 - ThreadPoolExecutor-0_0 - MainProcess - INFO - cardano_2017-01-05 - Successfully generated query
+2024-03-02 04:01:39,073 - ThreadPoolExecutor-0_0 - MainProcess - INFO - cardano_2017-01-05 - Successfully generated query
+2024-03-02 04:01:39,073 - ThreadPoolExecutor-0_0 - MainProcess - INFO - cardano_2017-01-05 - Successfully generated query
+2024-03-02 04:01:50,857 - ThreadPoolExecutor-0_0 - MainProcess - INFO - bitcoin_2017-01-01 - Successfully generated query
+2024-03-02 04:01:50,857 - ThreadPoolExecutor-0_0 - MainProcess - INFO - bitcoin_2017-01-01 - Successfully generated query
+2024-03-02 04:01:50,857 - ThreadPoolExecutor-0_0 - MainProcess - INFO - bitcoin_2017-01-01 - Successfully generated query
+2024-03-02 04:01:50,883 - ThreadPoolExecutor-0_1 - MainProcess - INFO - ethereum_2017-01-01 - Successfully generated query
+2024-03-02 04:01:50,883 - ThreadPoolExecutor-0_1 - MainProcess - INFO - ethereum_2017-01-01 - Successfully generated query
+2024-03-02 04:01:50,883 - ThreadPoolExecutor-0_1 - MainProcess - INFO - ethereum_2017-01-01 - Successfully generated query
+2024-03-02 04:01:50,884 - ThreadPoolExecutor-0_2 - MainProcess - INFO - cardano_2017-01-01 - Successfully generated query
+2024-03-02 04:01:50,884 - ThreadPoolExecutor-0_2 - MainProcess - INFO - cardano_2017-01-01 - Successfully generated query
+2024-03-02 04:01:50,884 - ThreadPoolExecutor-0_2 - MainProcess - INFO - cardano_2017-01-01 - Successfully generated query
+2024-03-02 04:01:51,091 - ThreadPoolExecutor-0_0 - MainProcess - INFO - bitcoin_2017-01-02 - Successfully generated query
+2024-03-02 04:01:51,091 - ThreadPoolExecutor-0_0 - MainProcess - INFO - bitcoin_2017-01-02 - Successfully generated query
+2024-03-02 04:01:51,091 - ThreadPoolExecutor-0_0 - MainProcess - INFO - bitcoin_2017-01-02 - Successfully generated query
+2024-03-02 04:01:51,095 - ThreadPoolExecutor-0_1 - MainProcess - INFO - cardano_2017-01-02 - Successfully generated query
+2024-03-02 04:01:51,095 - ThreadPoolExecutor-0_1 - MainProcess - INFO - cardano_2017-01-02 - Successfully generated query
+2024-03-02 04:01:51,095 - ThreadPoolExecutor-0_1 - MainProcess - INFO - cardano_2017-01-02 - Successfully generated query
+2024-03-02 04:01:51,118 - ThreadPoolExecutor-0_2 - MainProcess - INFO - ethereum_2017-01-02 - Successfully generated query
+2024-03-02 04:01:51,118 - ThreadPoolExecutor-0_2 - MainProcess - INFO - ethereum_2017-01-02 - Successfully generated query
+2024-03-02 04:01:51,118 - ThreadPoolExecutor-0_2 - MainProcess - INFO - ethereum_2017-01-02 - Successfully generated query
+2024-03-02 04:01:51,292 - ThreadPoolExecutor-0_0 - MainProcess - INFO - bitcoin_2017-01-03 - Successfully generated query
+2024-03-02 04:01:51,292 - ThreadPoolExecutor-0_0 - MainProcess - INFO - bitcoin_2017-01-03 - Successfully generated query
+2024-03-02 04:01:51,292 - ThreadPoolExecutor-0_0 - MainProcess - INFO - bitcoin_2017-01-03 - Successfully generated query
+2024-03-02 04:01:51,317 - ThreadPoolExecutor-0_1 - MainProcess - INFO - ethereum_2017-01-03 - Successfully generated query
+2024-03-02 04:01:51,317 - ThreadPoolExecutor-0_1 - MainProcess - INFO - ethereum_2017-01-03 - Successfully generated query
+2024-03-02 04:01:51,317 - ThreadPoolExecutor-0_1 - MainProcess - INFO - ethereum_2017-01-03 - Successfully generated query
+2024-03-02 04:01:51,339 - ThreadPoolExecutor-0_2 - MainProcess - INFO - cardano_2017-01-03 - Successfully generated query
+2024-03-02 04:01:51,339 - ThreadPoolExecutor-0_2 - MainProcess - INFO - cardano_2017-01-03 - Successfully generated query
+2024-03-02 04:01:51,339 - ThreadPoolExecutor-0_2 - MainProcess - INFO - cardano_2017-01-03 - Successfully generated query
+2024-03-02 04:01:51,515 - ThreadPoolExecutor-0_0 - MainProcess - INFO - bitcoin_2017-01-04 - Successfully generated query
+2024-03-02 04:01:51,515 - ThreadPoolExecutor-0_0 - MainProcess - INFO - bitcoin_2017-01-04 - Successfully generated query
+2024-03-02 04:01:51,515 - ThreadPoolExecutor-0_0 - MainProcess - INFO - bitcoin_2017-01-04 - Successfully generated query
+2024-03-02 04:01:51,563 - ThreadPoolExecutor-0_2 - MainProcess - INFO - cardano_2017-01-04 - Successfully generated query
+2024-03-02 04:01:51,563 - ThreadPoolExecutor-0_2 - MainProcess - INFO - cardano_2017-01-04 - Successfully generated query
+2024-03-02 04:01:51,563 - ThreadPoolExecutor-0_2 - MainProcess - INFO - cardano_2017-01-04 - Successfully generated query
+2024-03-02 04:01:51,567 - ThreadPoolExecutor-0_1 - MainProcess - INFO - ethereum_2017-01-04 - Successfully generated query
+2024-03-02 04:01:51,567 - ThreadPoolExecutor-0_1 - MainProcess - INFO - ethereum_2017-01-04 - Successfully generated query
+2024-03-02 04:01:51,567 - ThreadPoolExecutor-0_1 - MainProcess - INFO - ethereum_2017-01-04 - Successfully generated query
+2024-03-02 04:01:51,728 - ThreadPoolExecutor-0_0 - MainProcess - INFO - bitcoin_2017-01-05 - Successfully generated query
+2024-03-02 04:01:51,728 - ThreadPoolExecutor-0_0 - MainProcess - INFO - bitcoin_2017-01-05 - Successfully generated query
+2024-03-02 04:01:51,728 - ThreadPoolExecutor-0_0 - MainProcess - INFO - bitcoin_2017-01-05 - Successfully generated query
+2024-03-02 04:01:51,792 - ThreadPoolExecutor-0_1 - MainProcess - INFO - cardano_2017-01-05 - Successfully generated query
+2024-03-02 04:01:51,792 - ThreadPoolExecutor-0_1 - MainProcess - INFO - cardano_2017-01-05 - Successfully generated query
+2024-03-02 04:01:51,792 - ThreadPoolExecutor-0_1 - MainProcess - INFO - cardano_2017-01-05 - Successfully generated query
+2024-03-02 04:01:51,799 - ThreadPoolExecutor-0_2 - MainProcess - INFO - ethereum_2017-01-05 - Successfully generated query
+2024-03-02 04:01:51,799 - ThreadPoolExecutor-0_2 - MainProcess - INFO - ethereum_2017-01-05 - Successfully generated query
+2024-03-02 04:01:51,799 - ThreadPoolExecutor-0_2 - MainProcess - INFO - ethereum_2017-01-05 - Successfully generated query
+2024-03-02 04:01:53,098 - ThreadPoolExecutor-0_1 - MainProcess - INFO - ethereum_2017-01-01 - Successfully generated query
+2024-03-02 04:01:53,098 - ThreadPoolExecutor-0_1 - MainProcess - INFO - ethereum_2017-01-01 - Successfully generated query
+2024-03-02 04:01:53,098 - ThreadPoolExecutor-0_1 - MainProcess - INFO - ethereum_2017-01-01 - Successfully generated query
+2024-03-02 04:01:53,137 - ThreadPoolExecutor-0_0 - MainProcess - INFO - bitcoin_2017-01-01 - Successfully generated query
+2024-03-02 04:01:53,137 - ThreadPoolExecutor-0_0 - MainProcess - INFO - bitcoin_2017-01-01 - Successfully generated query
+2024-03-02 04:01:53,138 - ThreadPoolExecutor-0_2 - MainProcess - INFO - cardano_2017-01-01 - Successfully generated query
+2024-03-02 04:01:53,137 - ThreadPoolExecutor-0_0 - MainProcess - INFO - bitcoin_2017-01-01 - Successfully generated query
+2024-03-02 04:01:53,138 - ThreadPoolExecutor-0_2 - MainProcess - INFO - cardano_2017-01-01 - Successfully generated query
+2024-03-02 04:01:53,138 - ThreadPoolExecutor-0_2 - MainProcess - INFO - cardano_2017-01-01 - Successfully generated query
+2024-03-02 04:01:53,281 - ThreadPoolExecutor-0_1 - MainProcess - INFO - bitcoin_2017-01-02 - Successfully generated query
+2024-03-02 04:01:53,281 - ThreadPoolExecutor-0_1 - MainProcess - INFO - bitcoin_2017-01-02 - Successfully generated query
+2024-03-02 04:01:53,281 - ThreadPoolExecutor-0_1 - MainProcess - INFO - bitcoin_2017-01-02 - Successfully generated query
+2024-03-02 04:01:53,360 - ThreadPoolExecutor-0_0 - MainProcess - INFO - ethereum_2017-01-02 - Successfully generated query
+2024-03-02 04:01:53,360 - ThreadPoolExecutor-0_0 - MainProcess - INFO - ethereum_2017-01-02 - Successfully generated query
+2024-03-02 04:01:53,360 - ThreadPoolExecutor-0_0 - MainProcess - INFO - ethereum_2017-01-02 - Successfully generated query
+2024-03-02 04:01:53,365 - ThreadPoolExecutor-0_2 - MainProcess - INFO - cardano_2017-01-02 - Successfully generated query
+2024-03-02 04:01:53,365 - ThreadPoolExecutor-0_2 - MainProcess - INFO - cardano_2017-01-02 - Successfully generated query
+2024-03-02 04:01:53,365 - ThreadPoolExecutor-0_2 - MainProcess - INFO - cardano_2017-01-02 - Successfully generated query
+2024-03-02 04:01:53,450 - ThreadPoolExecutor-0_1 - MainProcess - INFO - bitcoin_2017-01-03 - Successfully generated query
+2024-03-02 04:01:53,450 - ThreadPoolExecutor-0_1 - MainProcess - INFO - bitcoin_2017-01-03 - Successfully generated query
+2024-03-02 04:01:53,450 - ThreadPoolExecutor-0_1 - MainProcess - INFO - bitcoin_2017-01-03 - Successfully generated query
+2024-03-02 04:01:53,592 - ThreadPoolExecutor-0_2 - MainProcess - INFO - cardano_2017-01-03 - Successfully generated query
+2024-03-02 04:01:53,592 - ThreadPoolExecutor-0_2 - MainProcess - INFO - cardano_2017-01-03 - Successfully generated query
+2024-03-02 04:01:53,592 - ThreadPoolExecutor-0_2 - MainProcess - INFO - cardano_2017-01-03 - Successfully generated query
+2024-03-02 04:01:53,593 - ThreadPoolExecutor-0_0 - MainProcess - INFO - ethereum_2017-01-03 - Successfully generated query
+2024-03-02 04:01:53,593 - ThreadPoolExecutor-0_0 - MainProcess - INFO - ethereum_2017-01-03 - Successfully generated query
+2024-03-02 04:01:53,593 - ThreadPoolExecutor-0_0 - MainProcess - INFO - ethereum_2017-01-03 - Successfully generated query
+2024-03-02 04:01:53,641 - ThreadPoolExecutor-0_1 - MainProcess - INFO - bitcoin_2017-01-04 - Successfully generated query
+2024-03-02 04:01:53,641 - ThreadPoolExecutor-0_1 - MainProcess - INFO - bitcoin_2017-01-04 - Successfully generated query
+2024-03-02 04:01:53,641 - ThreadPoolExecutor-0_1 - MainProcess - INFO - bitcoin_2017-01-04 - Successfully generated query
+2024-03-02 04:01:53,794 - ThreadPoolExecutor-0_2 - MainProcess - INFO - ethereum_2017-01-04 - Successfully generated query
+2024-03-02 04:01:53,794 - ThreadPoolExecutor-0_2 - MainProcess - INFO - ethereum_2017-01-04 - Successfully generated query
+2024-03-02 04:01:53,794 - ThreadPoolExecutor-0_2 - MainProcess - INFO - ethereum_2017-01-04 - Successfully generated query
+2024-03-02 04:01:53,810 - ThreadPoolExecutor-0_0 - MainProcess - INFO - cardano_2017-01-04 - Successfully generated query
+2024-03-02 04:01:53,810 - ThreadPoolExecutor-0_0 - MainProcess - INFO - cardano_2017-01-04 - Successfully generated query
+2024-03-02 04:01:53,810 - ThreadPoolExecutor-0_0 - MainProcess - INFO - cardano_2017-01-04 - Successfully generated query
+2024-03-02 04:01:53,857 - ThreadPoolExecutor-0_1 - MainProcess - INFO - bitcoin_2017-01-05 - Successfully generated query
+2024-03-02 04:01:53,857 - ThreadPoolExecutor-0_1 - MainProcess - INFO - bitcoin_2017-01-05 - Successfully generated query
+2024-03-02 04:01:53,857 - ThreadPoolExecutor-0_1 - MainProcess - INFO - bitcoin_2017-01-05 - Successfully generated query
+2024-03-02 04:01:53,987 - ThreadPoolExecutor-0_2 - MainProcess - INFO - ethereum_2017-01-05 - Successfully generated query
+2024-03-02 04:01:53,987 - ThreadPoolExecutor-0_2 - MainProcess - INFO - ethereum_2017-01-05 - Successfully generated query
+2024-03-02 04:01:53,987 - ThreadPoolExecutor-0_2 - MainProcess - INFO - ethereum_2017-01-05 - Successfully generated query
+2024-03-02 04:01:53,992 - ThreadPoolExecutor-0_0 - MainProcess - INFO - cardano_2017-01-05 - Successfully generated query
+2024-03-02 04:01:53,992 - ThreadPoolExecutor-0_0 - MainProcess - INFO - cardano_2017-01-05 - Successfully generated query
+2024-03-02 04:01:53,992 - ThreadPoolExecutor-0_0 - MainProcess - INFO - cardano_2017-01-05 - Successfully generated query
+2024-03-02 04:01:57,928 - ThreadPoolExecutor-0_1 - MainProcess - INFO - ethereum_2017-01-01 - Successfully generated query
+2024-03-02 04:01:57,928 - ThreadPoolExecutor-0_1 - MainProcess - INFO - ethereum_2017-01-01 - Successfully generated query
+2024-03-02 04:01:57,928 - ThreadPoolExecutor-0_1 - MainProcess - INFO - ethereum_2017-01-01 - Successfully generated query
+2024-03-02 04:01:57,947 - ThreadPoolExecutor-0_0 - MainProcess - INFO - bitcoin_2017-01-01 - Successfully generated query
+2024-03-02 04:01:57,947 - ThreadPoolExecutor-0_0 - MainProcess - INFO - bitcoin_2017-01-01 - Successfully generated query
+2024-03-02 04:01:57,947 - ThreadPoolExecutor-0_0 - MainProcess - INFO - bitcoin_2017-01-01 - Successfully generated query
+2024-03-02 04:01:57,951 - ThreadPoolExecutor-0_2 - MainProcess - INFO - cardano_2017-01-01 - Successfully generated query
+2024-03-02 04:01:57,951 - ThreadPoolExecutor-0_2 - MainProcess - INFO - cardano_2017-01-01 - Successfully generated query
+2024-03-02 04:01:57,951 - ThreadPoolExecutor-0_2 - MainProcess - INFO - cardano_2017-01-01 - Successfully generated query
+2024-03-02 04:01:58,161 - ThreadPoolExecutor-0_1 - MainProcess - INFO - bitcoin_2017-01-02 - Successfully generated query
+2024-03-02 04:01:58,161 - ThreadPoolExecutor-0_1 - MainProcess - INFO - bitcoin_2017-01-02 - Successfully generated query
+2024-03-02 04:01:58,161 - ThreadPoolExecutor-0_1 - MainProcess - INFO - bitcoin_2017-01-02 - Successfully generated query
+2024-03-02 04:01:58,183 - ThreadPoolExecutor-0_0 - MainProcess - INFO - ethereum_2017-01-02 - Successfully generated query
+2024-03-02 04:01:58,183 - ThreadPoolExecutor-0_0 - MainProcess - INFO - ethereum_2017-01-02 - Successfully generated query
+2024-03-02 04:01:58,183 - ThreadPoolExecutor-0_0 - MainProcess - INFO - ethereum_2017-01-02 - Successfully generated query
+2024-03-02 04:01:58,191 - ThreadPoolExecutor-0_2 - MainProcess - INFO - cardano_2017-01-02 - Successfully generated query
+2024-03-02 04:01:58,191 - ThreadPoolExecutor-0_2 - MainProcess - INFO - cardano_2017-01-02 - Successfully generated query
+2024-03-02 04:01:58,191 - ThreadPoolExecutor-0_2 - MainProcess - INFO - cardano_2017-01-02 - Successfully generated query
+2024-03-02 04:01:58,394 - ThreadPoolExecutor-0_2 - MainProcess - INFO - cardano_2017-01-03 - Successfully generated query
+2024-03-02 04:01:58,394 - ThreadPoolExecutor-0_2 - MainProcess - INFO - cardano_2017-01-03 - Successfully generated query
+2024-03-02 04:01:58,394 - ThreadPoolExecutor-0_2 - MainProcess - INFO - cardano_2017-01-03 - Successfully generated query
+2024-03-02 04:01:58,402 - ThreadPoolExecutor-0_1 - MainProcess - INFO - bitcoin_2017-01-03 - Successfully generated query
+2024-03-02 04:01:58,402 - ThreadPoolExecutor-0_1 - MainProcess - INFO - bitcoin_2017-01-03 - Successfully generated query
+2024-03-02 04:01:58,402 - ThreadPoolExecutor-0_1 - MainProcess - INFO - bitcoin_2017-01-03 - Successfully generated query
+2024-03-02 04:01:58,419 - ThreadPoolExecutor-0_0 - MainProcess - INFO - ethereum_2017-01-03 - Successfully generated query
+2024-03-02 04:01:58,419 - ThreadPoolExecutor-0_0 - MainProcess - INFO - ethereum_2017-01-03 - Successfully generated query
+2024-03-02 04:01:58,419 - ThreadPoolExecutor-0_0 - MainProcess - INFO - ethereum_2017-01-03 - Successfully generated query
+2024-03-02 04:01:58,627 - ThreadPoolExecutor-0_0 - MainProcess - INFO - cardano_2017-01-04 - Successfully generated query
+2024-03-02 04:01:58,627 - ThreadPoolExecutor-0_0 - MainProcess - INFO - cardano_2017-01-04 - Successfully generated query
+2024-03-02 04:01:58,627 - ThreadPoolExecutor-0_0 - MainProcess - INFO - cardano_2017-01-04 - Successfully generated query
+2024-03-02 04:01:58,639 - ThreadPoolExecutor-0_1 - MainProcess - INFO - ethereum_2017-01-04 - Successfully generated query
+2024-03-02 04:01:58,639 - ThreadPoolExecutor-0_1 - MainProcess - INFO - ethereum_2017-01-04 - Successfully generated query
+2024-03-02 04:01:58,639 - ThreadPoolExecutor-0_1 - MainProcess - INFO - ethereum_2017-01-04 - Successfully generated query
+2024-03-02 04:01:58,645 - ThreadPoolExecutor-0_2 - MainProcess - INFO - bitcoin_2017-01-04 - Successfully generated query
+2024-03-02 04:01:58,645 - ThreadPoolExecutor-0_2 - MainProcess - INFO - bitcoin_2017-01-04 - Successfully generated query
+2024-03-02 04:01:58,645 - ThreadPoolExecutor-0_2 - MainProcess - INFO - bitcoin_2017-01-04 - Successfully generated query
+2024-03-02 04:01:58,850 - ThreadPoolExecutor-0_0 - MainProcess - INFO - bitcoin_2017-01-05 - Successfully generated query
+2024-03-02 04:01:58,850 - ThreadPoolExecutor-0_0 - MainProcess - INFO - bitcoin_2017-01-05 - Successfully generated query
+2024-03-02 04:01:58,850 - ThreadPoolExecutor-0_0 - MainProcess - INFO - bitcoin_2017-01-05 - Successfully generated query
+2024-03-02 04:01:58,868 - ThreadPoolExecutor-0_1 - MainProcess - INFO - ethereum_2017-01-05 - Successfully generated query
+2024-03-02 04:01:58,868 - ThreadPoolExecutor-0_1 - MainProcess - INFO - ethereum_2017-01-05 - Successfully generated query
+2024-03-02 04:01:58,868 - ThreadPoolExecutor-0_1 - MainProcess - INFO - ethereum_2017-01-05 - Successfully generated query
+2024-03-02 04:01:58,883 - ThreadPoolExecutor-0_2 - MainProcess - INFO - cardano_2017-01-05 - Successfully generated query
+2024-03-02 04:01:58,883 - ThreadPoolExecutor-0_2 - MainProcess - INFO - cardano_2017-01-05 - Successfully generated query
+2024-03-02 04:01:58,883 - ThreadPoolExecutor-0_2 - MainProcess - INFO - cardano_2017-01-05 - Successfully generated query
+2024-03-02 04:02:12,571 - ThreadPoolExecutor-0_0 - MainProcess - INFO - bitcoin_2017-01-01 - Successfully generated query
+2024-03-02 04:02:12,571 - ThreadPoolExecutor-0_0 - MainProcess - INFO - bitcoin_2017-01-01 - Successfully generated query
+2024-03-02 04:02:12,571 - ThreadPoolExecutor-0_0 - MainProcess - INFO - bitcoin_2017-01-01 - Successfully generated query
+2024-03-02 04:02:12,587 - ThreadPoolExecutor-0_1 - MainProcess - INFO - ethereum_2017-01-01 - Successfully generated query
+2024-03-02 04:02:12,587 - ThreadPoolExecutor-0_1 - MainProcess - INFO - ethereum_2017-01-01 - Successfully generated query
+2024-03-02 04:02:12,587 - ThreadPoolExecutor-0_1 - MainProcess - INFO - ethereum_2017-01-01 - Successfully generated query
+2024-03-02 04:02:12,591 - ThreadPoolExecutor-0_2 - MainProcess - INFO - cardano_2017-01-01 - Successfully generated query
+2024-03-02 04:02:12,591 - ThreadPoolExecutor-0_2 - MainProcess - INFO - cardano_2017-01-01 - Successfully generated query
+2024-03-02 04:02:12,591 - ThreadPoolExecutor-0_2 - MainProcess - INFO - cardano_2017-01-01 - Successfully generated query
+2024-03-02 04:02:12,798 - ThreadPoolExecutor-0_2 - MainProcess - INFO - cardano_2017-01-02 - Successfully generated query
+2024-03-02 04:02:12,798 - ThreadPoolExecutor-0_2 - MainProcess - INFO - cardano_2017-01-02 - Successfully generated query
+2024-03-02 04:02:12,799 - ThreadPoolExecutor-0_0 - MainProcess - INFO - bitcoin_2017-01-02 - Successfully generated query
+2024-03-02 04:02:12,798 - ThreadPoolExecutor-0_2 - MainProcess - INFO - cardano_2017-01-02 - Successfully generated query
+2024-03-02 04:02:12,799 - ThreadPoolExecutor-0_0 - MainProcess - INFO - bitcoin_2017-01-02 - Successfully generated query
+2024-03-02 04:02:12,799 - ThreadPoolExecutor-0_0 - MainProcess - INFO - bitcoin_2017-01-02 - Successfully generated query
+2024-03-02 04:02:12,820 - ThreadPoolExecutor-0_1 - MainProcess - INFO - ethereum_2017-01-02 - Successfully generated query
+2024-03-02 04:02:12,820 - ThreadPoolExecutor-0_1 - MainProcess - INFO - ethereum_2017-01-02 - Successfully generated query
+2024-03-02 04:02:12,820 - ThreadPoolExecutor-0_1 - MainProcess - INFO - ethereum_2017-01-02 - Successfully generated query
+2024-03-02 04:02:13,028 - ThreadPoolExecutor-0_1 - MainProcess - INFO - cardano_2017-01-03 - Successfully generated query
+2024-03-02 04:02:13,028 - ThreadPoolExecutor-0_1 - MainProcess - INFO - cardano_2017-01-03 - Successfully generated query
+2024-03-02 04:02:13,028 - ThreadPoolExecutor-0_1 - MainProcess - INFO - cardano_2017-01-03 - Successfully generated query
+2024-03-02 04:02:13,058 - ThreadPoolExecutor-0_2 - MainProcess - INFO - bitcoin_2017-01-03 - Successfully generated query
+2024-03-02 04:02:13,058 - ThreadPoolExecutor-0_2 - MainProcess - INFO - bitcoin_2017-01-03 - Successfully generated query
+2024-03-02 04:02:13,058 - ThreadPoolExecutor-0_2 - MainProcess - INFO - bitcoin_2017-01-03 - Successfully generated query
+2024-03-02 04:02:13,064 - ThreadPoolExecutor-0_0 - MainProcess - INFO - ethereum_2017-01-03 - Successfully generated query
+2024-03-02 04:02:13,064 - ThreadPoolExecutor-0_0 - MainProcess - INFO - ethereum_2017-01-03 - Successfully generated query
+2024-03-02 04:02:13,064 - ThreadPoolExecutor-0_0 - MainProcess - INFO - ethereum_2017-01-03 - Successfully generated query
+2024-03-02 04:02:13,236 - ThreadPoolExecutor-0_1 - MainProcess - INFO - bitcoin_2017-01-04 - Successfully generated query
+2024-03-02 04:02:13,236 - ThreadPoolExecutor-0_1 - MainProcess - INFO - bitcoin_2017-01-04 - Successfully generated query
+2024-03-02 04:02:13,236 - ThreadPoolExecutor-0_1 - MainProcess - INFO - bitcoin_2017-01-04 - Successfully generated query
+2024-03-02 04:02:13,295 - ThreadPoolExecutor-0_0 - MainProcess - INFO - cardano_2017-01-04 - Successfully generated query
+2024-03-02 04:02:13,295 - ThreadPoolExecutor-0_0 - MainProcess - INFO - cardano_2017-01-04 - Successfully generated query
+2024-03-02 04:02:13,296 - ThreadPoolExecutor-0_2 - MainProcess - INFO - ethereum_2017-01-04 - Successfully generated query
+2024-03-02 04:02:13,295 - ThreadPoolExecutor-0_0 - MainProcess - INFO - cardano_2017-01-04 - Successfully generated query
+2024-03-02 04:02:13,296 - ThreadPoolExecutor-0_2 - MainProcess - INFO - ethereum_2017-01-04 - Successfully generated query
+2024-03-02 04:02:13,296 - ThreadPoolExecutor-0_2 - MainProcess - INFO - ethereum_2017-01-04 - Successfully generated query
+2024-03-02 04:02:13,418 - ThreadPoolExecutor-0_1 - MainProcess - INFO - bitcoin_2017-01-05 - Successfully generated query
+2024-03-02 04:02:13,418 - ThreadPoolExecutor-0_1 - MainProcess - INFO - bitcoin_2017-01-05 - Successfully generated query
+2024-03-02 04:02:13,418 - ThreadPoolExecutor-0_1 - MainProcess - INFO - bitcoin_2017-01-05 - Successfully generated query
+2024-03-02 04:02:13,518 - ThreadPoolExecutor-0_2 - MainProcess - INFO - cardano_2017-01-05 - Successfully generated query
+2024-03-02 04:02:13,518 - ThreadPoolExecutor-0_2 - MainProcess - INFO - cardano_2017-01-05 - Successfully generated query
+2024-03-02 04:02:13,518 - ThreadPoolExecutor-0_0 - MainProcess - INFO - ethereum_2017-01-05 - Successfully generated query
+2024-03-02 04:02:13,518 - ThreadPoolExecutor-0_2 - MainProcess - INFO - cardano_2017-01-05 - Successfully generated query
+2024-03-02 04:02:13,518 - ThreadPoolExecutor-0_0 - MainProcess - INFO - ethereum_2017-01-05 - Successfully generated query
+2024-03-02 04:02:13,518 - ThreadPoolExecutor-0_0 - MainProcess - INFO - ethereum_2017-01-05 - Successfully generated query

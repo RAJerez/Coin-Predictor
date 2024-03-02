@@ -13,3 +13,5 @@ DB_CONNSTR = config("DB_CONNSTR")
 URL = config("URL")
 
 TABLE_NAMES = ["coin_data", "coin_month_data"]
+
+print(ROOT_DIR)

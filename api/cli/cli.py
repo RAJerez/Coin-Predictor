@@ -1,12 +1,13 @@
-import click
-from loaders import RawLoader
-from api_requests.extractors import Coin
-from api_requests.multi_extractors import GetCoinsThread
+import click, os, schedule, time
+from packages.loaders import RawLoader
+from packages.extractors import Coin
+from packages.multi_extractors import CoinsThread
 from concurrent.futures import ThreadPoolExecutor
 from cfg import URL
 from datetime import datetime, timedelta
 from sqlalchemy import exc
 from loggers import Logger
+
 
 log = Logger()
 path = "../data"
@@ -37,12 +38,13 @@ def one_query(coin, date):
 @click.option("--end_date", help="Date of last request")
 @click.option("--max_threads", help="Number max of threads")
 @click.option("--load", help="Optional argument to load data into Postgres table")
-def multi_extractors(start_date, end_date, max_threads, load):
+def run_multi_extractors(start_date, end_date, max_threads, load):
     coins = ["bitcoin", "ethereum", "cardano"]
 
     file_f = f"../data/coins_{start_date}_{end_date}.csv"
-    with open(file_f, "w") as file:
-        file.write("coin;date;price;json\n")
+    if not os.path.exists(file_f):
+        with open(file_f, "w") as file:
+            file.write("coin;date;price;json\n")
 
     executor = ThreadPoolExecutor(max_workers=int(max_threads))
 
@@ -52,7 +54,7 @@ def multi_extractors(start_date, end_date, max_threads, load):
     while current_date <= end_date_str:
         date = current_date.strftime("%Y-%m-%d")
         for coin in coins:
-            thread = GetCoinsThread(URL, coin, date, start_date, end_date)
+            thread = CoinsThread(URL, coin, date, start_date, end_date)
             executor.submit(thread.run)
 
         current_date += timedelta(days=1)
@@ -61,6 +63,13 @@ def multi_extractors(start_date, end_date, max_threads, load):
 
     if load:
         run_load(file_f)
+        
+def schedule_multi_extractors(start_date, end_date, max_threads, load):
+    schedule.every().day.at("03:55").do(run_multi_extractors, start_date=start_date, end_date=end_date, max_threads=max_threads, load=load)
+
+    while True:
+        schedule.run_pending()
+        time.sleep(1)
 
 
 # COMMAND:

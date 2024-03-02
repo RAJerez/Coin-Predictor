@@ -1,22 +1,20 @@
-import json
-import threading
+import requests, threading
 from concurrent.futures import ThreadPoolExecutor
-import requests
-from requests.exceptions import RequestException, Timeout, HTTPError, ConnectionError
-from datetime import datetime, timedelta
+from requests.exceptions import RequestException
+from datetime import datetime
 from loggers import Logger
 
 
 log = Logger()
 
 
-class GetCoinsThread(threading.Thread):
+class CoinsThread(threading.Thread):
     def __init__(self, url, id, date, start_date, end_date):
         threading.Thread.__init__(self)
         self.url = url
         self.id = id
         self.date = date
-        self.file_f = f"../../data/coins_{start_date}_{end_date}.csv"
+        self.file_f = f"../data/coins_{start_date}_{end_date}.csv"
 
     def run(self):
         try:
