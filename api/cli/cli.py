@@ -1,15 +1,16 @@
 import click, os, schedule, time
-from packages.loaders import RawLoader
-from packages.extractors import Coin
-from packages.multi_extractors import CoinsThread
+from loaders import RawLoader
+from extractors import Coin
+from multi_extractors import CoinsThread
 from concurrent.futures import ThreadPoolExecutor
 from cfg import URL
 from datetime import datetime, timedelta
 from sqlalchemy import exc
-from loggers import Logger
+import logging
 
+logging.basicConfig(level=logging.DEBUG)
+log = logging.getLogger()
 
-log = Logger()
 path = "../data"
 
 
@@ -22,15 +23,18 @@ def cli():
 @click.option("--coin", help="Insert a Cripto Id")
 @click.option("--date", help="Run a specific date in format yyyy-mm-dd")
 def one_query(coin, date):
-    file_f = f"../data/{coin}_{date}.csv"
-    data = Coin(URL, coin, date, path)
-    df = data.api_consult()
-    data.write_csv(df)
-    return file_f
+    #file_f = f"../data/{coin}_{date}.csv"
+    try:
+        data = Coin(URL, coin, date, path)
+        df = data.api_consult()
+        data.write_csv(df)
+        log.info(f"The file {coin}_{date}.csv has been created correctly")
+    except Exception as e:
+        log.error(f"{e}")
 
 
 # COMMAND:
-# python3 cli/cli.py one-query --coin bitcoin --date 2017-12-31
+# python3 cli.py one-query --coin bitcoin --date 2017-12-31
 
 
 @cli.command()
@@ -65,7 +69,7 @@ def run_multi_extractors(start_date, end_date, max_threads, load):
         run_load(file_f)
         
 def schedule_multi_extractors(start_date, end_date, max_threads, load):
-    schedule.every().day.at("03:55").do(run_multi_extractors, start_date=start_date, end_date=end_date, max_threads=max_threads, load=load)
+    schedule.every().day.at("10:44").do(run_multi_extractors, start_date=start_date, end_date=end_date, max_threads=max_threads, load=load)
 
     while True:
         schedule.run_pending()
@@ -73,7 +77,7 @@ def schedule_multi_extractors(start_date, end_date, max_threads, load):
 
 
 # COMMAND:
-# python3 cli/cli.py multi-extractors --start_date 2017-01-01 --end_date 2017-01-02 --max_threads 3 --load
+# python3 cli.py multi-extractors --start_date 2024-03-02 --end_date 2024-03-03 --max_threads 3 --load
 
 
 @cli.command()
@@ -92,6 +96,3 @@ def run_load(file):
 
 # COMMAND:
 # python3 cli.py
-
-if __name__ == "__main__":
-    cli()

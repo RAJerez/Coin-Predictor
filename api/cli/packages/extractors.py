@@ -1,10 +1,11 @@
 import requests
 import pandas as pd
 import os
-from loggers import Logger
+import logging
 from datetime import datetime
 
-log = Logger()
+logging.basicConfig(level=logging.DEBUG)
+log = logging.getLogger()
 
 
 class Coin:
@@ -40,6 +41,4 @@ class Coin:
             df.to_csv(path_f, index=False, sep=";")
             log.info(f"The file {self.id}_{self.date}.csv has been created correctly")
         else:
-            log.error(
-                f"The file {self.id}_{self.date}.csv already exists. Charge canceled."
-            )
+            log.error(f"The file {self.id}_{self.date}.csv already exists. Charge canceled.")

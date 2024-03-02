@@ -2,10 +2,13 @@ import sqlalchemy as sa
 from sqlalchemy import create_engine
 from sqlalchemy.sql import text
 from cfg import DB_CONNSTR, TABLE_NAMES
-from loggers import Logger
+import logging
+
+logging.basicConfig(level=logging.DEBUG)
+log = logging.getLogger()
+
 
 engine = create_engine(DB_CONNSTR)
-log = Logger()
 
 sql_dir = "../sql/create_tables/"
 

@@ -1,11 +1,10 @@
 import requests, threading
-from concurrent.futures import ThreadPoolExecutor
 from requests.exceptions import RequestException
 from datetime import datetime
-from loggers import Logger
+import logging
 
-
-log = Logger()
+logging.basicConfig(level=logging.DEBUG)
+log = logging.getLogger()
 
 
 class CoinsThread(threading.Thread):

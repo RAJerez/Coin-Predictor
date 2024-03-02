@@ -1,8 +1,9 @@
 from sqlalchemy import exc
-from loggers import Logger
-from api.cli.packages.loaders import RawLoader
+import logging
+from loaders import RawLoader
 
-log = Logger()
+logging.basicConfig(level=logging.DEBUG)
+log = logging.getLogger()
 
 file_path = "../data/coins_2017-01-01_2017-01-02.csv"
 table_name = "coin_data"

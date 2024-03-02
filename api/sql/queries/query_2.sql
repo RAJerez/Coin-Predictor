@@ -8,7 +8,7 @@ span that you find best.
 
 
 -- get days
-SELECT EXTRACT(day FROM 'date') as 'day' FROM 'coin_data'
+SELECT EXTRACT(day FROM 'date') as 'day' FROM 'coin_data';
 
 -- get capitalization in usd
 SELECT JSON_VALUE(json, '$.market_data.market_cap.usd') AS usd_cap
