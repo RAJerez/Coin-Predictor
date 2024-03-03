@@ -1,11 +1,13 @@
 from logging.config import fileConfig
-
+from decouple import config
 from sqlalchemy import engine_from_config
 from sqlalchemy import pool
 
 from alembic import context
 from models import Base
-from cli.cfg import DB_CONNSTR
+
+
+DB_CONNSTR = config("DB_CONNSTR")
 
 # this is the Alembic Config object, which provides
 # access to the values within the .ini file in use.

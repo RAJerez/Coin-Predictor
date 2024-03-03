@@ -1,7 +1,9 @@
 from sqlalchemy import Date, Column, String, Float, JSON, PrimaryKeyConstraint, ForeignKey
 from sqlalchemy import create_engine, MetaData
 from sqlalchemy.ext.declarative import declarative_base
-from cli.cfg import DB_CONNSTR
+from decouple import config
+
+DB_CONNSTR = config("DB_CONNSTR")
 
 
 engine = create_engine(DB_CONNSTR)

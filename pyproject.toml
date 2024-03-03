@@ -17,6 +17,7 @@ requests = "^2.31.0"
 alembic = "^1.13.1"
 schedule = "^1.2.1"
 muttlib = {version = "^1.4.27", extras = ["forecast"]}
+ipykernel = "^6.29.3"
 
 
 [build-system]

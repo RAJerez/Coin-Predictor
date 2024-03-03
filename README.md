@@ -53,17 +53,6 @@ DB_CONNSTR=postgresql+psycopg2://<POSTGRES_USER>:<POSTGRES_PASSWORD>@localhost:5
 URL=https://api.coingecko.com/api/v3/coins/
 ```
 
-### Alembic
-
-In the root directory of the project run this command and the alembic configuration files will be created
-```bash
-alembic init alembic
-```
-Create a migration script
-```bash
-alembic revision --autogenerate -m "first"
-```
-
 
 ## Run Docker Compose
 To initialize the containers, execute the following commands:
@@ -72,8 +61,47 @@ docker compose up airflow-init
 docker compose up
 ```
 
+
+## Creating Database Tables
+Before running the CLI commands to interact with the database, make sure you have created the database tables using Alembic migration models.
+### Alembic Migration
+To create the database tables, navigate to the api directory and run the following command:
+```bash
+alembic upgrade head
+```
+This command will apply all the migration scripts and create the tables defined in the Alembic models.
+
+
+## Access postgres database
 To access the database run this command:
 ```bash
 docker exec -it postgres-db psql -U <POSTGRES_USER> -W <POSTGRES_DB>
 ```
 
+
+## Cli
+### Command 1: Single Query
+This command performs a single query for a specific COIN and a specific date, which must be in `ISO8601 date` format. It then stores the extracted data in a CSV file in the `api/data/` folder. The file is named after the `coin` and the `date` like the following example: `bitcoin_2017-12-31.csv`
+Run this command:
+```bash
+python3 cli.py one-query --coin bitcoin --date 2017-12-30
+```
+Options:
+- `--coin`: Specifies the coin to query.
+- `--date`: Specifies the date in YYYY-MM-DD format.
+
+
+### Command 2: Massive Data Processing with Multithreading
+This command performs queries for the coins bitcoin, ethereum, and cardano. It receives a start date and an end date in ISO8601 format yyyy-mm-dd as arguments. It processes data every day at `03:00 am` and stores the response data in a CSV file in the `data` directory with the following naming format: `coins_<start_date>_<end_date>.csv`.
+
+It includes the option to load the data into a database with the `--load` flag.
+
+Execute this command:
+```bash
+python3 cli.py run-multi-threading --start_date 2024-03-02 --end_date 2024-03-03 --max_threads 3 --load
+```
+Options:
+- `--start_date`: Start date in yyyy-mm-dd format.
+- `--end_date`: End date in yyyy-mm-dd format.
+- `--max_threads`: Configurable number of threads.
+- `--load`: Option to load the data into a database.
