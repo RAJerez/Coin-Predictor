@@ -1,5 +1,6 @@
 # Data-dev-exam-template
 
+
 ## Environment Setup
 
 The project is compatible with any Python version `>= 3.8`. But I developed it with Python `3.10.12`
@@ -105,3 +106,7 @@ Options:
 - `--end_date`: End date in yyyy-mm-dd format.
 - `--max_threads`: Configurable number of threads.
 - `--load`: Option to load the data into a database.
+
+
+> [!NOTE]
+> I have opted to configure the cron job using the Python library "schedule," which I found more intuitive than the Linux crontab. However, my conclusion is that using Airflow would have been more efficient.

@@ -1,8 +1,13 @@
-FROM apache/airflow:2.8.1
+FROM python:alpine
 
-COPY
+WORKDIR /api/cli
 
+COPY . /api
+COPY pyproject.toml poetry.lock /api/
+
+CMD [ "python3" , "cli.py" , ""]
+
+# Aqui debe ir Poetry
 RUN pip install -r requirements.txt
 
-CMD [ "" , "" , ""]
 

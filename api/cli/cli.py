@@ -64,16 +64,14 @@ def run_multi_threading(start_date, end_date, max_threads, load):
 
     if load:
         run_load(file_f)
-        
-### SCHEDULER 03:00 ###
-"""        
+                
 def schedule_multi_extractors(start_date, end_date, max_threads, load):
-    schedule.every().day.at("01:42").do(run_multi_extractors, start_date=start_date, end_date=end_date, max_threads=max_threads, load=load)
+    schedule.every().day.at("03:00").do(run_multi_threading, start_date=start_date, end_date=end_date, max_threads=max_threads, load=load)
 
     while True:
         schedule.run_pending()
         time.sleep(1)
-"""        
+        
 # COMMAND:
 # python3 cli.py run-multi-threading --start_date 2024-03-02 --end_date 2024-03-03 --max_threads 3 --load
 
