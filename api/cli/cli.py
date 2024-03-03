@@ -1,11 +1,10 @@
 import click, os, schedule, time, logging
-from api.cli.models.db_loaders import RawLoader
-from api.cli.models.coins import Coin
-from api.cli.models.coins_threading import CoinsThread
+from models.db_loaders import RawLoader
+from models.coins import Coin
+from models.coins_threading import CoinsThread
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timedelta
 from sqlalchemy import exc
-import logging
 from decouple import config
 
 URL = config("URL")
