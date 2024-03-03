@@ -1,4 +1,4 @@
-from sqlalchemy import Date, Column, String, Float, JSON, PrimaryKeyConstraint, ForeignKey
+from sqlalchemy import Date, Column, String, Float, JSON, Integer, PrimaryKeyConstraint, ForeignKey
 from sqlalchemy import create_engine, MetaData
 from sqlalchemy.ext.declarative import declarative_base
 from decouple import config
@@ -24,8 +24,8 @@ class CoinMonthData(Base):
     __tablename__ = "coin_month_data"
 
     coin = Column(String, nullable=False, primary_key=True)
-    year = Column(Date, nullable=False, primary_key=True)
-    month = Column(Date, nullable=False, primary_key=True)
+    year = Column(Integer, nullable=False, primary_key=True)
+    month = Column(Integer, nullable=False, primary_key=True)
     min_price = Column(Float)
     max_price = Column(Float)
     

@@ -1,6 +1,5 @@
 import requests
 import pandas as pd
-import os
 import logging
 from datetime import datetime
 
@@ -49,46 +48,3 @@ class Coin:
         df_month = df.groupby(['coin', 'year', 'month']).agg({'price': ['max', 'min']}).reset_index()
         df_month.columns = ['coin', 'year', 'month', 'max_price', 'min_price']
         return df_month
-
-
-
-
-#### TEST ####
-
-#python3 cli.py one-query --coin bitcoin --date 2017-12-31
-
-def one_query(coin, date):
-    try:
-        data = Coin(url, coin, date, path)
-        data_d = data.api_consult()
-        data.write_file(data_d)
-        print(f"The file {coin}_{date}.csv has been created correctly")
-        df_month = data.coin_month_transform(path)
-    except Exception as e:
-        print(f"{e}")
-             
-if __name__ == "__main__":
-    # Obtener la ruta del directorio actual del script
-    directorio_script = os.path.dirname(os.path.abspath(__file__))
-    ruta_data = os.path.abspath(os.path.join(directorio_script, "../../data"))
-    
-    # Declaro variables
-    path = ruta_data
-    url = 'https://api.coingecko.com/api/v3/coins/'    
-    coin = 'bitcoin'
-    date = '2017-12-31'
-    
-    one_query(coin, date)
-    
-    ###################
-    
-    def one_query(coin, date):
-        try:
-            coin = Coin(URL, coin, date, data_dir)
-            response = coin.api_consult()
-            coin.write_file(response)
-            log.info(f"The file {coin}_{date}.csv has been created correctly")
-            df_month = coin.month_transform(file_f)
-            return file_f
-        except Exception as e:
-            log.error(f"{e}")

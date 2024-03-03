@@ -35,9 +35,6 @@ def one_query(coin, date):
         log.error(f"{e}")
         
 
-# COMMAND:
-# python3 cli.py one-query --coin bitcoin --date 2017-12-30
-
 @cli.command()
 @click.option("--start_date", help="Date of first request")
 @click.option("--end_date", help="Date of last request")
@@ -64,19 +61,42 @@ def run_multi_threading(start_date, end_date, max_threads, load):
     if load:
         run_load(file_f)
                 
-def schedule_multi_extractors(start_date, end_date, max_threads, load):
+def schedule_multi_extractors(start_date:str, end_date:str, max_threads:int, load) -> None:
+    """Schedule the execution of multiple extractors using multithreading.
+
+    This function schedules the execution of multiple extractors to run daily at 03:00 AM.
+
+    Args:
+        start_date (str): The start date for the extraction tasks.
+        end_date (str): The end date for the extraction tasks.
+        max_threads (int): The maximum number of threads to be used for multithreading.
+        load (bool): A flag indicating whether to load extracted data after extraction.
+
+    Returns:
+        None
+
+    Note:
+        This function runs indefinitely, continuously checking for scheduled tasks
+        and executing them while sleeping for 1 second between iterations.
+    """
     schedule.every().day.at("03:00").do(run_multi_threading, start_date=start_date, end_date=end_date, max_threads=max_threads, load=load)
 
     while True:
         schedule.run_pending()
         time.sleep(1)
-        
-# COMMAND:
-# python3 cli.py run-multi-threading --start_date 2024-03-02 --end_date 2024-03-03 --max_threads 3 --load
 
 
-def run_load(file):
-    path = f"../data/coins_{file}.csv"
+
+def run_load(file:str) -> None:
+    """
+    Load data from a CSV file into a database table.
+
+    Args:
+        file (str): The name of the CSV file containing the data.
+
+    Returns:
+        None
+    """
     table_name = "coin_data"
     try:
         RawLoader(table_name).load_table(file)
@@ -86,42 +106,7 @@ def run_load(file):
     except Exception as e:
         log.error(f"Unexpected error: {e}")
 
-"""
-def run_load():
-    try:
-        RawLoader(table_name).load_table(file_path)
-        log.info(f"Data {table_name} loaded correctly")
 
-    except exc.SQLAlchemyError as e:
-
-        log.error(f"Error loading data {table_name}: {e}")
-
-    except Exception as e:
-
-        log.error(f"Unexpected error: {e}")
-"""
-
-
-#### TEST ####
 if __name__ == "__main__":
     cli()
 
-"""
-    from cfg import URL
-    print(URL)
-    coin = 'bitcoin'
-    date = '2017-12-31'
-
-    script_dir = os.path.dirname(os.path.abspath(__file__))
-    print(script_dir)
-    data_dir = os.path.abspath(os.path.join(script_dir, "../data"))
-    print(data_dir)
-    
-    try:
-        coin = Coin(URL, coin, date, data_dir)
-        response = coin.api_consult()
-        coin.write_file(response)
-        log.info(f"The file {coin}_{date}.csv has been created correctly")
-    except Exception as e:
-        log.error(f"{e}")
-"""
