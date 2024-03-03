@@ -14,5 +14,9 @@ services:
       - ./postgres-db:/var/lib/postgresql/data
     restart: always
 
+  #api:
+    #build: .
+
+
 volumes:
   postgres-db-volume:

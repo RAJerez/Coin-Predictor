@@ -1,13 +1,28 @@
-FROM python:alpine
+FROM python:alpine3.10
 
-WORKDIR /api/cli
+# Configure Poetry
+ENV POETRY_VERSION=1.7.1
+ENV POETRY_HOME=/opt/poetry
+ENV POETRY_VENV=/opt/poetry-venv
+ENV POETRY_CACHE_DIR=/opt/.cache
 
-COPY . /api
-COPY pyproject.toml poetry.lock /api/
+# Install poetry separated from system interpreter
+RUN python3 -m venv $POETRY_VENV \
+    && $POETRY_VENV/bin/pip install -U pip setuptools \
+    && $POETRY_VENV/bin/pip install poetry==${POETRY_VERSION}
 
-CMD [ "python3" , "cli.py" , ""]
+# Add `poetry` to PATH
+ENV PATH="${PATH}:${POETRY_VENV}/bin"
 
-# Aqui debe ir Poetry
-RUN pip install -r requirements.txt
+WORKDIR /api
+
+# Install dependencies
+COPY poetry.lock pyproject.toml ./
+RUN poetry install
+
+# Run your app
+COPY . /api/
+COPY pyproject.toml poetry.lock
+CMD [ "poetry", "run", "python", "-c" ]
 
 
