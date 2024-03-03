@@ -1,28 +1,23 @@
-FROM python:alpine3.10
+FROM python:3.10-slim
 
-# Configure Poetry
-ENV POETRY_VERSION=1.7.1
+# Configurar Poetry
+ENV POETRY_VERSION=1.1.11
 ENV POETRY_HOME=/opt/poetry
-ENV POETRY_VENV=/opt/poetry-venv
-ENV POETRY_CACHE_DIR=/opt/.cache
+ENV POETRY_VIRTUALENVS_CREATE=false
 
-# Install poetry separated from system interpreter
-RUN python3 -m venv $POETRY_VENV \
-    && $POETRY_VENV/bin/pip install -U pip setuptools \
-    && $POETRY_VENV/bin/pip install poetry==${POETRY_VERSION}
+# Instalar Poetry
+RUN curl -sSL https://raw.githubusercontent.com/sdispater/poetry/master/get-poetry.py | python3
 
-# Add `poetry` to PATH
-ENV PATH="${PATH}:${POETRY_VENV}/bin"
-
+# Agregar las dependencias de la API
 WORKDIR /api
+COPY pyproject.toml poetry.lock ./
+RUN poetry install --no-root
 
-# Install dependencies
-COPY poetry.lock pyproject.toml ./
-RUN poetry install
+# Copiar el resto del código de la API
+COPY . .
 
-# Run your app
-COPY . /api/
-COPY pyproject.toml poetry.lock
-CMD [ "poetry", "run", "python", "-c" ]
+# Ejecutar Alembic para migraciones de base de datos
+RUN poetry run alembic upgrade head
 
-
+# Ejecutar la API
+CMD ["poetry", "run", "python", "app.py"]

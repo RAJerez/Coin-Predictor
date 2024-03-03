@@ -1,0 +1,6 @@
+.gitignore
+.dockerignore
+README.md
+settings.ini
+tmp/
+postgres-db/
