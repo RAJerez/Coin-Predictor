@@ -1,17 +1,28 @@
 FROM python:3.10-slim
 
-ENV POETRY_VERSION=1.1.11
+ENV POETRY_VERSION=1.7.1
 ENV POETRY_HOME=/opt/poetry
-ENV POETRY_VIRTUALENVS_CREATE=false
+ENV POETRY_VENV=/opt/poetry-venv
+ENV POETRY_CACHE_DIR=/opt/.cache
 
-RUN curl -sSL https://raw.githubusercontent.com/sdispater/poetry/master/get-poetry.py | python3
+RUN python3 -m venv $POETRY_VENV \
+    && $POETRY_VENV/bin/pip install -U pip setuptools \
+    && $POETRY_VENV/bin/pip install poetry==${POETRY_VERSION}
+
+
+ENV PATH="${PATH}:${POETRY_VENV}/bin"
 
 WORKDIR /api
-COPY pyproject.toml poetry.lock ./
-RUN poetry install --no-root
+
+COPY poetry.lock pyproject.toml ./
+RUN poetry install
+
+COPY . /api/
 
 COPY . .
 
-RUN poetry run alembic upgrade head
+RUN chmod +x /start.sh
 
-CMD ["poetry", "run", "python", "app.py"]
+#RUN poetry run alembic upgrade head
+
+CMD ["/start.sh"]
