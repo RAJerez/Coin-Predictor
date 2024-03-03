@@ -16,9 +16,11 @@ log = logging.getLogger()
 script_dir = os.path.dirname(os.path.abspath(__file__))
 data_dir = os.path.abspath(os.path.join(script_dir, "../data"))
 
+
 @click.group()
 def cli():
     pass
+
 
 @cli.command()
 @click.option("--coin", help="Insert a Cripto Id")
@@ -30,17 +32,19 @@ def one_query(coin, date):
         response = coin.api_consult()
         coin.write_file(response)
         log.info(f"The file {coin}_{date}.csv has been created correctly")
-        
+
         return file_f
     except Exception as e:
         log.error(f"{e}")
-        
+
 
 @cli.command()
 @click.option("--start_date", help="Date of first request")
 @click.option("--end_date", help="Date of last request")
 @click.option("--max_threads", help="Number max of threads")
-@click.option("--load", help="Optional argument to load data into Postgres table", is_flag=True)
+@click.option(
+    "--load", help="Optional argument to load data into Postgres table", is_flag=True
+)
 def run_multi_threading(start_date, end_date, max_threads, load):
     coins = ["bitcoin", "ethereum", "cardano"]
 
@@ -61,8 +65,11 @@ def run_multi_threading(start_date, end_date, max_threads, load):
 
     if load:
         run_load(file_f)
-                
-def schedule_multi_extractors(start_date:str, end_date:str, max_threads:int, load) -> None:
+
+
+def schedule_multi_extractors(
+    start_date: str, end_date: str, max_threads: int, load
+) -> None:
     """Schedule the execution of multiple extractors using multithreading.
 
     This function schedules the execution of multiple extractors to run daily at 03:00 AM.
@@ -80,15 +87,20 @@ def schedule_multi_extractors(start_date:str, end_date:str, max_threads:int, loa
         This function runs indefinitely, continuously checking for scheduled tasks
         and executing them while sleeping for 1 second between iterations.
     """
-    schedule.every().day.at("03:00").do(run_multi_threading, start_date=start_date, end_date=end_date, max_threads=max_threads, load=load)
+    schedule.every().day.at("03:00").do(
+        run_multi_threading,
+        start_date=start_date,
+        end_date=end_date,
+        max_threads=max_threads,
+        load=load,
+    )
 
     while True:
         schedule.run_pending()
         time.sleep(1)
 
 
-
-def run_load(file:str) -> None:
+def run_load(file: str) -> None:
     """
     Load data from a CSV file into a database table.
 
@@ -107,6 +119,6 @@ def run_load(file:str) -> None:
     except Exception as e:
         log.error(f"Unexpected error: {e}")
 
+
 if __name__ == "__main__":
     cli()
-

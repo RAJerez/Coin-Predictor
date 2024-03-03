@@ -29,8 +29,7 @@ class Coin:
             return data_f
         except Exception as e:
             log.error(f"Error: {e}")
-            
-    
+
     def write_file(self, data_f):
         path_f = self.path + f"/{self.id}_{self.date}.csv"
         head = "coin;date;price;json"
@@ -38,13 +37,17 @@ class Coin:
             file.write(f"{head}\n{data_f}\n")
             log.info(f"{self.id}_{self.date} - Data written correctly")
             return path_f
-    
+
     def coin_month_transform(file):
         file = "/home/agustin/Documentos/exam-rodrigo-jerez/tmp/bitcoin_2017-12-31.csv"
-        df = pd.read_csv(file, sep = ';')
-        df['date'] = pd.to_datetime(df['date'])
-        df['year'] = df['date'].dt.year
-        df['month'] = df['date'].dt.month
-        df_month = df.groupby(['coin', 'year', 'month']).agg({'price': ['max', 'min']}).reset_index()
-        df_month.columns = ['coin', 'year', 'month', 'max_price', 'min_price']
+        df = pd.read_csv(file, sep=";")
+        df["date"] = pd.to_datetime(df["date"])
+        df["year"] = df["date"].dt.year
+        df["month"] = df["date"].dt.month
+        df_month = (
+            df.groupby(["coin", "year", "month"])
+            .agg({"price": ["max", "min"]})
+            .reset_index()
+        )
+        df_month.columns = ["coin", "year", "month", "max_price", "min_price"]
         return df_month
