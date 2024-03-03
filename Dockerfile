@@ -17,12 +17,10 @@ WORKDIR /api
 COPY poetry.lock pyproject.toml ./
 RUN poetry install
 
-COPY . /api/
-
-COPY . .
+COPY api/ .
 
 RUN chmod +x /start.sh
 
-#RUN poetry run alembic upgrade head
+RUN poetry run alembic upgrade head
 
 CMD ["/start.sh"]
