@@ -12,7 +12,7 @@ FROM
     FROM coin_data
     )
 WHERE
-    price < previous_price AND precio_anterior < pre_previous_price;
+    price < previous_price AND previous_price < pre_previous_price;
 
 
 
