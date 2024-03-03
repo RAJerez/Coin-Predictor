@@ -110,3 +110,10 @@ Options:
 
 > [!NOTE]
 > I have opted to configure the cron job using the Python library "schedule," which I found more intuitive than the Linux crontab. However, my conclusion is that using Airflow would have been more efficient.
+
+
+## ​Analytical queries and script execution
+
+All required queries for the task outlined in point 3 are stored in separate `.sql` files located in the `api/sql/queries/` directory. These files contain SQL queries needed for various database operations.
+
+Additionally, there's a convenient script named `run_query.py` provided in the project root directory. This script automates the execution of the queries using SQLAlchemy. It streamlines the process, allowing for easy execution and testing of the queries against the configured database.

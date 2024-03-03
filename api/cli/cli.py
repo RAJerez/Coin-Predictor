@@ -5,6 +5,7 @@ from models.coins_threading import CoinsThread
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timedelta
 from sqlalchemy import exc
+from queries.run_query import run_query
 from decouple import config
 
 URL = config("URL")
@@ -105,7 +106,6 @@ def run_load(file:str) -> None:
         log.error(f"Error loading data {table_name}: {e}")
     except Exception as e:
         log.error(f"Unexpected error: {e}")
-
 
 if __name__ == "__main__":
     cli()
