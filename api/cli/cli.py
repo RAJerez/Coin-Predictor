@@ -5,7 +5,6 @@ from models.coins_threading import CoinsThread
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timedelta
 from sqlalchemy import exc
-from queries.run_query import run_query
 from decouple import config
 
 URL = config("URL")
