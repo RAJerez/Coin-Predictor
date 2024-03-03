@@ -34,7 +34,7 @@ poetry shell
 ```
 
 ### Setting environment variables for Docker
-Airflow and PostgreSQL are orchestrated using Docker Compose. Configure the environment variables in a .env file located at the root of the project directory.
+PostgreSQL are orchestrated using Docker Compose. Configure the environment variables in a .env file located at the root of the project directory.
 
 Create the `.env` file:
 ```bash
@@ -54,17 +54,15 @@ DB_CONNSTR=postgresql+psycopg2://<POSTGRES_USER>:<POSTGRES_PASSWORD>@localhost:5
 URL=https://api.coingecko.com/api/v3/coins/
 ```
 
-
 ## Run Docker Compose
 To initialize the containers, execute the following commands:
 ```bash
-docker compose up airflow-init
 docker compose up
 ```
 
-
 ## Creating Database Tables
 Before running the CLI commands to interact with the database, make sure you have created the database tables using Alembic migration models.
+
 ### Alembic Migration
 To create the database tables, navigate to the api directory and run the following command:
 ```bash
