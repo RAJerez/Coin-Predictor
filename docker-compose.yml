@@ -15,8 +15,15 @@ services:
     restart: always
 
   api:
-    build: ./
+    build: 
+      context: ./api
+      dockerfile: Dockerfile
     container_name: api
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./api:/api
 
 volumes:
   postgres-db-volume:
+  api-volume:
