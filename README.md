@@ -1,4 +1,4 @@
-# Data-dev-exam-template
+# Coin-Predictor
 
 
 ## Environment Setup
