@@ -11,11 +11,11 @@ RUN python3 -m venv $POETRY_VENV \
 
 ENV PATH="${PATH}:${POETRY_VENV}/bin"
 
-WORKDIR /api
+WORKDIR /app
 
 COPY ../poetry.lock ./
 COPY ../pyproject.toml ./
-COPY ../.env ./
+# COPY ../.env ./
 
 RUN poetry install --no-interaction --no-root --no-dev
 

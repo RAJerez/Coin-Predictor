@@ -14,16 +14,19 @@ services:
       - ./postgres-db:/var/lib/postgresql/data
     restart: always
 
-  api:
+  app:
     build: 
-      context: ./api
+      context: ./app
       dockerfile: Dockerfile
-    container_name: api
+    container_name: app
+    environment:
+      - DB_CONNSTR: ${DB_CONNSTR}
+      - URL: ${URL}
     ports:
       - "8000:8000"
     volumes:
-      - ./api:/api
+      - ./app:/app
 
 volumes:
   postgres-db-volume:
-  api-volume:
+  app-volume:
